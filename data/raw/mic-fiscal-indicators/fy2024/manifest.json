@@ -1,0 +1,41 @@
+{
+  "source_id": "mic-fiscal-indicators",
+  "listing_page": "https://www.soumu.go.jp/menu_seisaku/toukei/02zaisei07_04000135.html",
+  "files": [
+    {
+      "file": "prefectures.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001044528.xlsx",
+      "sha256": "75529b377f8816489b5b855540129b3dec773caf65116fd2e0057fb621f1331a",
+      "bytes": 19555,
+      "fetched_at": "2026-09-26T10:22:17+00:00"
+    },
+    {
+      "file": "municipalities.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001044529.xlsx",
+      "sha256": "527ffc9fa713e050aac175642ade789a28cc37c2b26a55da13556116daf04eaf",
+      "bytes": 108337,
+      "fetched_at": "2026-09-26T10:22:18+00:00"
+    },
+    {
+      "file": "municipal_averages_by_prefecture.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001044530.xlsx",
+      "sha256": "2712df6a40c9885f7d692fdf4d6b72e693c6d5d4bdbef9c71899df7d7ef26b50",
+      "bytes": 19461,
+      "fetched_at": "2026-09-26T10:22:19+00:00"
+    },
+    {
+      "file": "designated_cities.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001045032.xlsx",
+      "sha256": "5e26b6cc824b4cd5d35aa8a96bd950148e5f7020179892908f95ef2477381555",
+      "bytes": 18564,
+      "fetched_at": "2026-09-26T10:22:20+00:00"
+    },
+    {
+      "file": "prefectural_capitals.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001044533.xlsx",
+      "sha256": "9b7476facf7403dda2afed1c04a4e2f82d74ab7a037f3ed5bcfc6d2e67340594",
+      "bytes": 20068,
+      "fetched_at": "2026-09-26T10:22:21+00:00"
+    }
+  ]
+}
