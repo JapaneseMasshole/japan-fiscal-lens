@@ -1,0 +1,295 @@
+scope,fiscal_year,column,source_file_year,section,order,item_ja,item_en,level,parent_ja,is_total,value_oku_yen,source_folder
+gassan,2018,previous,2019,assets,1,現金・預金,Cash and deposits,0,,False,513278.6,fy2021
+gassan,2018,previous,2019,assets,2,有価証券,Securities,0,,False,1196009.75,fy2021
+gassan,2018,previous,2019,assets,3,たな卸資産,Inventories,0,,False,43061.28,fy2021
+gassan,2018,previous,2019,assets,4,未収金,Accounts receivable,0,,False,53531.8,fy2021
+gassan,2018,previous,2019,assets,5,未収収益,Accrued revenue,0,,False,7295.87,fy2021
+gassan,2018,previous,2019,assets,6,未収（再）保険料,(Re)insurance premiums receivable,0,,False,46879.0,fy2021
+gassan,2018,previous,2019,assets,7,前払費用,Prepaid expenses,0,,False,47039.08,fy2021
+gassan,2018,previous,2019,assets,8,貸付金,Loans,0,,False,1088610.02,fy2021
+gassan,2018,previous,2019,assets,9,運用寄託金,Pension reserve deposits (GPIF),0,,False,1126932.17,fy2021
+gassan,2018,previous,2019,assets,10,その他の債権等,Other receivables,0,,False,38277.48,fy2021
+gassan,2018,previous,2019,assets,11,貸倒引当金,Allowance for bad debts,0,,False,-14987.15,fy2021
+gassan,2018,previous,2019,assets,12,有形固定資産,Tangible fixed assets,0,,False,1843817.6,fy2021
+gassan,2018,previous,2019,assets,13,国有財産（公共用財産を除く）,State property (excl. public-use),1,有形固定資産,False,312231.1,fy2021
+gassan,2018,previous,2019,assets,14,土地,Land,2,国有財産（公共用財産を除く）,False,183061.57,fy2021
+gassan,2018,previous,2019,assets,15,立木竹,Standing timber,2,国有財産（公共用財産を除く）,False,31209.41,fy2021
+gassan,2018,previous,2019,assets,16,建物,Buildings,2,国有財産（公共用財産を除く）,False,34116.39,fy2021
+gassan,2018,previous,2019,assets,17,工作物,Structures,2,国有財産（公共用財産を除く）,False,25628.4,fy2021
+gassan,2018,previous,2019,assets,18,機械器具,Machinery,2,国有財産（公共用財産を除く）,False,0.0,fy2021
+gassan,2018,previous,2019,assets,19,船舶,Vessels,2,国有財産（公共用財産を除く）,False,14650.61,fy2021
+gassan,2018,previous,2019,assets,20,航空機,Aircraft,2,国有財産（公共用財産を除く）,False,9461.31,fy2021
+gassan,2018,previous,2019,assets,21,建設仮勘定,Construction in progress,2,国有財産（公共用財産を除く）,False,14103.37,fy2021
+gassan,2018,previous,2019,assets,22,公共用財産,"Public-use property (roads, rivers, ports…)",1,有形固定資産,False,1509690.96,fy2021
+gassan,2018,previous,2019,assets,23,公共用財産用地,Public-use land,2,公共用財産,False,399845.37,fy2021
+gassan,2018,previous,2019,assets,24,公共用財産施設,Public-use facilities,2,公共用財産,False,1106608.69,fy2021
+gassan,2018,previous,2019,assets,25,建設仮勘定,Construction in progress,2,公共用財産,False,3236.89,fy2021
+gassan,2018,previous,2019,assets,26,物品,Equipment,1,有形固定資産,False,21659.06,fy2021
+gassan,2018,previous,2019,assets,27,その他の固定資産,Other fixed assets,1,有形固定資産,False,236.47,fy2021
+gassan,2018,previous,2019,assets,28,無形固定資産,Intangible fixed assets,0,,False,3054.38,fy2021
+gassan,2018,previous,2019,assets,29,出資金,Capital investments,0,,False,753879.64,fy2021
+gassan,2018,previous,2019,liabilities,1,未払金,Accounts payable,0,,False,105202.76,fy2021
+gassan,2018,previous,2019,liabilities,2,支払備金,Claims reserve,0,,False,2698.38,fy2021
+gassan,2018,previous,2019,liabilities,3,未払費用,Accrued expenses,0,,False,11920.54,fy2021
+gassan,2018,previous,2019,liabilities,4,保管金等,Deposits held,0,,False,11259.93,fy2021
+gassan,2018,previous,2019,liabilities,5,前受金,Advances received,0,,False,520.39,fy2021
+gassan,2018,previous,2019,liabilities,6,前受収益,Unearned revenue,0,,False,304.22,fy2021
+gassan,2018,previous,2019,liabilities,7,未経過（再）保険料,Unearned (re)insurance premiums,0,,False,365.14,fy2021
+gassan,2018,previous,2019,liabilities,8,賞与引当金,Bonus reserve,0,,False,3407.43,fy2021
+gassan,2018,previous,2019,liabilities,9,政府短期証券,Financing bills (short-term),0,,False,761015.66,fy2021
+gassan,2018,previous,2019,liabilities,10,公債,Government bonds,0,,False,9860645.69,fy2021
+gassan,2018,previous,2019,liabilities,11,借入金,Borrowings,0,,False,319206.85,fy2021
+gassan,2018,previous,2019,liabilities,12,預託金,Deposits (FILP),0,,False,63648.5,fy2021
+gassan,2018,previous,2019,liabilities,13,責任準備金,Policy reserves,0,,False,93745.28,fy2021
+gassan,2018,previous,2019,liabilities,14,公的年金預り金,Public pension reserves,0,,False,1207588.87,fy2021
+gassan,2018,previous,2019,liabilities,15,退職給付引当金,Retirement benefit reserve,0,,False,64201.04,fy2021
+gassan,2018,previous,2019,liabilities,16,その他の債務等,Other liabilities,0,,False,74516.01,fy2021
+gassan,2018,previous,2019,net_assets,18,資産・負債差額,Net assets (assets minus liabilities),0,,False,-5833567.18,fy2021
+gassan,2018,previous,2019,total,17,負債合計,Total liabilities,0,,True,12580246.76,fy2021
+gassan,2018,previous,2019,total,19,負債及び資産・負債差額合計,Total liabilities and net assets,0,,True,6746679.57,fy2021
+gassan,2018,previous,2019,total,30,資産合計,Total assets,0,,True,6746679.57,fy2021
+gassan,2019,current,2019,assets,1,現金・預金,Cash and deposits,0,,False,461090.86,fy2021
+gassan,2019,current,2019,assets,2,有価証券,Securities,0,,False,1264863.88,fy2021
+gassan,2019,current,2019,assets,3,たな卸資産,Inventories,0,,False,42525.67,fy2021
+gassan,2019,current,2019,assets,4,未収金,Accounts receivable,0,,False,63915.12,fy2021
+gassan,2019,current,2019,assets,5,未収収益,Accrued revenue,0,,False,6577.12,fy2021
+gassan,2019,current,2019,assets,6,未収（再）保険料,(Re)insurance premiums receivable,0,,False,46941.01,fy2021
+gassan,2019,current,2019,assets,7,前払費用,Prepaid expenses,0,,False,41779.09,fy2021
+gassan,2019,current,2019,assets,8,貸付金,Loans,0,,False,1071829.85,fy2021
+gassan,2019,current,2019,assets,9,運用寄託金,Pension reserve deposits (GPIF),0,,False,1132032.76,fy2021
+gassan,2019,current,2019,assets,10,その他の債権等,Other receivables,0,,False,42585.42,fy2021
+gassan,2019,current,2019,assets,11,貸倒引当金,Allowance for bad debts,0,,False,-14117.13,fy2021
+gassan,2019,current,2019,assets,12,有形固定資産,Tangible fixed assets,0,,False,1886519.09,fy2021
+gassan,2019,current,2019,assets,13,国有財産（公共用財産を除く）,State property (excl. public-use),1,有形固定資産,False,320739.46,fy2021
+gassan,2019,current,2019,assets,14,土地,Land,2,国有財産（公共用財産を除く）,False,189167.43,fy2021
+gassan,2019,current,2019,assets,15,立木竹,Standing timber,2,国有財産（公共用財産を除く）,False,32248.2,fy2021
+gassan,2019,current,2019,assets,16,建物,Buildings,2,国有財産（公共用財産を除く）,False,34177.62,fy2021
+gassan,2019,current,2019,assets,17,工作物,Structures,2,国有財産（公共用財産を除く）,False,25479.0,fy2021
+gassan,2019,current,2019,assets,18,機械器具,Machinery,2,国有財産（公共用財産を除く）,False,0.0,fy2021
+gassan,2019,current,2019,assets,19,船舶,Vessels,2,国有財産（公共用財産を除く）,False,15302.81,fy2021
+gassan,2019,current,2019,assets,20,航空機,Aircraft,2,国有財産（公共用財産を除く）,False,10096.15,fy2021
+gassan,2019,current,2019,assets,21,建設仮勘定,Construction in progress,2,国有財産（公共用財産を除く）,False,14268.22,fy2021
+gassan,2019,current,2019,assets,22,公共用財産,"Public-use property (roads, rivers, ports…)",1,有形固定資産,False,1520786.73,fy2021
+gassan,2019,current,2019,assets,23,公共用財産用地,Public-use land,2,公共用財産,False,401208.56,fy2021
+gassan,2019,current,2019,assets,24,公共用財産施設,Public-use facilities,2,公共用財産,False,1115193.89,fy2021
+gassan,2019,current,2019,assets,25,建設仮勘定,Construction in progress,2,公共用財産,False,4384.27,fy2021
+gassan,2019,current,2019,assets,26,物品,Equipment,1,有形固定資産,False,44767.75,fy2021
+gassan,2019,current,2019,assets,27,その他の固定資産,Other fixed assets,1,有形固定資産,False,225.14,fy2021
+gassan,2019,current,2019,assets,28,無形固定資産,Intangible fixed assets,0,,False,3284.1,fy2021
+gassan,2019,current,2019,assets,29,出資金,Capital investments,0,,False,762801.47,fy2021
+gassan,2019,current,2019,liabilities,1,未払金,Accounts payable,0,,False,106343.35,fy2021
+gassan,2019,current,2019,liabilities,2,支払備金,Claims reserve,0,,False,2805.68,fy2021
+gassan,2019,current,2019,liabilities,3,未払費用,Accrued expenses,0,,False,11574.45,fy2021
+gassan,2019,current,2019,liabilities,4,保管金等,Deposits held,0,,False,12062.06,fy2021
+gassan,2019,current,2019,liabilities,5,前受金,Advances received,0,,False,534.81,fy2021
+gassan,2019,current,2019,liabilities,6,前受収益,Unearned revenue,0,,False,6847.19,fy2021
+gassan,2019,current,2019,liabilities,7,未経過（再）保険料,Unearned (re)insurance premiums,0,,False,302.38,fy2021
+gassan,2019,current,2019,liabilities,8,賞与引当金,Bonus reserve,0,,False,3466.38,fy2021
+gassan,2019,current,2019,liabilities,9,政府短期証券,Financing bills (short-term),0,,False,774836.8,fy2021
+gassan,2019,current,2019,liabilities,10,公債,Government bonds,0,,False,9988053.67,fy2021
+gassan,2019,current,2019,liabilities,11,借入金,Borrowings,0,,False,323600.84,fy2021
+gassan,2019,current,2019,liabilities,12,預託金,Deposits (FILP),0,,False,59089.94,fy2021
+gassan,2019,current,2019,liabilities,13,責任準備金,Policy reserves,0,,False,95314.14,fy2021
+gassan,2019,current,2019,liabilities,14,公的年金預り金,Public pension reserves,0,,False,1211859.12,fy2021
+gassan,2019,current,2019,liabilities,15,退職給付引当金,Retirement benefit reserve,0,,False,59496.86,fy2021
+gassan,2019,current,2019,liabilities,16,その他の債務等,Other liabilities,0,,False,74541.59,fy2021
+gassan,2019,current,2019,net_assets,18,資産・負債差額,Net assets (assets minus liabilities),0,,False,-5918100.97,fy2021
+gassan,2019,current,2019,total,17,負債合計,Total liabilities,0,,True,12730729.35,fy2021
+gassan,2019,current,2019,total,19,負債及び資産・負債差額合計,Total liabilities and net assets,0,,True,6812628.37,fy2021
+gassan,2019,current,2019,total,30,資産合計,Total assets,0,,True,6812628.37,fy2021
+gassan,2020,current,2020,assets,1,現金・預金,Cash and deposits,0,,False,694636.85,fy2020
+gassan,2020,current,2020,assets,2,有価証券,Securities,0,,False,1196835.72,fy2020
+gassan,2020,current,2020,assets,3,たな卸資産,Inventories,0,,False,41078.89,fy2020
+gassan,2020,current,2020,assets,4,未収金,Accounts receivable,0,,False,68002.75,fy2020
+gassan,2020,current,2020,assets,5,未収収益,Accrued revenue,0,,False,5788.22,fy2020
+gassan,2020,current,2020,assets,6,未収（再）保険料,(Re)insurance premiums receivable,0,,False,52920.84,fy2020
+gassan,2020,current,2020,assets,7,前払費用,Prepaid expenses,0,,False,36614.0,fy2020
+gassan,2020,current,2020,assets,8,貸付金,Loans,0,,False,1200928.38,fy2020
+gassan,2020,current,2020,assets,9,運用寄託金,Pension reserve deposits (GPIF),0,,False,1125531.57,fy2020
+gassan,2020,current,2020,assets,10,その他の債権等,Other receivables,0,,False,51566.04,fy2020
+gassan,2020,current,2020,assets,11,貸倒引当金,Allowance for bad debts,0,,False,-16129.57,fy2020
+gassan,2020,current,2020,assets,12,有形固定資産,Tangible fixed assets,0,,False,1912716.59,fy2020
+gassan,2020,current,2020,assets,13,国有財産（公共用財産を除く）,State property (excl. public-use),1,有形固定資産,False,325210.19,fy2020
+gassan,2020,current,2020,assets,14,土地,Land,2,国有財産（公共用財産を除く）,False,194397.84,fy2020
+gassan,2020,current,2020,assets,15,立木竹,Standing timber,2,国有財産（公共用財産を除く）,False,32638.69,fy2020
+gassan,2020,current,2020,assets,16,建物,Buildings,2,国有財産（公共用財産を除く）,False,34121.76,fy2020
+gassan,2020,current,2020,assets,17,工作物,Structures,2,国有財産（公共用財産を除く）,False,25881.38,fy2020
+gassan,2020,current,2020,assets,18,機械器具,Machinery,2,国有財産（公共用財産を除く）,False,0.0,fy2020
+gassan,2020,current,2020,assets,19,船舶,Vessels,2,国有財産（公共用財産を除く）,False,15888.27,fy2020
+gassan,2020,current,2020,assets,20,航空機,Aircraft,2,国有財産（公共用財産を除く）,False,10572.96,fy2020
+gassan,2020,current,2020,assets,21,建設仮勘定,Construction in progress,2,国有財産（公共用財産を除く）,False,11709.27,fy2020
+gassan,2020,current,2020,assets,22,公共用財産,"Public-use property (roads, rivers, ports…)",1,有形固定資産,False,1540752.48,fy2020
+gassan,2020,current,2020,assets,23,公共用財産用地,Public-use land,2,公共用財産,False,402504.4,fy2020
+gassan,2020,current,2020,assets,24,公共用財産施設,Public-use facilities,2,公共用財産,False,1133924.96,fy2020
+gassan,2020,current,2020,assets,25,建設仮勘定,Construction in progress,2,公共用財産,False,4323.11,fy2020
+gassan,2020,current,2020,assets,26,物品,Equipment,1,有形固定資産,False,46539.65,fy2020
+gassan,2020,current,2020,assets,27,その他の固定資産,Other fixed assets,1,有形固定資産,False,214.25,fy2020
+gassan,2020,current,2020,assets,28,無形固定資産,Intangible fixed assets,0,,False,3531.17,fy2020
+gassan,2020,current,2020,assets,29,出資金,Capital investments,0,,False,833887.88,fy2020
+gassan,2020,current,2020,liabilities,1,未払金,Accounts payable,0,,False,107106.54,fy2020
+gassan,2020,current,2020,liabilities,2,支払備金,Claims reserve,0,,False,3113.98,fy2020
+gassan,2020,current,2020,liabilities,3,未払費用,Accrued expenses,0,,False,11192.29,fy2020
+gassan,2020,current,2020,liabilities,4,保管金等,Deposits held,0,,False,13627.32,fy2020
+gassan,2020,current,2020,liabilities,5,前受金,Advances received,0,,False,586.9,fy2020
+gassan,2020,current,2020,liabilities,6,前受収益,Unearned revenue,0,,False,6623.46,fy2020
+gassan,2020,current,2020,liabilities,7,未経過（再）保険料,Unearned (re)insurance premiums,0,,False,295.34,fy2020
+gassan,2020,current,2020,liabilities,8,賞与引当金,Bonus reserve,0,,False,3431.86,fy2020
+gassan,2020,current,2020,liabilities,9,政府短期証券,Financing bills (short-term),0,,False,927781.0,fy2020
+gassan,2020,current,2020,liabilities,10,公債,Government bonds,0,,False,10839313.01,fy2020
+gassan,2020,current,2020,liabilities,11,借入金,Borrowings,0,,False,328625.55,fy2020
+gassan,2020,current,2020,liabilities,12,預託金,Deposits (FILP),0,,False,70701.37,fy2020
+gassan,2020,current,2020,liabilities,13,責任準備金,Policy reserves,0,,False,94957.17,fy2020
+gassan,2020,current,2020,liabilities,14,公的年金預り金,Public pension reserves,0,,False,1217979.47,fy2020
+gassan,2020,current,2020,liabilities,15,退職給付引当金,Retirement benefit reserve,0,,False,57157.59,fy2020
+gassan,2020,current,2020,liabilities,16,その他の債務等,Other liabilities,0,,False,77050.62,fy2020
+gassan,2020,current,2020,net_assets,18,資産・負債差額,Net assets (assets minus liabilities),0,,False,-6551634.14,fy2020
+gassan,2020,current,2020,total,17,負債合計,Total liabilities,0,,True,13759543.53,fy2020
+gassan,2020,current,2020,total,19,負債及び資産・負債差額合計,Total liabilities and net assets,0,,True,7207909.38,fy2020
+gassan,2020,current,2020,total,30,資産合計,Total assets,0,,True,7207909.38,fy2020
+gassan,2021,previous,2022,assets,1,現金・預金,Cash and deposits,0,,False,482600.28,fy2022
+gassan,2021,previous,2022,assets,2,有価証券,Securities,0,,False,1235061.16,fy2022
+gassan,2021,previous,2022,assets,3,たな卸資産,Inventories,0,,False,41727.56,fy2022
+gassan,2021,previous,2022,assets,4,未収金,Accounts receivable,0,,False,60532.39,fy2022
+gassan,2021,previous,2022,assets,5,未収収益,Accrued revenue,0,,False,5996.42,fy2022
+gassan,2021,previous,2022,assets,6,未収（再）保険料,(Re)insurance premiums receivable,0,,False,49334.62,fy2022
+gassan,2021,previous,2022,assets,7,前払費用,Prepaid expenses,0,,False,32653.55,fy2022
+gassan,2021,previous,2022,assets,8,貸付金,Loans,0,,False,1232064.71,fy2022
+gassan,2021,previous,2022,assets,9,運用寄託金,Pension reserve deposits (GPIF),0,,False,1137089.58,fy2022
+gassan,2021,previous,2022,assets,10,その他の債権等,Other receivables,0,,False,106757.35,fy2022
+gassan,2021,previous,2022,assets,11,貸倒引当金,Allowance for bad debts,0,,False,-14790.47,fy2022
+gassan,2021,previous,2022,assets,12,有形固定資産,Tangible fixed assets,0,,False,1933684.98,fy2022
+gassan,2021,previous,2022,assets,13,国有財産（公共用財産を除く）,State property (excl. public-use),1,有形固定資産,False,327661.23,fy2022
+gassan,2021,previous,2022,assets,14,土地,Land,2,国有財産（公共用財産を除く）,False,192383.47,fy2022
+gassan,2021,previous,2022,assets,15,立木竹,Standing timber,2,国有財産（公共用財産を除く）,False,36247.59,fy2022
+gassan,2021,previous,2022,assets,16,建物,Buildings,2,国有財産（公共用財産を除く）,False,33851.58,fy2022
+gassan,2021,previous,2022,assets,17,工作物,Structures,2,国有財産（公共用財産を除く）,False,25233.03,fy2022
+gassan,2021,previous,2022,assets,18,機械器具,Machinery,2,国有財産（公共用財産を除く）,False,0.0,fy2022
+gassan,2021,previous,2022,assets,19,船舶,Vessels,2,国有財産（公共用財産を除く）,False,15561.27,fy2022
+gassan,2021,previous,2022,assets,20,航空機,Aircraft,2,国有財産（公共用財産を除く）,False,11411.26,fy2022
+gassan,2021,previous,2022,assets,21,建設仮勘定,Construction in progress,2,国有財産（公共用財産を除く）,False,12973.01,fy2022
+gassan,2021,previous,2022,assets,22,公共用財産,"Public-use property (roads, rivers, ports…)",1,有形固定資産,False,1560858.81,fy2022
+gassan,2021,previous,2022,assets,23,公共用財産用地,Public-use land,2,公共用財産,False,404080.96,fy2022
+gassan,2021,previous,2022,assets,24,公共用財産施設,Public-use facilities,2,公共用財産,False,1152513.34,fy2022
+gassan,2021,previous,2022,assets,25,建設仮勘定,Construction in progress,2,公共用財産,False,4264.49,fy2022
+gassan,2021,previous,2022,assets,26,物品,Equipment,1,有形固定資産,False,45087.62,fy2022
+gassan,2021,previous,2022,assets,27,その他の固定資産,Other fixed assets,1,有形固定資産,False,77.31,fy2022
+gassan,2021,previous,2022,assets,28,無形固定資産,Intangible fixed assets,0,,False,3804.52,fy2022
+gassan,2021,previous,2022,assets,29,出資金,Capital investments,0,,False,932903.89,fy2022
+gassan,2021,previous,2022,liabilities,1,未払金,Accounts payable,0,,False,106897.79,fy2022
+gassan,2021,previous,2022,liabilities,2,支払備金,Claims reserve,0,,False,3034.72,fy2022
+gassan,2021,previous,2022,liabilities,3,未払費用,Accrued expenses,0,,False,10798.43,fy2022
+gassan,2021,previous,2022,liabilities,4,保管金等,Deposits held,0,,False,14851.57,fy2022
+gassan,2021,previous,2022,liabilities,5,前受金,Advances received,0,,False,703.32,fy2022
+gassan,2021,previous,2022,liabilities,6,前受収益,Unearned revenue,0,,False,6585.65,fy2022
+gassan,2021,previous,2022,liabilities,7,未経過（再）保険料,Unearned (re)insurance premiums,0,,False,315.2,fy2022
+gassan,2021,previous,2022,liabilities,8,賞与引当金,Bonus reserve,0,,False,3151.3,fy2022
+gassan,2021,previous,2022,liabilities,9,政府短期証券,Financing bills (short-term),0,,False,883217.07,fy2022
+gassan,2021,previous,2022,liabilities,10,公債,Government bonds,0,,False,11139676.05,fy2022
+gassan,2021,previous,2022,liabilities,11,借入金,Borrowings,0,,False,335537.77,fy2022
+gassan,2021,previous,2022,liabilities,12,預託金,Deposits (FILP),0,,False,104258.47,fy2022
+gassan,2021,previous,2022,liabilities,13,責任準備金,Policy reserves,0,,False,93183.7,fy2022
+gassan,2021,previous,2022,liabilities,14,公的年金預り金,Public pension reserves,0,,False,1222767.44,fy2022
+gassan,2021,previous,2022,liabilities,15,退職給付引当金,Retirement benefit reserve,0,,False,55033.93,fy2022
+gassan,2021,previous,2022,liabilities,16,その他の債務等,Other liabilities,0,,False,129714.64,fy2022
+gassan,2021,previous,2022,net_assets,18,資産・負債差額,Net assets (assets minus liabilities),0,,False,-6870306.5,fy2022
+gassan,2021,previous,2022,total,17,負債合計,Total liabilities,0,,True,14109727.1,fy2022
+gassan,2021,previous,2022,total,19,負債及び資産・負債差額合計,Total liabilities and net assets,0,,True,7239420.6,fy2022
+gassan,2021,previous,2022,total,30,資産合計,Total assets,0,,True,7239420.6,fy2022
+gassan,2022,current,2022,assets,1,現金・預金,Cash and deposits,0,,False,537738.03,fy2022
+gassan,2022,current,2022,assets,2,有価証券,Securities,0,,False,1256261.21,fy2022
+gassan,2022,current,2022,assets,3,たな卸資産,Inventories,0,,False,43126.7,fy2022
+gassan,2022,current,2022,assets,4,未収金,Accounts receivable,0,,False,60784.4,fy2022
+gassan,2022,current,2022,assets,5,未収収益,Accrued revenue,0,,False,7101.18,fy2022
+gassan,2022,current,2022,assets,6,未収（再）保険料,(Re)insurance premiums receivable,0,,False,49341.22,fy2022
+gassan,2022,current,2022,assets,7,前払費用,Prepaid expenses,0,,False,27730.61,fy2022
+gassan,2022,current,2022,assets,8,貸付金,Loans,0,,False,1251179.13,fy2022
+gassan,2022,current,2022,assets,9,運用寄託金,Pension reserve deposits (GPIF),0,,False,1147166.24,fy2022
+gassan,2022,current,2022,assets,10,その他の債権等,Other receivables,0,,False,114566.89,fy2022
+gassan,2022,current,2022,assets,11,貸倒引当金,Allowance for bad debts,0,,False,-13953.74,fy2022
+gassan,2022,current,2022,assets,12,有形固定資産,Tangible fixed assets,0,,False,1946261.92,fy2022
+gassan,2022,current,2022,assets,13,国有財産（公共用財産を除く）,State property (excl. public-use),1,有形固定資産,False,331151.58,fy2022
+gassan,2022,current,2022,assets,14,土地,Land,2,国有財産（公共用財産を除く）,False,193738.64,fy2022
+gassan,2022,current,2022,assets,15,立木竹,Standing timber,2,国有財産（公共用財産を除く）,False,39558.9,fy2022
+gassan,2022,current,2022,assets,16,建物,Buildings,2,国有財産（公共用財産を除く）,False,33858.24,fy2022
+gassan,2022,current,2022,assets,17,工作物,Structures,2,国有財産（公共用財産を除く）,False,25194.98,fy2022
+gassan,2022,current,2022,assets,18,機械器具,Machinery,2,国有財産（公共用財産を除く）,False,0.0,fy2022
+gassan,2022,current,2022,assets,19,船舶,Vessels,2,国有財産（公共用財産を除く）,False,16075.84,fy2022
+gassan,2022,current,2022,assets,20,航空機,Aircraft,2,国有財産（公共用財産を除く）,False,10411.04,fy2022
+gassan,2022,current,2022,assets,21,建設仮勘定,Construction in progress,2,国有財産（公共用財産を除く）,False,12313.91,fy2022
+gassan,2022,current,2022,assets,22,公共用財産,"Public-use property (roads, rivers, ports…)",1,有形固定資産,False,1575156.57,fy2022
+gassan,2022,current,2022,assets,23,公共用財産用地,Public-use land,2,公共用財産,False,405288.35,fy2022
+gassan,2022,current,2022,assets,24,公共用財産施設,Public-use facilities,2,公共用財産,False,1165889.32,fy2022
+gassan,2022,current,2022,assets,25,建設仮勘定,Construction in progress,2,公共用財産,False,3978.89,fy2022
+gassan,2022,current,2022,assets,26,物品,Equipment,1,有形固定資産,False,39897.93,fy2022
+gassan,2022,current,2022,assets,27,その他の固定資産,Other fixed assets,1,有形固定資産,False,55.83,fy2022
+gassan,2022,current,2022,assets,28,無形固定資産,Intangible fixed assets,0,,False,3981.67,fy2022
+gassan,2022,current,2022,assets,29,出資金,Capital investments,0,,False,975675.92,fy2022
+gassan,2022,current,2022,liabilities,1,未払金,Accounts payable,0,,False,107201.69,fy2022
+gassan,2022,current,2022,liabilities,2,支払備金,Claims reserve,0,,False,2852.83,fy2022
+gassan,2022,current,2022,liabilities,3,未払費用,Accrued expenses,0,,False,10885.22,fy2022
+gassan,2022,current,2022,liabilities,4,保管金等,Deposits held,0,,False,15911.28,fy2022
+gassan,2022,current,2022,liabilities,5,前受金,Advances received,0,,False,619.96,fy2022
+gassan,2022,current,2022,liabilities,6,前受収益,Unearned revenue,0,,False,6348.37,fy2022
+gassan,2022,current,2022,liabilities,7,未経過（再）保険料,Unearned (re)insurance premiums,0,,False,338.9,fy2022
+gassan,2022,current,2022,liabilities,8,賞与引当金,Bonus reserve,0,,False,3338.3,fy2022
+gassan,2022,current,2022,liabilities,9,政府短期証券,Financing bills (short-term),0,,False,877045.59,fy2022
+gassan,2022,current,2022,liabilities,10,公債,Government bonds,0,,False,11439205.3,fy2022
+gassan,2022,current,2022,liabilities,11,借入金,Borrowings,0,,False,337520.92,fy2022
+gassan,2022,current,2022,liabilities,12,預託金,Deposits (FILP),0,,False,116140.38,fy2022
+gassan,2022,current,2022,liabilities,13,責任準備金,Policy reserves,0,,False,97497.89,fy2022
+gassan,2022,current,2022,liabilities,14,公的年金預り金,Public pension reserves,0,,False,1230310.15,fy2022
+gassan,2022,current,2022,liabilities,15,退職給付引当金,Retirement benefit reserve,0,,False,52933.94,fy2022
+gassan,2022,current,2022,liabilities,16,その他の債務等,Other liabilities,0,,False,128894.76,fy2022
+gassan,2022,current,2022,net_assets,18,資産・負債差額,Net assets (assets minus liabilities),0,,False,-7020084.11,fy2022
+gassan,2022,current,2022,total,17,負債合計,Total liabilities,0,,True,14427045.56,fy2022
+gassan,2022,current,2022,total,19,負債及び資産・負債差額合計,Total liabilities and net assets,0,,True,7406961.45,fy2022
+gassan,2022,current,2022,total,30,資産合計,Total assets,0,,True,7406961.45,fy2022
+gassan,2023,current,2023,assets,1,現金・預金,Cash and deposits,0,,False,653622.44,fy2023
+gassan,2023,current,2023,assets,2,有価証券,Securities,0,,False,1423377.37,fy2023
+gassan,2023,current,2023,assets,3,たな卸資産,Inventories,0,,False,43302.4,fy2023
+gassan,2023,current,2023,assets,4,未収金,Accounts receivable,0,,False,62227.15,fy2023
+gassan,2023,current,2023,assets,5,未収収益,Accrued revenue,0,,False,9365.56,fy2023
+gassan,2023,current,2023,assets,6,未収（再）保険料,(Re)insurance premiums receivable,0,,False,49003.89,fy2023
+gassan,2023,current,2023,assets,7,前払費用,Prepaid expenses,0,,False,23959.94,fy2023
+gassan,2023,current,2023,assets,8,貸付金,Loans,0,,False,1223173.26,fy2023
+gassan,2023,current,2023,assets,9,運用寄託金,Pension reserve deposits (GPIF),0,,False,1156297.75,fy2023
+gassan,2023,current,2023,assets,10,その他の債権等,Other receivables,0,,False,139698.83,fy2023
+gassan,2023,current,2023,assets,11,貸倒引当金,Allowance for bad debts,0,,False,-12658.1,fy2023
+gassan,2023,current,2023,assets,12,有形固定資産,Tangible fixed assets,0,,False,1967479.21,fy2023
+gassan,2023,current,2023,assets,13,国有財産（公共用財産を除く）,State property (excl. public-use),1,有形固定資産,False,343289.78,fy2023
+gassan,2023,current,2023,assets,14,土地,Land,2,国有財産（公共用財産を除く）,False,198187.28,fy2023
+gassan,2023,current,2023,assets,15,立木竹,Standing timber,2,国有財産（公共用財産を除く）,False,40682.28,fy2023
+gassan,2023,current,2023,assets,16,建物,Buildings,2,国有財産（公共用財産を除く）,False,33842.24,fy2023
+gassan,2023,current,2023,assets,17,工作物,Structures,2,国有財産（公共用財産を除く）,False,25113.35,fy2023
+gassan,2023,current,2023,assets,18,機械器具,Machinery,2,国有財産（公共用財産を除く）,False,0.0,fy2023
+gassan,2023,current,2023,assets,19,船舶,Vessels,2,国有財産（公共用財産を除く）,False,15860.75,fy2023
+gassan,2023,current,2023,assets,20,航空機,Aircraft,2,国有財産（公共用財産を除く）,False,9896.81,fy2023
+gassan,2023,current,2023,assets,21,建設仮勘定,Construction in progress,2,国有財産（公共用財産を除く）,False,19707.05,fy2023
+gassan,2023,current,2023,assets,22,公共用財産,"Public-use property (roads, rivers, ports…)",1,有形固定資産,False,1587380.59,fy2023
+gassan,2023,current,2023,assets,23,公共用財産用地,Public-use land,2,公共用財産,False,406087.2,fy2023
+gassan,2023,current,2023,assets,24,公共用財産施設,Public-use facilities,2,公共用財産,False,1177103.95,fy2023
+gassan,2023,current,2023,assets,25,建設仮勘定,Construction in progress,2,公共用財産,False,4189.43,fy2023
+gassan,2023,current,2023,assets,26,物品,Equipment,1,有形固定資産,False,36774.47,fy2023
+gassan,2023,current,2023,assets,27,その他の固定資産,Other fixed assets,1,有形固定資産,False,34.35,fy2023
+gassan,2023,current,2023,assets,28,無形固定資産,Intangible fixed assets,0,,False,4619.64,fy2023
+gassan,2023,current,2023,assets,29,出資金,Capital investments,0,,False,1037411.22,fy2023
+gassan,2023,current,2023,liabilities,1,未払金,Accounts payable,0,,False,111378.07,fy2023
+gassan,2023,current,2023,liabilities,2,支払備金,Claims reserve,0,,False,2842.21,fy2023
+gassan,2023,current,2023,liabilities,3,未払費用,Accrued expenses,0,,False,11421.94,fy2023
+gassan,2023,current,2023,liabilities,4,保管金等,Deposits held,0,,False,16538.12,fy2023
+gassan,2023,current,2023,liabilities,5,前受金,Advances received,0,,False,529.8,fy2023
+gassan,2023,current,2023,liabilities,6,前受収益,Unearned revenue,0,,False,6161.39,fy2023
+gassan,2023,current,2023,liabilities,7,未経過（再）保険料,Unearned (re)insurance premiums,0,,False,352.63,fy2023
+gassan,2023,current,2023,liabilities,8,賞与引当金,Bonus reserve,0,,False,3443.85,fy2023
+gassan,2023,current,2023,liabilities,9,政府短期証券,Financing bills (short-term),0,,False,947708.57,fy2023
+gassan,2023,current,2023,liabilities,10,公債,Government bonds,0,,False,11642880.8,fy2023
+gassan,2023,current,2023,liabilities,11,借入金,Borrowings,0,,False,341509.12,fy2023
+gassan,2023,current,2023,liabilities,12,預託金,Deposits (FILP),0,,False,105039.38,fy2023
+gassan,2023,current,2023,liabilities,13,責任準備金,Policy reserves,0,,False,98128.29,fy2023
+gassan,2023,current,2023,liabilities,14,公的年金預り金,Public pension reserves,0,,False,1255065.14,fy2023
+gassan,2023,current,2023,liabilities,15,退職給付引当金,Retirement benefit reserve,0,,False,51271.87,fy2023
+gassan,2023,current,2023,liabilities,16,その他の債務等,Other liabilities,0,,False,144001.59,fy2023
+gassan,2023,current,2023,net_assets,18,資産・負債差額,Net assets (assets minus liabilities),0,,False,-6957392.26,fy2023
+gassan,2023,current,2023,total,17,負債合計,Total liabilities,0,,True,14738272.88,fy2023
+gassan,2023,current,2023,total,19,負債及び資産・負債差額合計,Total liabilities and net assets,0,,True,7780880.61,fy2023
+gassan,2023,current,2023,total,30,資産合計,Total assets,0,,True,7780880.61,fy2023

@@ -33,3 +33,12 @@ def test_plan_ignores_unrelated_excel(tmp_path: Path):
 def test_plan_fails_loudly_when_layout_changes(tmp_path: Path):
     with pytest.raises(RuntimeError, match="layout may have changed"):
         plan("<html><a href='other.xlsx'>x</a></html>", PAGE_URL, 2024, out_root=tmp_path)
+
+
+def test_plan_corrects_link_to_wrong_year(tmp_path: Path):
+    # The real FY2021 page links fy2019/national/fy2019gassan.xlsx.
+    base = "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/"
+    html = f'<a href="{base}fy2019/national/fy2019gassan.xlsx">Excel</a>'
+    (f,) = plan(html, base + "fy2021/kuninozaimugassan2021.html", 2021, out_root=tmp_path)
+    assert f.url == base + "fy2021/national/fy2021gassan.xlsx"
+    assert f.fallback_url == base + "fy2019/national/fy2019gassan.xlsx"

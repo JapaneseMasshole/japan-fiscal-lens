@@ -39,7 +39,22 @@ Governments do not "earn" taxes the way a company earns sales, so there is no pr
 4. Derived figures (per-capita, % of GDP, inflation-adjusted) state their denominator's source and year.
 5. Validation checks run on every change, e.g. assets = liabilities + net assets, and components sum to reported totals.
 
-## 5. What this site does not do
+## 5. Chart rules
+
+- **Shared scales.** When two charts sit side by side for comparison (e.g. assets vs. liabilities), they use the same axis range.
+- **"Other" grouping.** In breakdown charts, lines under 2% of their side's total are combined into "Other (n items)". The rule is mechanical, the grouped items are listed in the tooltip, and every line appears in the table view.
+- **Publisher caveats travel with the chart.** When the source document carries a note that changes how a figure should be read (e.g. MOF's note that net assets are not the future burden on the public), it is shown under the chart.
+
+## 6. Known problems in the source files
+
+Each problem is detected by the pipeline and never silently patched.
+
+| Found | File | Problem | How it is handled |
+|---|---|---|---|
+| 2026-09-26 | MOF 国の財務書類 FY2024, 合算 and 一般会計 Excel | Published with Microsoft rights-management (DRM) encryption; cannot be opened outside MOF. The 連結 Excel file is normal. | FY2024 is shown as missing, with the reason, until MOF republishes. |
+| 2026-09-26 | MOF 国の財務書類 FY2021 page | The 合算 Excel link points to the FY2019 file (`fy2019/national/fy2019gassan.xlsx`). | The parser reads the fiscal year from the balance sheet's own date headers. FY2021 figures come from the 前会計年度 column of the FY2022 file. The fetcher now tries the correctly-named FY2021 file first. |
+
+## 7. What this site does not do
 
 - No forecasts, projections or scenarios.
 - No judgement words ("crisis", "safe") in chart titles or labels.

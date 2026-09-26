@@ -36,13 +36,20 @@ jobs:
           SOURCE: ${{ inputs.source || 'mof-fs' }}
           YEAR: ${{ inputs.year || 'all' }}
         run: jfl fetch "$SOURCE" --year "$YEAR"
+      - name: Rebuild datasets (parse, validate, export)
+        run: jfl build all
       - uses: peter-evans/create-pull-request@v7
         with:
           branch: data/update-${{ inputs.source || 'mof-fs' }}
           commit-message: "data: update ${{ inputs.source || 'mof-fs' }} raw files"
           title: "Data update: ${{ inputs.source || 'mof-fs' }}"
           body: |
-            Automated re-download of official files. Check `manifest.json` for
-            changed hashes before merging. If a published figure changed, note it
+            Automated re-download of official files, followed by `jfl build all`
+            (the build fails if any balance sheet does not reconcile). Check
+            `manifest.json` for changed hashes and the diff in `web/public/data/`
+            before merging. If a published figure changed, note it
             in the PR so readers can see what was revised.
-          add-paths: data/raw/**
+          add-paths: |
+            data/raw/**
+            data/processed/**
+            web/public/data/**

@@ -6,6 +6,13 @@
   --border: #e4e4e2;
   --accent: #2458a6;
   --radius: 10px;
+  /* Chart tokens: validated categorical slots 1-3 (dataviz reference palette). */
+  --viz-surface: #ffffff;
+  --viz-grid: #e8e8e5;
+  --viz-axis: #6b6b70;
+  --viz-series-1: #2a78d6; /* assets */
+  --viz-series-2: #eb6834; /* liabilities */
+  --viz-series-3: #1baf7a; /* net assets (low contrast on light: always direct-labelled) */
   font-family: 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic UI', system-ui, sans-serif;
   color: var(--text);
   background: var(--bg);
@@ -20,6 +27,12 @@
     --muted: #a0a0a8;
     --border: #333338;
     --accent: #7aa7ec;
+    --viz-surface: #1f1f22;
+    --viz-grid: #2e2e32;
+    --viz-axis: #a0a0a8;
+    --viz-series-1: #3987e5;
+    --viz-series-2: #d95926;
+    --viz-series-3: #199e70;
   }
 }
 
