@@ -1,0 +1,48 @@
+name: Update data
+
+# Re-downloads official files and opens a pull request if anything changed,
+# so every change to the numbers is reviewed and kept in git history.
+#
+# Requires: Settings → Actions → General → Workflow permissions →
+#   "Allow GitHub Actions to create and approve pull requests".
+
+on:
+  schedule:
+    - cron: "17 0 1 * *" # 09:17 JST on the 1st of each month
+  workflow_dispatch:
+    inputs:
+      source:
+        description: "Source id (see data/sources.yaml)"
+        default: mof-fs
+      year:
+        description: "Fiscal year, or 'all'"
+        default: all
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -e "pipeline"
+      - name: Fetch
+        env: # passed via env, not inlined, to avoid shell injection from inputs
+          SOURCE: ${{ inputs.source || 'mof-fs' }}
+          YEAR: ${{ inputs.year || 'all' }}
+        run: jfl fetch "$SOURCE" --year "$YEAR"
+      - uses: peter-evans/create-pull-request@v7
+        with:
+          branch: data/update-${{ inputs.source || 'mof-fs' }}
+          commit-message: "data: update ${{ inputs.source || 'mof-fs' }} raw files"
+          title: "Data update: ${{ inputs.source || 'mof-fs' }}"
+          body: |
+            Automated re-download of official files. Check `manifest.json` for
+            changed hashes before merging. If a published figure changed, note it
+            in the PR so readers can see what was revised.
+          add-paths: data/raw/**
