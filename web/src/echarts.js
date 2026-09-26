@@ -7,6 +7,7 @@ import {
   LegendComponent,
   TitleComponent,
   DatasetComponent,
+  MarkLineComponent,
 } from 'echarts/components'
 import { CanvasRenderer } from 'echarts/renderers'
 
@@ -21,6 +22,7 @@ echarts.use([
   LegendComponent,
   TitleComponent,
   DatasetComponent,
+  MarkLineComponent, // reference lines: zero, averages, legal thresholds
   CanvasRenderer,
 ])
 
