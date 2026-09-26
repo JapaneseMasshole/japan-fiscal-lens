@@ -17,6 +17,21 @@ const messages = {
       cost: '業務費用計算書（1年間のコスト）',
       cf: '区分別収支計算書（お金の出入り）',
       debt: '国債の保有者',
+      bsTrendTitle: '資産・負債・その差額の推移',
+      bsTrendSub: '一般会計・特別会計の合算。各年度末（3月31日）時点。',
+      assets: '資産合計',
+      liabilities: '負債合計',
+      netAssets: '資産・負債差額',
+      compTitle: '内訳',
+      assetsComp: '資産の内訳',
+      liabilitiesComp: '負債の内訳',
+      compSub: '資産と負債は同じ目盛りで表示しています。総額の2%未満の項目は「その他」にまとめています。',
+      other: 'その他（{n}項目）',
+      share: '構成比',
+      year: '年度',
+      table: '表で見る（全項目）',
+      item: '項目',
+      missing: '{year}：{reason}',
     },
     local: {
       title: '地方自治体の財政',
@@ -40,6 +55,21 @@ const messages = {
       cost: 'Operating cost statement (cost of one year)',
       cf: 'Cash flow by category',
       debt: 'Who holds government bonds',
+      bsTrendTitle: 'Assets, liabilities and the gap between them',
+      bsTrendSub: 'General and special accounts combined. At each fiscal year end (March 31).',
+      assets: 'Total assets',
+      liabilities: 'Total liabilities',
+      netAssets: 'Assets minus liabilities',
+      compTitle: 'Breakdown',
+      assetsComp: 'What the government owns',
+      liabilitiesComp: 'What the government owes',
+      compSub: 'Assets and liabilities share one scale. Items under 2% of the total are grouped as "Other".',
+      other: 'Other ({n} items)',
+      share: 'Share',
+      year: 'Fiscal year',
+      table: 'View as a table (all items)',
+      item: 'Item',
+      missing: '{year}: {reason}',
     },
     local: {
       title: 'Local governments',
@@ -52,6 +82,7 @@ const messages = {
   },
 }
 
-export function t(key) {
-  return key.split('.').reduce((obj, k) => obj?.[k], messages[locale.value]) ?? key
+export function t(key, vars = {}) {
+  const msg = key.split('.').reduce((obj, k) => obj?.[k], messages[locale.value]) ?? key
+  return msg.replace(/\{(\w+)\}/g, (_, k) => vars[k] ?? `{${k}}`)
 }

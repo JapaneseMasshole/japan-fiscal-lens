@@ -15,6 +15,7 @@ dependencies = [
   "pyyaml>=6.0",
   "pandas>=2.2",
   "openpyxl>=3.1",
+  "olefile>=0.47",
 ]
 
 [project.optional-dependencies]

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 
+from jfl.export import national_balance_sheet
 from jfl.fetch import mof_financial_statements
 from jfl.sources import load_sources
 
@@ -34,6 +35,22 @@ def cmd_fetch(args: argparse.Namespace) -> None:
         fetcher(sources[args.source], year, dry_run=args.dry_run)
 
 
+BUILDERS = {
+    "national-balance-sheet": national_balance_sheet.build,
+}
+
+
+def cmd_build(args: argparse.Namespace) -> None:
+    names = sorted(BUILDERS) if args.dataset == "all" else [args.dataset]
+    for name in names:
+        if name not in BUILDERS:
+            raise SystemExit(f"Unknown dataset {name!r}. Known: {', '.join(sorted(BUILDERS))}")
+        csv_path, json_path, skipped = BUILDERS[name]()
+        for msg in skipped:
+            print(f"skipped: {msg}")
+        print(f"{name}: wrote {csv_path} and {json_path}")
+
+
 def main(argv: list[str] | None = None) -> None:
     parser = argparse.ArgumentParser(prog="jfl", description="Japan Fiscal Lens data pipeline")
     sub = parser.add_subparsers(dest="command", required=True)
@@ -46,6 +63,10 @@ def main(argv: list[str] | None = None) -> None:
     p.add_argument("--year", default="all", help="fiscal year (e.g. 2024) or 'all'")
     p.add_argument("--dry-run", action="store_true", help="show what would be downloaded")
     p.set_defaults(func=cmd_fetch)
+
+    p = sub.add_parser("build", help="parse, validate and export a dataset for the site")
+    p.add_argument("dataset", nargs="?", default="all", help="dataset id or 'all'")
+    p.set_defaults(func=cmd_build)
 
     args = parser.parse_args(argv)
     args.func(args)

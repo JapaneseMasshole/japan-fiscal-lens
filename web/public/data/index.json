@@ -1,5 +1,15 @@
 {
-  "generated_at": null,
-  "note": "Written by the pipeline (jfl export). Empty until the first dataset is processed.",
-  "datasets": []
+  "generated_at": "2026-09-26T09:45:24+00:00",
+  "datasets": [
+    {
+      "id": "national-balance-sheet",
+      "title_ja": "国の貸借対照表（一般会計・特別会計 合算）",
+      "title_en": "National government balance sheet (general + special accounts)",
+      "years": [
+        2018,
+        2023
+      ],
+      "source_id": "mof-fs"
+    }
+  ]
 }

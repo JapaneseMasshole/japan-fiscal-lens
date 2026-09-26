@@ -1,0 +1,835 @@
+{
+ "id": "national-balance-sheet",
+ "title_ja": "国の貸借対照表（一般会計・特別会計 合算）",
+ "title_en": "National government balance sheet (general + special accounts)",
+ "source": {
+  "id": "mof-fs",
+  "publisher": "財務省",
+  "publisher_en": "Ministry of Finance",
+  "title": "国の財務書類（一般会計・特別会計／連結）",
+  "url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/index.html",
+  "provenance": [
+   {
+    "fiscal_year": 2018,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2019/national/fy2019gassan.xlsx",
+    "column": "前会計年度"
+   },
+   {
+    "fiscal_year": 2019,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2019/national/fy2019gassan.xlsx",
+    "column": "本会計年度"
+   },
+   {
+    "fiscal_year": 2020,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2020/national/fy2020gassan.xlsx",
+    "column": "本会計年度"
+   },
+   {
+    "fiscal_year": 2021,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2022/national/fy2022gassan.xlsx",
+    "column": "前会計年度"
+   },
+   {
+    "fiscal_year": 2022,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2022/national/fy2022gassan.xlsx",
+    "column": "本会計年度"
+   },
+   {
+    "fiscal_year": 2023,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2023/national/fy2023gassan.xlsx",
+    "column": "本会計年度"
+   }
+  ]
+ },
+ "unit": "億円",
+ "basis": "accrual",
+ "scope": "gassan",
+ "as_of": "each fiscal year end (March 31)",
+ "years": [
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023
+ ],
+ "missing_years": [
+  {
+   "fiscal_year": 2024,
+   "reason_ja": "財務省が公開したExcelファイルが暗号化（権限管理）されており開けません。",
+   "reason_en": "The Excel file published by the Ministry of Finance is rights-protected (encrypted) and cannot be opened."
+  }
+ ],
+ "totals": {
+  "assets": [
+   6746679.57,
+   6812628.37,
+   7207909.38,
+   7239420.6,
+   7406961.45,
+   7780880.61
+  ],
+  "liabilities": [
+   12580246.76,
+   12730729.35,
+   13759543.53,
+   14109727.1,
+   14427045.56,
+   14738272.88
+  ],
+  "net_assets": [
+   -5833567.18,
+   -5918100.97,
+   -6551634.14,
+   -6870306.5,
+   -7020084.11,
+   -6957392.26
+  ]
+ },
+ "lines": [
+  {
+   "section": "assets",
+   "order": 1,
+   "item_ja": "現金・預金",
+   "item_en": "Cash and deposits",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    513278.6,
+    461090.86,
+    694636.85,
+    482600.28,
+    537738.03,
+    653622.44
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 2,
+   "item_ja": "有価証券",
+   "item_en": "Securities",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    1196009.75,
+    1264863.88,
+    1196835.72,
+    1235061.16,
+    1256261.21,
+    1423377.37
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 3,
+   "item_ja": "たな卸資産",
+   "item_en": "Inventories",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    43061.28,
+    42525.67,
+    41078.89,
+    41727.56,
+    43126.7,
+    43302.4
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 4,
+   "item_ja": "未収金",
+   "item_en": "Accounts receivable",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    53531.8,
+    63915.12,
+    68002.75,
+    60532.39,
+    60784.4,
+    62227.15
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 5,
+   "item_ja": "未収収益",
+   "item_en": "Accrued revenue",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    7295.87,
+    6577.12,
+    5788.22,
+    5996.42,
+    7101.18,
+    9365.56
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 6,
+   "item_ja": "未収（再）保険料",
+   "item_en": "(Re)insurance premiums receivable",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    46879.0,
+    46941.01,
+    52920.84,
+    49334.62,
+    49341.22,
+    49003.89
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 7,
+   "item_ja": "前払費用",
+   "item_en": "Prepaid expenses",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    47039.08,
+    41779.09,
+    36614.0,
+    32653.55,
+    27730.61,
+    23959.94
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 8,
+   "item_ja": "貸付金",
+   "item_en": "Loans",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    1088610.02,
+    1071829.85,
+    1200928.38,
+    1232064.71,
+    1251179.13,
+    1223173.26
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 9,
+   "item_ja": "運用寄託金",
+   "item_en": "Pension reserve deposits (GPIF)",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    1126932.17,
+    1132032.76,
+    1125531.57,
+    1137089.58,
+    1147166.24,
+    1156297.75
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 10,
+   "item_ja": "その他の債権等",
+   "item_en": "Other receivables",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    38277.48,
+    42585.42,
+    51566.04,
+    106757.35,
+    114566.89,
+    139698.83
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 11,
+   "item_ja": "貸倒引当金",
+   "item_en": "Allowance for bad debts",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    -14987.15,
+    -14117.13,
+    -16129.57,
+    -14790.47,
+    -13953.74,
+    -12658.1
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 12,
+   "item_ja": "有形固定資産",
+   "item_en": "Tangible fixed assets",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    1843817.6,
+    1886519.09,
+    1912716.59,
+    1933684.98,
+    1946261.92,
+    1967479.21
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 13,
+   "item_ja": "国有財産（公共用財産を除く）",
+   "item_en": "State property (excl. public-use)",
+   "level": 1,
+   "parent_ja": "有形固定資産",
+   "values": [
+    312231.1,
+    320739.46,
+    325210.19,
+    327661.23,
+    331151.58,
+    343289.78
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 14,
+   "item_ja": "土地",
+   "item_en": "Land",
+   "level": 2,
+   "parent_ja": "国有財産（公共用財産を除く）",
+   "values": [
+    183061.57,
+    189167.43,
+    194397.84,
+    192383.47,
+    193738.64,
+    198187.28
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 15,
+   "item_ja": "立木竹",
+   "item_en": "Standing timber",
+   "level": 2,
+   "parent_ja": "国有財産（公共用財産を除く）",
+   "values": [
+    31209.41,
+    32248.2,
+    32638.69,
+    36247.59,
+    39558.9,
+    40682.28
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 16,
+   "item_ja": "建物",
+   "item_en": "Buildings",
+   "level": 2,
+   "parent_ja": "国有財産（公共用財産を除く）",
+   "values": [
+    34116.39,
+    34177.62,
+    34121.76,
+    33851.58,
+    33858.24,
+    33842.24
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 17,
+   "item_ja": "工作物",
+   "item_en": "Structures",
+   "level": 2,
+   "parent_ja": "国有財産（公共用財産を除く）",
+   "values": [
+    25628.4,
+    25479.0,
+    25881.38,
+    25233.03,
+    25194.98,
+    25113.35
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 18,
+   "item_ja": "機械器具",
+   "item_en": "Machinery",
+   "level": 2,
+   "parent_ja": "国有財産（公共用財産を除く）",
+   "values": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 19,
+   "item_ja": "船舶",
+   "item_en": "Vessels",
+   "level": 2,
+   "parent_ja": "国有財産（公共用財産を除く）",
+   "values": [
+    14650.61,
+    15302.81,
+    15888.27,
+    15561.27,
+    16075.84,
+    15860.75
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 20,
+   "item_ja": "航空機",
+   "item_en": "Aircraft",
+   "level": 2,
+   "parent_ja": "国有財産（公共用財産を除く）",
+   "values": [
+    9461.31,
+    10096.15,
+    10572.96,
+    11411.26,
+    10411.04,
+    9896.81
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 21,
+   "item_ja": "建設仮勘定",
+   "item_en": "Construction in progress",
+   "level": 2,
+   "parent_ja": "国有財産（公共用財産を除く）",
+   "values": [
+    14103.37,
+    14268.22,
+    11709.27,
+    12973.01,
+    12313.91,
+    19707.05
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 22,
+   "item_ja": "公共用財産",
+   "item_en": "Public-use property (roads, rivers, ports…)",
+   "level": 1,
+   "parent_ja": "有形固定資産",
+   "values": [
+    1509690.96,
+    1520786.73,
+    1540752.48,
+    1560858.81,
+    1575156.57,
+    1587380.59
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 23,
+   "item_ja": "公共用財産用地",
+   "item_en": "Public-use land",
+   "level": 2,
+   "parent_ja": "公共用財産",
+   "values": [
+    399845.37,
+    401208.56,
+    402504.4,
+    404080.96,
+    405288.35,
+    406087.2
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 24,
+   "item_ja": "公共用財産施設",
+   "item_en": "Public-use facilities",
+   "level": 2,
+   "parent_ja": "公共用財産",
+   "values": [
+    1106608.69,
+    1115193.89,
+    1133924.96,
+    1152513.34,
+    1165889.32,
+    1177103.95
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 25,
+   "item_ja": "建設仮勘定",
+   "item_en": "Construction in progress",
+   "level": 2,
+   "parent_ja": "公共用財産",
+   "values": [
+    3236.89,
+    4384.27,
+    4323.11,
+    4264.49,
+    3978.89,
+    4189.43
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 26,
+   "item_ja": "物品",
+   "item_en": "Equipment",
+   "level": 1,
+   "parent_ja": "有形固定資産",
+   "values": [
+    21659.06,
+    44767.75,
+    46539.65,
+    45087.62,
+    39897.93,
+    36774.47
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 27,
+   "item_ja": "その他の固定資産",
+   "item_en": "Other fixed assets",
+   "level": 1,
+   "parent_ja": "有形固定資産",
+   "values": [
+    236.47,
+    225.14,
+    214.25,
+    77.31,
+    55.83,
+    34.35
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 28,
+   "item_ja": "無形固定資産",
+   "item_en": "Intangible fixed assets",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    3054.38,
+    3284.1,
+    3531.17,
+    3804.52,
+    3981.67,
+    4619.64
+   ]
+  },
+  {
+   "section": "assets",
+   "order": 29,
+   "item_ja": "出資金",
+   "item_en": "Capital investments",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    753879.64,
+    762801.47,
+    833887.88,
+    932903.89,
+    975675.92,
+    1037411.22
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 1,
+   "item_ja": "未払金",
+   "item_en": "Accounts payable",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    105202.76,
+    106343.35,
+    107106.54,
+    106897.79,
+    107201.69,
+    111378.07
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 2,
+   "item_ja": "支払備金",
+   "item_en": "Claims reserve",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    2698.38,
+    2805.68,
+    3113.98,
+    3034.72,
+    2852.83,
+    2842.21
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 3,
+   "item_ja": "未払費用",
+   "item_en": "Accrued expenses",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    11920.54,
+    11574.45,
+    11192.29,
+    10798.43,
+    10885.22,
+    11421.94
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 4,
+   "item_ja": "保管金等",
+   "item_en": "Deposits held",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    11259.93,
+    12062.06,
+    13627.32,
+    14851.57,
+    15911.28,
+    16538.12
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 5,
+   "item_ja": "前受金",
+   "item_en": "Advances received",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    520.39,
+    534.81,
+    586.9,
+    703.32,
+    619.96,
+    529.8
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 6,
+   "item_ja": "前受収益",
+   "item_en": "Unearned revenue",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    304.22,
+    6847.19,
+    6623.46,
+    6585.65,
+    6348.37,
+    6161.39
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 7,
+   "item_ja": "未経過（再）保険料",
+   "item_en": "Unearned (re)insurance premiums",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    365.14,
+    302.38,
+    295.34,
+    315.2,
+    338.9,
+    352.63
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 8,
+   "item_ja": "賞与引当金",
+   "item_en": "Bonus reserve",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    3407.43,
+    3466.38,
+    3431.86,
+    3151.3,
+    3338.3,
+    3443.85
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 9,
+   "item_ja": "政府短期証券",
+   "item_en": "Financing bills (short-term)",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    761015.66,
+    774836.8,
+    927781.0,
+    883217.07,
+    877045.59,
+    947708.57
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 10,
+   "item_ja": "公債",
+   "item_en": "Government bonds",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    9860645.69,
+    9988053.67,
+    10839313.01,
+    11139676.05,
+    11439205.3,
+    11642880.8
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 11,
+   "item_ja": "借入金",
+   "item_en": "Borrowings",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    319206.85,
+    323600.84,
+    328625.55,
+    335537.77,
+    337520.92,
+    341509.12
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 12,
+   "item_ja": "預託金",
+   "item_en": "Deposits (FILP)",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    63648.5,
+    59089.94,
+    70701.37,
+    104258.47,
+    116140.38,
+    105039.38
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 13,
+   "item_ja": "責任準備金",
+   "item_en": "Policy reserves",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    93745.28,
+    95314.14,
+    94957.17,
+    93183.7,
+    97497.89,
+    98128.29
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 14,
+   "item_ja": "公的年金預り金",
+   "item_en": "Public pension reserves",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    1207588.87,
+    1211859.12,
+    1217979.47,
+    1222767.44,
+    1230310.15,
+    1255065.14
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 15,
+   "item_ja": "退職給付引当金",
+   "item_en": "Retirement benefit reserve",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    64201.04,
+    59496.86,
+    57157.59,
+    55033.93,
+    52933.94,
+    51271.87
+   ]
+  },
+  {
+   "section": "liabilities",
+   "order": 16,
+   "item_ja": "その他の債務等",
+   "item_en": "Other liabilities",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    74516.01,
+    74541.59,
+    77050.62,
+    129714.64,
+    128894.76,
+    144001.59
+   ]
+  },
+  {
+   "section": "net_assets",
+   "order": 18,
+   "item_ja": "資産・負債差額",
+   "item_en": "Net assets (assets minus liabilities)",
+   "level": 0,
+   "parent_ja": "",
+   "values": [
+    -5833567.18,
+    -5918100.97,
+    -6551634.14,
+    -6870306.5,
+    -7020084.11,
+    -6957392.26
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "ja": "財務省の注記（要約）：国の資産には、道路・河川など売却して現金化することを基本的に予定していない公共用財産が相当程度含まれています。このため、資産・負債差額が必ずしも将来の国民負担となる額を示すものではありません。",
+   "en": "Ministry of Finance note (summarised): a large share of the government's assets is public-use property such as roads and rivers, which is not intended to be sold. The gap between assets and liabilities therefore does not necessarily equal the future burden on the public."
+  }
+ ],
+ "restatements": 0,
+ "generated_at": "2026-09-26T09:45:24+00:00"
+}

@@ -18,6 +18,25 @@ Schema for the files in `data/processed/` and `web/public/data/`. Fill this in a
 | `category` | string | normalized category for charting |
 | `value_oku_yen` | number | value in 億円 |
 
+## `data/processed/national_balance_sheet.csv`
+
+One row per fiscal year × balance-sheet line (MOF 国の財務書類, 合算).
+
+| Column | Description |
+|---|---|
+| `scope` | `gassan` (general + special accounts) |
+| `fiscal_year` | fiscal year whose end (March 31 of the next year) the figure describes |
+| `column` | `current` (本会計年度) or `previous` (前会計年度) column of the source workbook |
+| `source_file_year` | fiscal year of the workbook, read from its own date headers |
+| `source_folder` | folder under `data/raw/mof-fs/` the workbook was read from |
+| `section` | `assets`, `liabilities`, `net_assets` or `total` |
+| `order` | line order within its block, as printed |
+| `item_ja` / `item_en` | line name as printed / English translation |
+| `level` | nesting depth from the Excel indent (0 = top level) |
+| `parent_ja` | parent line for nested items, empty for top level |
+| `is_total` | printed total line |
+| `value_oku_yen` | value in 億円 (source is 百万円 ÷ 100) |
+
 ## Web JSON
 
 Every file in `web/public/data/` must include a `source` object. The site refuses to draw a chart without one:

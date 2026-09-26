@@ -17,6 +17,8 @@ import re
 from dataclasses import dataclass
 from pathlib import Path
 
+import requests
+
 from jfl.fetch.common import Link, download, find_links, get_html, session, write_manifest
 from jfl.paths import RAW_DIR
 from jfl.sources import Source
@@ -36,6 +38,21 @@ class PlannedFile:
     variant: str
     url: str
     dest: Path
+    # If the page links a file for a different year (a publishing mistake seen on
+    # the FY2021 page), `url` is the corrected guess and `fallback_url` the link
+    # as published. The transform step verifies the year from the sheet itself.
+    fallback_url: str | None = None
+
+
+YEAR_IN_URL = re.compile(r"fy(\d{4})", re.I)
+
+
+def correct_year(url: str, year: int) -> str | None:
+    """Return `url` with every fyYYYY replaced by fy{year}, or None if it already matches."""
+    found = {int(y) for y in YEAR_IN_URL.findall(url)}
+    if not found or found == {year}:
+        return None
+    return YEAR_IN_URL.sub(f"fy{year}", url)
 
 
 def classify(link: Link) -> str | None:
@@ -58,7 +75,12 @@ def plan(html: str, page_url: str, year: int, out_root: Path = RAW_DIR) -> list[
         taken.add(variant)
         ext = Path(link.url.split("?", 1)[0]).suffix.lower()
         dest = out_root / SOURCE_ID / f"fy{year}" / f"{variant}{ext}"
-        planned.append(PlannedFile(variant=variant, url=link.url, dest=dest))
+        fixed = correct_year(link.url, year)
+        if fixed:
+            print(f"warning: FY{year} page links {link.url}; trying {fixed} first")
+            planned.append(PlannedFile(variant, fixed, dest, fallback_url=link.url))
+        else:
+            planned.append(PlannedFile(variant=variant, url=link.url, dest=dest))
     if not planned:
         raise RuntimeError(
             f"No financial-statement workbooks found on {page_url}. "
@@ -87,7 +109,13 @@ def run(source: Source, year: int, dry_run: bool = False, out_root: Path = RAW_D
     entries = []
     for f in files:
         print(f"Downloading {f.variant}: {f.url}")
-        entries.append(download(s, f.url, f.dest))
+        try:
+            entries.append(download(s, f.url, f.dest))
+        except requests.HTTPError as e:
+            if not f.fallback_url:
+                raise
+            print(f"  {e}; falling back to the published link {f.fallback_url}")
+            entries.append(download(s, f.fallback_url, f.dest))
     manifest = write_manifest(files[0].dest.parent, SOURCE_ID, page_url, entries)
     print(f"Wrote {manifest}")
     return [f.dest for f in files]
