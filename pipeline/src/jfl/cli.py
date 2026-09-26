@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import argparse
 
-from jfl.export import national_balance_sheet
+from jfl.export import national_balance_sheet, national_flows
 from jfl.fetch import mof_financial_statements
 from jfl.sources import load_sources
 
@@ -37,6 +37,7 @@ def cmd_fetch(args: argparse.Namespace) -> None:
 
 BUILDERS = {
     "national-balance-sheet": national_balance_sheet.build,
+    "national-flows": national_flows.build,
 }
 
 
@@ -45,10 +46,11 @@ def cmd_build(args: argparse.Namespace) -> None:
     for name in names:
         if name not in BUILDERS:
             raise SystemExit(f"Unknown dataset {name!r}. Known: {', '.join(sorted(BUILDERS))}")
-        csv_path, json_path, skipped = BUILDERS[name]()
+        csv_path, json_paths, skipped = BUILDERS[name]()
         for msg in skipped:
             print(f"skipped: {msg}")
-        print(f"{name}: wrote {csv_path} and {json_path}")
+        outputs = json_paths if isinstance(json_paths, list) else [json_paths]
+        print(f"{name}: wrote {csv_path}, " + ", ".join(p.name for p in outputs))
 
 
 def main(argv: list[str] | None = None) -> None:

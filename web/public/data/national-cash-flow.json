@@ -1,0 +1,1023 @@
+{
+ "id": "national-cash-flow",
+ "title_ja": "国の区分別収支（一般会計・特別会計 合算）",
+ "title_en": "National government cash flow by category (general + special accounts)",
+ "source": {
+  "id": "mof-fs",
+  "publisher": "財務省",
+  "publisher_en": "Ministry of Finance",
+  "title": "国の財務書類（一般会計・特別会計／連結）",
+  "url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/index.html",
+  "provenance": [
+   {
+    "fiscal_year": 2018,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2019/national/fy2019gassan.xlsx",
+    "column": "前会計年度"
+   },
+   {
+    "fiscal_year": 2019,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2019/national/fy2019gassan.xlsx",
+    "column": "本会計年度"
+   },
+   {
+    "fiscal_year": 2020,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2020/national/fy2020gassan.xlsx",
+    "column": "本会計年度"
+   },
+   {
+    "fiscal_year": 2021,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2022/national/fy2022gassan.xlsx",
+    "column": "前会計年度"
+   },
+   {
+    "fiscal_year": 2022,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2022/national/fy2022gassan.xlsx",
+    "column": "本会計年度"
+   },
+   {
+    "fiscal_year": 2023,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2023/national/fy2023gassan.xlsx",
+    "column": "本会計年度"
+   }
+  ]
+ },
+ "unit": "億円",
+ "basis": "cash",
+ "scope": "gassan",
+ "years": [
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023
+ ],
+ "missing_years": [
+  {
+   "fiscal_year": 2024,
+   "reason_ja": "財務省が公開したExcelファイルが暗号化（権限管理）されており開けません。",
+   "reason_en": "The Excel file published by the Ministry of Finance is rights-protected (encrypted) and cannot be opened."
+  }
+ ],
+ "totals": {
+  "operating": [
+   115206.25,
+   76669.76,
+   -632888.44,
+   236834.36,
+   157921.3,
+   256289.8
+  ],
+  "financing": [
+   74432.31,
+   125112.39,
+   1133126.26,
+   155431.91,
+   210899.99,
+   27247.38
+  ],
+  "net": [
+   189638.57,
+   201782.16,
+   500237.82,
+   392266.27,
+   368821.3,
+   283537.19
+  ],
+  "bond_issuance": [
+   1483107.47,
+   1541801.11,
+   2568552.67,
+   2106897.43,
+   2123454.21,
+   1934551.55
+  ],
+  "bond_redemption": [
+   -1312153.5,
+   -1324068.24,
+   -1347356.99,
+   -1855614.72,
+   -1825226.37,
+   -1813743.79
+  ]
+ },
+ "lines": [
+  {
+   "item_ja": "租税等収入",
+   "item_en": "Tax and similar receipts",
+   "heading": "１財源",
+   "level": 3,
+   "values": [
+    642241.24,
+    621751.34,
+    649330.13,
+    718811.11,
+    763376.99,
+    773872.02
+   ]
+  },
+  {
+   "item_ja": "その他の収入",
+   "item_en": "Other receipts",
+   "heading": "１財源",
+   "level": 3,
+   "values": [
+    655775.37,
+    676312.73,
+    661345.16,
+    691649.55,
+    698316.1,
+    745481.49
+   ]
+  },
+  {
+   "item_ja": "前年度剰余金受入",
+   "item_en": "Surplus carried from previous year",
+   "heading": "１財源",
+   "level": 3,
+   "values": [
+    139797.63,
+    157024.05,
+    171991.74,
+    467306.9,
+    344848.8,
+    328038.57
+   ]
+  },
+  {
+   "item_ja": "資金からの受入（予算上措置されたもの）",
+   "item_en": "Transfers from funds (budgeted)",
+   "heading": "１財源",
+   "level": 3,
+   "values": [
+    145601.84,
+    153957.56,
+    167975.49,
+    274696.56,
+    201057.07,
+    122123.37
+   ]
+  },
+  {
+   "item_ja": "財源合計",
+   "item_en": "Total funding",
+   "heading": "１財源",
+   "level": 2,
+   "values": [
+    1583416.1,
+    1609045.71,
+    1650642.54,
+    2152464.13,
+    2007598.99,
+    1969515.47
+   ]
+  },
+  {
+   "item_ja": "人件費",
+   "item_en": "Personnel",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -52845.03,
+    -53072.98,
+    -52416.99,
+    -53263.76,
+    -52772.78,
+    -52561.14
+   ]
+  },
+  {
+   "item_ja": "恩給給付費",
+   "item_en": "Old-age pensions for former public servants (恩給)",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -2288.54,
+    -1910.06,
+    -1588.08,
+    -1303.51,
+    -1044.35,
+    -812.51
+   ]
+  },
+  {
+   "item_ja": "基礎年金給付費",
+   "item_en": "Basic pension benefits",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -229047.2,
+    -233352.32,
+    -238053.0,
+    -240926.2,
+    -241967.89,
+    -246944.82
+   ]
+  },
+  {
+   "item_ja": "国民年金給付費",
+   "item_en": "National pension benefits",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -4769.86,
+    -4082.15,
+    -3491.11,
+    -2964.55,
+    -2475.89,
+    -2074.98
+   ]
+  },
+  {
+   "item_ja": "厚生年金給付費",
+   "item_en": "Employees' pension benefits",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -236830.72,
+    -235716.64,
+    -234745.73,
+    -234567.68,
+    -234395.24,
+    -236365.29
+   ]
+  },
+  {
+   "item_ja": "国家公務員共済組合連合会等交付金",
+   "item_en": "Public-servant mutual aid grants",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -46962.81,
+    -46008.38,
+    -46031.06,
+    -49014.41,
+    -47646.83,
+    -47559.18
+   ]
+  },
+  {
+   "item_ja": "保険料等交付金",
+   "item_en": "Health insurance grants",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -99969.38,
+    -105236.91,
+    -104477.58,
+    -108788.96,
+    -109102.68,
+    -110234.0
+   ]
+  },
+  {
+   "item_ja": "失業等給付費",
+   "item_en": "Unemployment benefits",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -15726.52,
+    -16626.09,
+    -13825.84,
+    -13093.11,
+    -11552.28,
+    -11931.38
+   ]
+  },
+  {
+   "item_ja": "育児休業給付費",
+   "item_en": "Childcare leave benefits",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    null,
+    null,
+    -6436.69,
+    -6451.72,
+    -6948.3,
+    -7493.73
+   ]
+  },
+  {
+   "item_ja": "雇用安定等給付費",
+   "item_en": "Employment stabilisation benefits",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    null,
+    null,
+    -32062.15,
+    -24179.31,
+    -10184.37,
+    -2114.31
+   ]
+  },
+  {
+   "item_ja": "その他の社会保障費",
+   "item_en": "Other social security",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -10933.8,
+    -10792.4,
+    -16669.13,
+    -17234.41,
+    -14907.5,
+    -13933.4
+   ]
+  },
+  {
+   "item_ja": "（再）保険費等",
+   "item_en": "(Re)insurance claims",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -536.48,
+    -312.72,
+    -206.27,
+    -1448.36,
+    -1119.94,
+    -312.97
+   ]
+  },
+  {
+   "item_ja": "公共用施設整備費等",
+   "item_en": "Public facility maintenance",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -658.67,
+    -1086.56,
+    -1067.67,
+    -710.71,
+    -821.6,
+    -855.04
+   ]
+  },
+  {
+   "item_ja": "持続化給付金等",
+   "item_en": "Business continuity payments (COVID-19)",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    null,
+    null,
+    -71691.92,
+    -11164.37,
+    -11892.88,
+    0.0
+   ]
+  },
+  {
+   "item_ja": "補助金等",
+   "item_en": "Subsidies",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -311882.43,
+    -328765.79,
+    -636541.33,
+    -567724.11,
+    -560747.92,
+    -496308.08
+   ]
+  },
+  {
+   "item_ja": "委託費等",
+   "item_en": "Outsourcing",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -23591.88,
+    -24427.82,
+    -30835.6,
+    -27300.47,
+    -30707.91,
+    -27186.29
+   ]
+  },
+  {
+   "item_ja": "地方交付税交付金等",
+   "item_en": "Transfers to local governments (地方交付税)",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -193534.97,
+    -198213.58,
+    -194468.95,
+    -224063.53,
+    -216157.86,
+    -219990.11
+   ]
+  },
+  {
+   "item_ja": "運営費交付金",
+   "item_en": "Grants to independent agencies",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -29569.06,
+    -33611.95,
+    -34620.23,
+    -31916.17,
+    -32586.12,
+    -31404.49
+   ]
+  },
+  {
+   "item_ja": "貸付けによる支出",
+   "item_en": "Lending",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -1154.96,
+    -1226.64,
+    -1240.95,
+    -1292.5,
+    -1458.49,
+    -1454.76
+   ]
+  },
+  {
+   "item_ja": "出資による支出",
+   "item_en": "Capital investment",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -4955.59,
+    -6947.44,
+    -55551.94,
+    -79826.1,
+    -6857.78,
+    -5729.11
+   ]
+  },
+  {
+   "item_ja": "庁費等の支出",
+   "item_en": "Office expenses",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -40130.1,
+    -44098.92,
+    -55187.8,
+    -51584.99,
+    -52750.63,
+    -57162.97
+   ]
+  },
+  {
+   "item_ja": "その他の支出",
+   "item_en": "Other payments",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -10169.92,
+    -12913.22,
+    -9776.1,
+    -10499.88,
+    -12745.98,
+    -12441.33
+   ]
+  },
+  {
+   "item_ja": "資金への繰入（予算上措置されたもの）",
+   "item_en": "Transfers to funds (budgeted)",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 4,
+   "values": [
+    -106299.99,
+    -125499.99,
+    -391501.23,
+    -102108.0,
+    -143891.43,
+    -75054.17
+   ]
+  },
+  {
+   "item_ja": "業務支出（施設整備支出を除く）合計",
+   "item_en": "Operating payments excl. facilities",
+   "heading": "業務支出（施設整備支出を除く）",
+   "level": 3,
+   "values": [
+    -1421858.0,
+    -1483902.68,
+    -2232487.45,
+    -1861426.92,
+    -1804736.77,
+    -1659924.18
+   ]
+  },
+  {
+   "item_ja": "公共用財産用地に係る支出",
+   "item_en": "Public-use land",
+   "heading": "施設整備支出",
+   "level": 4,
+   "values": [
+    -1922.84,
+    -1770.49,
+    -1928.14,
+    -1897.82,
+    -1913.5,
+    -1852.62
+   ]
+  },
+  {
+   "item_ja": "公共用財産施設に係る支出",
+   "item_en": "Public-use facilities",
+   "heading": "施設整備支出",
+   "level": 4,
+   "values": [
+    -27699.71,
+    -28856.48,
+    -34470.35,
+    -32907.64,
+    -29451.29,
+    -28832.83
+   ]
+  },
+  {
+   "item_ja": "その他の施設整備支出",
+   "item_en": "Other facility payments",
+   "heading": "施設整備支出",
+   "level": 4,
+   "values": [
+    -16729.28,
+    -17846.27,
+    -14645.03,
+    -19397.38,
+    -13576.11,
+    -22616.02
+   ]
+  },
+  {
+   "item_ja": "施設整備支出合計",
+   "item_en": "Total facility payments",
+   "heading": "施設整備支出",
+   "level": 3,
+   "values": [
+    -46351.84,
+    -48473.25,
+    -51043.53,
+    -54202.84,
+    -44940.9,
+    -53301.49
+   ]
+  },
+  {
+   "item_ja": "業務支出合計",
+   "item_en": "Total operating payments",
+   "heading": "施設整備支出",
+   "level": 2,
+   "values": [
+    -1468209.85,
+    -1532375.94,
+    -2283530.98,
+    -1915629.77,
+    -1849677.68,
+    -1713225.67
+   ]
+  },
+  {
+   "item_ja": "業務収支",
+   "item_en": "Operating cash flow",
+   "heading": "施設整備支出",
+   "level": 1,
+   "values": [
+    115206.25,
+    76669.76,
+    -632888.44,
+    236834.36,
+    157921.3,
+    256289.8
+   ]
+  },
+  {
+   "item_ja": "公債の発行による収入",
+   "item_en": "Bond issuance",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    1483107.47,
+    1541801.11,
+    2568552.67,
+    2106897.43,
+    2123454.21,
+    1934551.55
+   ]
+  },
+  {
+   "item_ja": "公債の償還による支出",
+   "item_en": "Bond redemption",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -1312153.5,
+    -1324068.24,
+    -1347356.99,
+    -1855614.72,
+    -1825226.37,
+    -1813743.79
+   ]
+  },
+  {
+   "item_ja": "政府短期証券の発行による収入",
+   "item_en": "Financing bill issuance",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    12757.0,
+    12717.0,
+    12769.0,
+    13394.0,
+    13944.0,
+    13334.0
+   ]
+  },
+  {
+   "item_ja": "政府短期証券の償還による支出",
+   "item_en": "Financing bill redemption",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -12857.0,
+    -12757.0,
+    -12717.0,
+    -12769.0,
+    -13394.0,
+    -13944.0
+   ]
+  },
+  {
+   "item_ja": "借入による収入",
+   "item_en": "Borrowing",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    310299.86,
+    314509.72,
+    319373.15,
+    326140.56,
+    328115.92,
+    332090.6
+   ]
+  },
+  {
+   "item_ja": "借入金の返済による支出",
+   "item_en": "Loan repayment",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -305527.49,
+    -310115.73,
+    -314348.43,
+    -319228.34,
+    -320250.79,
+    -322220.6
+   ]
+  },
+  {
+   "item_ja": "リース・ＰＦＩ債務の返済による支出",
+   "item_en": "Lease/PFI repayments",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -490.59,
+    -581.56,
+    -434.05,
+    -438.96,
+    -471.39,
+    -433.27
+   ]
+  },
+  {
+   "item_ja": "預託金利息",
+   "item_en": "Interest on FILP deposits",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -558.01,
+    -485.45,
+    -424.08,
+    -360.11,
+    -335.48,
+    -303.5
+   ]
+  },
+  {
+   "item_ja": "利息の支払額（預託金利息を除く）",
+   "item_en": "Interest paid",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -86949.32,
+    -84493.08,
+    -81805.17,
+    -79688.94,
+    -78778.94,
+    -81492.62
+   ]
+  },
+  {
+   "item_ja": "公債事務取扱に係る支出",
+   "item_en": "Bond administration",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -300.55,
+    -325.88,
+    -180.29,
+    -225.21,
+    -173.35,
+    -173.51
+   ]
+  },
+  {
+   "item_ja": "資金からの受入",
+   "item_en": "Transfers from funds",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    99856.26,
+    95777.75,
+    92383.86,
+    75925.64,
+    71604.87,
+    61914.86
+   ]
+  },
+  {
+   "item_ja": "資金への繰入",
+   "item_en": "Transfers to funds",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -112751.78,
+    -106866.21,
+    -102686.37,
+    -98600.42,
+    -87588.65,
+    -82332.32
+   ]
+  },
+  {
+   "item_ja": "財務収支",
+   "item_en": "Financing cash flow",
+   "heading": "財務収支",
+   "level": 1,
+   "values": [
+    74432.31,
+    125112.39,
+    1133126.26,
+    155431.91,
+    210899.99,
+    27247.38
+   ]
+  },
+  {
+   "item_ja": "本年度収支",
+   "item_en": "Net cash flow for the year",
+   "heading": "財務収支",
+   "level": 1,
+   "values": [
+    189638.57,
+    201782.16,
+    500237.82,
+    392266.27,
+    368821.3,
+    283537.19
+   ]
+  },
+  {
+   "item_ja": "資金からの受入（決算処理によるもの）",
+   "item_en": "Transfers from funds (settlement)",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    446.43,
+    430.82,
+    4120.46,
+    8971.66,
+    1090.18,
+    0.0
+   ]
+  },
+  {
+   "item_ja": "資金への繰入（決算処理によるもの）",
+   "item_en": "Transfers to funds (settlement)",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -33060.94,
+    -30221.23,
+    -37051.38,
+    -56389.13,
+    -41872.9,
+    -54319.82
+   ]
+  },
+  {
+   "item_ja": "翌年度歳入繰入",
+   "item_en": "Carried to next year's revenue",
+   "heading": "財務収支",
+   "level": 1,
+   "values": [
+    157024.05,
+    171991.74,
+    467306.9,
+    344848.8,
+    328038.57,
+    229217.36
+   ]
+  },
+  {
+   "item_ja": "特別会計に関する法律第47条第1項の規定による借換国債収入額",
+   "item_en": "Advance refunding bond receipts (Special Accounts Act art. 47)",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    524631.26,
+    450827.16,
+    93725.78,
+    151357.93,
+    154988.0,
+    243579.27
+   ]
+  },
+  {
+   "item_ja": "翌年度歳入繰入の預託金への運用",
+   "item_en": "Carry-over placed in FILP deposits",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -8831.02,
+    -7459.04,
+    -5120.65,
+    -6037.34,
+    -6037.34,
+    -5366.71
+   ]
+  },
+  {
+   "item_ja": "翌年度歳入繰入の預託金以外への運用",
+   "item_en": "Carry-over placed elsewhere",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -1894.62,
+    -6284.71,
+    -1995.47,
+    -1398.9,
+    -1237.61,
+    -752.76
+   ]
+  },
+  {
+   "item_ja": "収支に関する換算差額",
+   "item_en": "Translation difference",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    0.0,
+    0.0,
+    -6603.05,
+    0.0,
+    0.0,
+    21013.17
+   ]
+  },
+  {
+   "item_ja": "資金本年度末残高",
+   "item_en": "Fund balances at year end",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    239265.78,
+    235938.95,
+    379368.95,
+    263047.9,
+    249128.83,
+    326344.09
+   ]
+  },
+  {
+   "item_ja": "その他歳計外現金･預金本年度末残高",
+   "item_en": "Other off-budget cash at year end",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    11574.51,
+    12390.64,
+    13954.4,
+    15124.95,
+    15971.59,
+    16588.02
+   ]
+  },
+  {
+   "item_ja": "国庫余裕金の繰替使用",
+   "item_en": "Temporary use of treasury surplus",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -406000.0,
+    -396000.0,
+    -246000.0,
+    -299000.0,
+    -226000.0,
+    -177000.0
+   ]
+  },
+  {
+   "item_ja": "本年度末現金･預金残高",
+   "item_en": "Cash and deposits at year end",
+   "heading": "財務収支",
+   "level": 1,
+   "values": [
+    513278.6,
+    461090.86,
+    694636.85,
+    482600.28,
+    537738.03,
+    653622.44
+   ]
+  },
+  {
+   "item_ja": "その他収入",
+   "item_en": "Other receipts",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    0.0,
+    0.0,
+    null,
+    0.0,
+    0.0,
+    null
+   ]
+  },
+  {
+   "item_ja": "国立研究開発法人森林総合研究所に承継する額",
+   "item_en": "Transferred to Forest Research institute",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    0.0,
+    0.0,
+    null,
+    0.0,
+    0.0,
+    null
+   ]
+  },
+  {
+   "item_ja": "旧臨時軍事費特別会計に係る控除額",
+   "item_en": "Deduction for former wartime special account",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    0.0,
+    0.0,
+    null,
+    0.0,
+    0.0,
+    null
+   ]
+  },
+  {
+   "item_ja": "「高度専門医療に関する研究等を行う独立行政法人に関する法律」第2条各号に規定する独立行政法人に承継する支出",
+   "item_en": "Transferred to national advanced-medicine research agencies",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    0.0,
+    0.0,
+    null,
+    0.0,
+    0.0,
+    null
+   ]
+  },
+  {
+   "item_ja": "収支に関する換算差額 (2)",
+   "item_en": "Translation difference",
+   "heading": "財務収支",
+   "level": 2,
+   "values": [
+    -2491.37,
+    -313.89,
+    null,
+    14656.93,
+    22885.97,
+    null
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "ja": "区分別収支計算書は現金ベースです。業務収支には前年度剰余金の受入なども含まれます。財務収支には公債の発行・償還、借入・返済、利払いなどが含まれます。",
+   "en": "The cash flow statement is on a cash basis. Operating cash flow also includes items such as the surplus carried over from the previous year. Financing cash flow covers bond issuance and redemption, borrowing and repayment, and interest."
+  }
+ ],
+ "generated_at": "2026-09-26T09:52:53+00:00"
+}

@@ -111,11 +111,15 @@ KANJI_DIGITS = str.maketrans("０１２３４５６７８９", "0123456789")
 
 
 def _era_year(text: str) -> int | None:
-    """'(令和５年' -> 2023, '(平成31年' -> 2019, '(令和元年' -> 2019."""
+    """Western year of a Japanese-era date.
+
+    '(令和５年' -> 2023, '(平成31年' -> 2019, '(令和元年' -> 2019, '(至 令和6年3月31日)' -> 2024.
+    """
     t = norm(text).translate(KANJI_DIGITS).replace("元", "1")
     for era, base in ERA_BASE.items():
         if era in t:
-            digits = "".join(ch for ch in t.split(era, 1)[1] if ch.isdigit())
+            year_part = t.split(era, 1)[1].split("年", 1)[0]
+            digits = "".join(ch for ch in year_part if ch.isdigit())
             return base + int(digits) if digits else None
     return None
 
