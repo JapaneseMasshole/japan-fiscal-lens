@@ -1,0 +1,356 @@
+{
+  "source_id": "mic-unified-fs",
+  "listing_page": "https://www.soumu.go.jp/iken/kokaikei/R05_chihou_zaimusyorui.html",
+  "files": [
+    {
+      "file": "prefectures.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031193.xlsx",
+      "sha256": "293645984c4e013ba2858a4ad434700434e946286c16c6d84baf52637ff16492",
+      "bytes": 434794,
+      "fetched_at": "2026-09-26T10:22:24+00:00"
+    },
+    {
+      "file": "pref-01.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031194.xlsx",
+      "sha256": "7a9d8f8fd75ba7017eb985818d22b83a045b581afd6b701d3a867aa9aa332e75",
+      "bytes": 1256763,
+      "fetched_at": "2026-09-26T10:22:25+00:00"
+    },
+    {
+      "file": "pref-02.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031195.xlsx",
+      "sha256": "a0fcba70659d0ffa70fb2439e9c167ea58966988f59eafe958e3602ae120a00e",
+      "bytes": 323676,
+      "fetched_at": "2026-09-26T10:22:26+00:00"
+    },
+    {
+      "file": "pref-03.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031196.xlsx",
+      "sha256": "a3a4463e078b542940f68b2ec27fe7a7b9ad2c422b61b07df32be381bad1b11a",
+      "bytes": 278893,
+      "fetched_at": "2026-09-26T10:22:27+00:00"
+    },
+    {
+      "file": "pref-04.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031197.xlsx",
+      "sha256": "3987f0806f4598c43a398c3f286c66a0843eba110c019db639408e55253e0045",
+      "bytes": 301687,
+      "fetched_at": "2026-09-26T10:22:29+00:00"
+    },
+    {
+      "file": "pref-05.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031198.xlsx",
+      "sha256": "13e0574686f12022f0fc0216faddc75e2b4fc2daad942eb5250f52f801197d4b",
+      "bytes": 224828,
+      "fetched_at": "2026-09-26T10:22:30+00:00"
+    },
+    {
+      "file": "pref-06.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031199.xlsx",
+      "sha256": "d618ac23119fe67a8cfc6d299a7c5b3aa5e7de267341aca22777b850f788a5c5",
+      "bytes": 290522,
+      "fetched_at": "2026-09-26T10:22:31+00:00"
+    },
+    {
+      "file": "pref-07.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031200.xlsx",
+      "sha256": "26144e9f41753505e9be9ba1450a93303fe2658c2980585316d78708985e9154",
+      "bytes": 446290,
+      "fetched_at": "2026-09-26T10:22:32+00:00"
+    },
+    {
+      "file": "pref-08.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031201.xlsx",
+      "sha256": "28550e5087dfb351d73511555155618a9d449f8455a3cab368028414522f3ac0",
+      "bytes": 366117,
+      "fetched_at": "2026-09-26T10:22:33+00:00"
+    },
+    {
+      "file": "pref-09.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031202.xlsx",
+      "sha256": "e36a32129c2525c49f0252deb0d2f585a067bdc5ee9673540ff0ad5b0a37c9c3",
+      "bytes": 225836,
+      "fetched_at": "2026-09-26T10:22:34+00:00"
+    },
+    {
+      "file": "pref-10.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031203.xlsx",
+      "sha256": "e11a41d9cd137b6b6fc8001953b0f106902565b7bf5fb4b1f5db87cf665b5781",
+      "bytes": 253341,
+      "fetched_at": "2026-09-26T10:22:36+00:00"
+    },
+    {
+      "file": "pref-11.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031204.xlsx",
+      "sha256": "302d8916dbd89abb9a9e4ed75291f78953a6cbf9a614e08d0b8687752e9b9033",
+      "bytes": 493963,
+      "fetched_at": "2026-09-26T10:22:37+00:00"
+    },
+    {
+      "file": "pref-12.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031205.xlsx",
+      "sha256": "c222844a708a5e609839f2592eab95b59765a3f31ddf2cb3061edc6f0a379380",
+      "bytes": 440371,
+      "fetched_at": "2026-09-26T10:22:38+00:00"
+    },
+    {
+      "file": "pref-13.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031206.xlsx",
+      "sha256": "637d042e1ce1e81b9ceb8c1e90c416d2ef1f112d4da5e946179f1327732fed7c",
+      "bytes": 482395,
+      "fetched_at": "2026-09-26T10:22:39+00:00"
+    },
+    {
+      "file": "pref-14.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031207.xlsx",
+      "sha256": "37e5bd2d0a1c556b238c22cdd5750b957db233e2547c92e7d831323837a5adde",
+      "bytes": 288392,
+      "fetched_at": "2026-09-26T10:22:40+00:00"
+    },
+    {
+      "file": "pref-15.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031208.xlsx",
+      "sha256": "c5f3d2423bb1588548ab6d51b3dc67c8220f7e2e137fb7164b72ec95f6108949",
+      "bytes": 258913,
+      "fetched_at": "2026-09-26T10:22:41+00:00"
+    },
+    {
+      "file": "pref-16.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031209.xlsx",
+      "sha256": "2dedae5b95687e78923aa0f81fefb175e745c20e3ae6378c768c15a5b5adf93e",
+      "bytes": 143352,
+      "fetched_at": "2026-09-26T10:22:42+00:00"
+    },
+    {
+      "file": "pref-17.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031210.xlsx",
+      "sha256": "11bb321bd27783e034bf106c933683881034b87bb656c739a4147d846ffcf179",
+      "bytes": 178184,
+      "fetched_at": "2026-09-26T10:22:44+00:00"
+    },
+    {
+      "file": "pref-18.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031211.xlsx",
+      "sha256": "dcb94814071bff906babf635ef05ec9a5465c19462a15eaf922af0cc2bef07c1",
+      "bytes": 160600,
+      "fetched_at": "2026-09-26T10:22:45+00:00"
+    },
+    {
+      "file": "pref-19.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031212.xlsx",
+      "sha256": "f301d17c4b2c7c286acb92698c23b42e792348cf77ea85d5825de9846616b7b3",
+      "bytes": 238422,
+      "fetched_at": "2026-09-26T10:22:46+00:00"
+    },
+    {
+      "file": "pref-20.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031213.xlsx",
+      "sha256": "8b2437029284225d6ba8a32e548e222265ff381a76409a9a89aeb9aba8273667",
+      "bytes": 576340,
+      "fetched_at": "2026-09-26T10:22:47+00:00"
+    },
+    {
+      "file": "pref-21.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031214.xlsx",
+      "sha256": "029b16b206d90a18f2fb11e5511fb04f1437e2b5c39bb0e20ea66936a665db4e",
+      "bytes": 345321,
+      "fetched_at": "2026-09-26T10:22:48+00:00"
+    },
+    {
+      "file": "pref-22.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031215.xlsx",
+      "sha256": "10a692e511e3a2e94005817af88e6be76c705fe1b9231805c6256340ad96ce4a",
+      "bytes": 302942,
+      "fetched_at": "2026-09-26T10:22:49+00:00"
+    },
+    {
+      "file": "pref-23.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031216.xlsx",
+      "sha256": "891c2cf933436c98b86d60f8c08d9ad41dc260550b33888e738f6dc7b3da5e64",
+      "bytes": 439169,
+      "fetched_at": "2026-09-26T10:22:51+00:00"
+    },
+    {
+      "file": "pref-24.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031217.xlsx",
+      "sha256": "3bd35bf61e5ead4078aae500c1c40da1090b5475330e0c5f2d6b6c4c9eac02a6",
+      "bytes": 242164,
+      "fetched_at": "2026-09-26T10:22:52+00:00"
+    },
+    {
+      "file": "pref-25.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031218.xlsx",
+      "sha256": "e715c904dde666b211030c831e2d14567fdaaf6faf17efc0ca6bf52e735d5fb3",
+      "bytes": 182326,
+      "fetched_at": "2026-09-26T10:22:53+00:00"
+    },
+    {
+      "file": "pref-26.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031219.xlsx",
+      "sha256": "ee230848b2c3efe4dff6264588fceb1bf2d36a57118299fd40fe42109e1944e3",
+      "bytes": 225590,
+      "fetched_at": "2026-09-26T10:22:54+00:00"
+    },
+    {
+      "file": "pref-27.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031220.xlsx",
+      "sha256": "b1f3d4ea47066964152651a7b2b522608946cd3a844dbafc6e2f79500061baf2",
+      "bytes": 350323,
+      "fetched_at": "2026-09-26T10:22:55+00:00"
+    },
+    {
+      "file": "pref-28.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031221.xlsx",
+      "sha256": "032fa4cc1e7e80e80cbf6234454ef69a40770598c832e27d152d681069ca48c2",
+      "bytes": 334501,
+      "fetched_at": "2026-09-26T10:22:56+00:00"
+    },
+    {
+      "file": "pref-29.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031222.xlsx",
+      "sha256": "ff6671857ce982e092e01d39a7e079a442ee46c8694a244fb4dbc0339e3b3b5f",
+      "bytes": 314940,
+      "fetched_at": "2026-09-26T10:22:58+00:00"
+    },
+    {
+      "file": "pref-30.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031223.xlsx",
+      "sha256": "79270d233e65334ecf2b7925f352d7646f655faac3cd1c4f49b804bad42ff2c3",
+      "bytes": 241636,
+      "fetched_at": "2026-09-26T10:22:59+00:00"
+    },
+    {
+      "file": "pref-31.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031224.xlsx",
+      "sha256": "e6bb357a36ca1f602aab6b03151eed0bd4bb0111a597b071fb5f7ce1dd6a6501",
+      "bytes": 166516,
+      "fetched_at": "2026-09-26T10:23:00+00:00"
+    },
+    {
+      "file": "pref-32.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031225.xlsx",
+      "sha256": "0785663549140f3664bfec5bbb40134b4d54e047dd1183177b71d1e82edecb15",
+      "bytes": 180930,
+      "fetched_at": "2026-09-26T10:23:01+00:00"
+    },
+    {
+      "file": "pref-33.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031226.xlsx",
+      "sha256": "535d5f90917f9fda4a90470c95583a9a199fe530e5761809dc9016481ba1cca8",
+      "bytes": 227775,
+      "fetched_at": "2026-09-26T10:23:02+00:00"
+    },
+    {
+      "file": "pref-34.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031227.xlsx",
+      "sha256": "2f5b9fe7433f143f71dfdd55d24a737e6aba93a0c44528bd1bbf2138b59df853",
+      "bytes": 207128,
+      "fetched_at": "2026-09-26T10:23:03+00:00"
+    },
+    {
+      "file": "pref-35.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031228.xlsx",
+      "sha256": "dd2707305fe726f611d44dd0fc853c9ff37111e43ad3f2e3a60a6c2aa233ebbf",
+      "bytes": 183123,
+      "fetched_at": "2026-09-26T10:23:05+00:00"
+    },
+    {
+      "file": "pref-36.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031229.xlsx",
+      "sha256": "d5a4b09acbf15d979606bc81b599461e0156f2d043be1028f4d2fa20aa71c573",
+      "bytes": 213682,
+      "fetched_at": "2026-09-26T10:23:06+00:00"
+    },
+    {
+      "file": "pref-37.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031230.xlsx",
+      "sha256": "d834f57254f823eb5927967cadf288fc7542c82e4fe32b92defb3a2ff532b4ed",
+      "bytes": 164747,
+      "fetched_at": "2026-09-26T10:23:07+00:00"
+    },
+    {
+      "file": "pref-38.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031231.xlsx",
+      "sha256": "6353a6078b44b561c2f0580e579da46f9493244d34178070643d39a0423996ab",
+      "bytes": 190588,
+      "fetched_at": "2026-09-26T10:23:08+00:00"
+    },
+    {
+      "file": "pref-39.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031232.xlsx",
+      "sha256": "edc7b98c42b0e9a0b81040aa73aebded2a73ec3c242aabee081627779955ae9d",
+      "bytes": 283769,
+      "fetched_at": "2026-09-26T10:23:09+00:00"
+    },
+    {
+      "file": "pref-40.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031233.xlsx",
+      "sha256": "e2e8753ce29afef2fae89a6aed036d0d4705f301ed3b15f24e518a949c1443b4",
+      "bytes": 456235,
+      "fetched_at": "2026-09-26T10:23:10+00:00"
+    },
+    {
+      "file": "pref-41.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031234.xlsx",
+      "sha256": "002c192911bf68c1f6f1343437c2883b2f07154e1729873ae2ca668978d7148a",
+      "bytes": 188198,
+      "fetched_at": "2026-09-26T10:23:11+00:00"
+    },
+    {
+      "file": "pref-42.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031235.xlsx",
+      "sha256": "733e8696c30f029be29f3ff677de824f5a6c778435c7554632f8f30cf139fea3",
+      "bytes": 198253,
+      "fetched_at": "2026-09-26T10:23:13+00:00"
+    },
+    {
+      "file": "pref-43.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031236.xlsx",
+      "sha256": "8f4925c8857028950e4edf919986bf5259f021c10f264e0b5bdb08a6f66f2d18",
+      "bytes": 362278,
+      "fetched_at": "2026-09-26T10:23:14+00:00"
+    },
+    {
+      "file": "pref-44.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031237.xlsx",
+      "sha256": "4cad1423bf75f8918ee35eb9bb784bc9b145bb3d87210d4d976633a89730a9ca",
+      "bytes": 173615,
+      "fetched_at": "2026-09-26T10:23:15+00:00"
+    },
+    {
+      "file": "pref-45.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031238.xlsx",
+      "sha256": "e4e59a27b46f8a28f6feab59cbd1c3f7a7ed1c2f507513ad8a1e682685284b36",
+      "bytes": 232546,
+      "fetched_at": "2026-09-26T10:23:16+00:00"
+    },
+    {
+      "file": "pref-46.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031239.xlsx",
+      "sha256": "e96d488f1f3dd1fb83b470ecd3f39f4aee915cdc50a53c0eb8591b3e0b002a10",
+      "bytes": 352841,
+      "fetched_at": "2026-09-26T10:23:17+00:00"
+    },
+    {
+      "file": "pref-47.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001031240.xlsx",
+      "sha256": "2105a46cfc812366086e2d46aa8704c3573d4f85a29048f719ae76dfa37d460b",
+      "bytes": 334709,
+      "fetched_at": "2026-09-26T10:23:18+00:00"
+    },
+    {
+      "file": "indicators_prefectures.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001033343.xlsx",
+      "sha256": "c35a9fcea8f235e546ac37b11379522a4157ceed79f41a8131feb13ae151dc2c",
+      "bytes": 38970,
+      "fetched_at": "2026-09-26T10:23:20+00:00"
+    },
+    {
+      "file": "indicators_municipalities.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/001033346.xlsx",
+      "sha256": "4d2c18f9c7fbc5a26a9dd4633604bf2cb65aa5a8dd34e4060c299d1a94a1ae11",
+      "bytes": 715814,
+      "fetched_at": "2026-09-26T10:23:21+00:00"
+    }
+  ]
+}

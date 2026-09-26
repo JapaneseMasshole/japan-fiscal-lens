@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-26T09:52:53+00:00",
+  "generated_at": "2026-09-26T10:23:49+00:00",
   "datasets": [
     {
       "id": "national-balance-sheet",
       "title_ja": "国の貸借対照表（一般会計・特別会計 合算）",
       "title_en": "National government balance sheet (general + special accounts)",
       "years": [
-        2018,
+        2019,
         2023
       ],
       "source_id": "mof-fs"
@@ -16,7 +16,7 @@
       "title_ja": "国の区分別収支（一般会計・特別会計 合算）",
       "title_en": "National government cash flow by category (general + special accounts)",
       "years": [
-        2018,
+        2019,
         2023
       ],
       "source_id": "mof-fs"
@@ -26,7 +26,7 @@
       "title_ja": "国の業務費用と財源（一般会計・特別会計 合算）",
       "title_en": "National government operating cost and funding (general + special accounts)",
       "years": [
-        2018,
+        2019,
         2023
       ],
       "source_id": "mof-fs"

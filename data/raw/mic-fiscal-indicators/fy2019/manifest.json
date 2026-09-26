@@ -1,0 +1,41 @@
+{
+  "source_id": "mic-fiscal-indicators",
+  "listing_page": "https://www.soumu.go.jp/iken/zaisei/R01_chiho.html",
+  "files": [
+    {
+      "file": "prefectures.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/000722367.xlsx",
+      "sha256": "62fa1eaaba6606b0c95e461db317c086dfacea343482e78e2d8e78f94f6eb4c2",
+      "bytes": 15735,
+      "fetched_at": "2026-09-26T10:21:47+00:00"
+    },
+    {
+      "file": "municipalities.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/000722368.xlsx",
+      "sha256": "e6e2a1a5ffda44f3bba147db3b44f327f1fb950f09df19bfcc541fc5b8978956",
+      "bytes": 127165,
+      "fetched_at": "2026-09-26T10:21:48+00:00"
+    },
+    {
+      "file": "municipal_averages_by_prefecture.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/000722369.xlsx",
+      "sha256": "c7f64bc3fb45d3adb2ae2582873cdd4d587dc38bcde0e119727b7e0633fbc373",
+      "bytes": 67585,
+      "fetched_at": "2026-09-26T10:21:49+00:00"
+    },
+    {
+      "file": "designated_cities.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/000722370.xlsx",
+      "sha256": "87db37dbd7b90b64af808af33f84c7d627cb2799f4cc0f8e59b76c71f3c15218",
+      "bytes": 65046,
+      "fetched_at": "2026-09-26T10:21:50+00:00"
+    },
+    {
+      "file": "prefectural_capitals.xlsx",
+      "source_url": "https://www.soumu.go.jp/main_content/000722371.xlsx",
+      "sha256": "9b1b30544361ed263861ed539e39e61a7d1ebb5e83c09c8fb0f3778b31987f56",
+      "bytes": 68384,
+      "fetched_at": "2026-09-26T10:21:52+00:00"
+    }
+  ]
+}

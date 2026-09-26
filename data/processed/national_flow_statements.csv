@@ -1,128 +1,64 @@
 statement,fiscal_year,column,source_file_year,source_folder,order,heading,item_ja,item_en,level,value_oku_yen
-cash_flow,2018,previous,2019,fy2021,1,１財源,租税等収入,Tax and similar receipts,3,642241.24
-cash_flow,2018,previous,2019,fy2021,2,１財源,その他の収入,Other receipts,3,655775.37
-cash_flow,2018,previous,2019,fy2021,3,１財源,前年度剰余金受入,Surplus carried from previous year,3,139797.63
-cash_flow,2018,previous,2019,fy2021,4,１財源,資金からの受入（予算上措置されたもの）,Transfers from funds (budgeted),3,145601.84
-cash_flow,2018,previous,2019,fy2021,5,１財源,財源合計,Total funding,2,1583416.1
-cash_flow,2018,previous,2019,fy2021,6,業務支出（施設整備支出を除く）,人件費,Personnel,4,-52845.03
-cash_flow,2018,previous,2019,fy2021,7,業務支出（施設整備支出を除く）,恩給給付費,Old-age pensions for former public servants (恩給),4,-2288.54
-cash_flow,2018,previous,2019,fy2021,8,業務支出（施設整備支出を除く）,基礎年金給付費,Basic pension benefits,4,-229047.2
-cash_flow,2018,previous,2019,fy2021,9,業務支出（施設整備支出を除く）,国民年金給付費,National pension benefits,4,-4769.86
-cash_flow,2018,previous,2019,fy2021,10,業務支出（施設整備支出を除く）,厚生年金給付費,Employees' pension benefits,4,-236830.72
-cash_flow,2018,previous,2019,fy2021,11,業務支出（施設整備支出を除く）,国家公務員共済組合連合会等交付金,Public-servant mutual aid grants,4,-46962.81
-cash_flow,2018,previous,2019,fy2021,12,業務支出（施設整備支出を除く）,保険料等交付金,Health insurance grants,4,-99969.38
-cash_flow,2018,previous,2019,fy2021,13,業務支出（施設整備支出を除く）,失業等給付費,Unemployment benefits,4,-15726.52
-cash_flow,2018,previous,2019,fy2021,14,業務支出（施設整備支出を除く）,その他の社会保障費,Other social security,4,-10933.8
-cash_flow,2018,previous,2019,fy2021,15,業務支出（施設整備支出を除く）,（再）保険費等,(Re)insurance claims,4,-536.48
-cash_flow,2018,previous,2019,fy2021,16,業務支出（施設整備支出を除く）,公共用施設整備費等,Public facility maintenance,4,-658.67
-cash_flow,2018,previous,2019,fy2021,17,業務支出（施設整備支出を除く）,補助金等,Subsidies,4,-311882.43
-cash_flow,2018,previous,2019,fy2021,18,業務支出（施設整備支出を除く）,委託費等,Outsourcing,4,-23591.88
-cash_flow,2018,previous,2019,fy2021,19,業務支出（施設整備支出を除く）,地方交付税交付金等,Transfers to local governments (地方交付税),4,-193534.97
-cash_flow,2018,previous,2019,fy2021,20,業務支出（施設整備支出を除く）,運営費交付金,Grants to independent agencies,4,-29569.06
-cash_flow,2018,previous,2019,fy2021,21,業務支出（施設整備支出を除く）,貸付けによる支出,Lending,4,-1154.96
-cash_flow,2018,previous,2019,fy2021,22,業務支出（施設整備支出を除く）,出資による支出,Capital investment,4,-4955.59
-cash_flow,2018,previous,2019,fy2021,23,業務支出（施設整備支出を除く）,庁費等の支出,Office expenses,4,-40130.1
-cash_flow,2018,previous,2019,fy2021,24,業務支出（施設整備支出を除く）,その他の支出,Other payments,4,-10169.92
-cash_flow,2018,previous,2019,fy2021,25,業務支出（施設整備支出を除く）,資金への繰入（予算上措置されたもの）,Transfers to funds (budgeted),4,-106299.99
-cash_flow,2018,previous,2019,fy2021,26,業務支出（施設整備支出を除く）,業務支出（施設整備支出を除く）合計,Operating payments excl. facilities,3,-1421858.0
-cash_flow,2018,previous,2019,fy2021,27,施設整備支出,公共用財産用地に係る支出,Public-use land,4,-1922.84
-cash_flow,2018,previous,2019,fy2021,28,施設整備支出,公共用財産施設に係る支出,Public-use facilities,4,-27699.71
-cash_flow,2018,previous,2019,fy2021,29,施設整備支出,その他の施設整備支出,Other facility payments,4,-16729.28
-cash_flow,2018,previous,2019,fy2021,30,施設整備支出,施設整備支出合計,Total facility payments,3,-46351.84
-cash_flow,2018,previous,2019,fy2021,31,施設整備支出,業務支出合計,Total operating payments,2,-1468209.85
-cash_flow,2018,previous,2019,fy2021,32,施設整備支出,業務収支,Operating cash flow,1,115206.25
-cash_flow,2018,previous,2019,fy2021,33,財務収支,公債の発行による収入,Bond issuance,2,1483107.47
-cash_flow,2018,previous,2019,fy2021,34,財務収支,公債の償還による支出,Bond redemption,2,-1312153.5
-cash_flow,2018,previous,2019,fy2021,35,財務収支,政府短期証券の発行による収入,Financing bill issuance,2,12757.0
-cash_flow,2018,previous,2019,fy2021,36,財務収支,政府短期証券の償還による支出,Financing bill redemption,2,-12857.0
-cash_flow,2018,previous,2019,fy2021,37,財務収支,借入による収入,Borrowing,2,310299.86
-cash_flow,2018,previous,2019,fy2021,38,財務収支,借入金の返済による支出,Loan repayment,2,-305527.49
-cash_flow,2018,previous,2019,fy2021,39,財務収支,リース・ＰＦＩ債務の返済による支出,Lease/PFI repayments,2,-490.59
-cash_flow,2018,previous,2019,fy2021,40,財務収支,預託金利息,Interest on FILP deposits,2,-558.01
-cash_flow,2018,previous,2019,fy2021,41,財務収支,利息の支払額（預託金利息を除く）,Interest paid,2,-86949.32
-cash_flow,2018,previous,2019,fy2021,42,財務収支,公債事務取扱に係る支出,Bond administration,2,-300.55
-cash_flow,2018,previous,2019,fy2021,43,財務収支,その他収入,Other receipts,2,0.0
-cash_flow,2018,previous,2019,fy2021,44,財務収支,資金からの受入,Transfers from funds,2,99856.26
-cash_flow,2018,previous,2019,fy2021,45,財務収支,資金への繰入,Transfers to funds,2,-112751.78
-cash_flow,2018,previous,2019,fy2021,46,財務収支,財務収支,Financing cash flow,1,74432.31
-cash_flow,2018,previous,2019,fy2021,47,財務収支,本年度収支,Net cash flow for the year,1,189638.57
-cash_flow,2018,previous,2019,fy2021,48,財務収支,資金からの受入（決算処理によるもの）,Transfers from funds (settlement),2,446.43
-cash_flow,2018,previous,2019,fy2021,49,財務収支,資金への繰入（決算処理によるもの）,Transfers to funds (settlement),2,-33060.94
-cash_flow,2018,previous,2019,fy2021,50,財務収支,国立研究開発法人森林総合研究所に承継する額,Transferred to Forest Research institute,2,0.0
-cash_flow,2018,previous,2019,fy2021,51,財務収支,旧臨時軍事費特別会計に係る控除額,Deduction for former wartime special account,2,0.0
-cash_flow,2018,previous,2019,fy2021,52,財務収支,「高度専門医療に関する研究等を行う独立行政法人に関する法律」第2条各号に規定する独立行政法人に承継する支出,Transferred to national advanced-medicine research agencies,2,0.0
-cash_flow,2018,previous,2019,fy2021,53,財務収支,収支に関する換算差額,Translation difference,2,0.0
-cash_flow,2018,previous,2019,fy2021,54,財務収支,翌年度歳入繰入,Carried to next year's revenue,1,157024.05
-cash_flow,2018,previous,2019,fy2021,55,財務収支,特別会計に関する法律第47条第1項の規定による借換国債収入額,Advance refunding bond receipts (Special Accounts Act art. 47),2,524631.26
-cash_flow,2018,previous,2019,fy2021,56,財務収支,翌年度歳入繰入の預託金への運用,Carry-over placed in FILP deposits,2,-8831.02
-cash_flow,2018,previous,2019,fy2021,57,財務収支,翌年度歳入繰入の預託金以外への運用,Carry-over placed elsewhere,2,-1894.62
-cash_flow,2018,previous,2019,fy2021,58,財務収支,収支に関する換算差額 (2),Translation difference,2,-2491.37
-cash_flow,2018,previous,2019,fy2021,59,財務収支,資金本年度末残高,Fund balances at year end,2,239265.78
-cash_flow,2018,previous,2019,fy2021,60,財務収支,その他歳計外現金･預金本年度末残高,Other off-budget cash at year end,2,11574.51
-cash_flow,2018,previous,2019,fy2021,61,財務収支,国庫余裕金の繰替使用,Temporary use of treasury surplus,2,-406000.0
-cash_flow,2018,previous,2019,fy2021,62,財務収支,本年度末現金･預金残高,Cash and deposits at year end,1,513278.6
-cash_flow,2019,current,2019,fy2021,1,１財源,租税等収入,Tax and similar receipts,3,621751.34
-cash_flow,2019,current,2019,fy2021,2,１財源,その他の収入,Other receipts,3,676312.73
-cash_flow,2019,current,2019,fy2021,3,１財源,前年度剰余金受入,Surplus carried from previous year,3,157024.05
-cash_flow,2019,current,2019,fy2021,4,１財源,資金からの受入（予算上措置されたもの）,Transfers from funds (budgeted),3,153957.56
-cash_flow,2019,current,2019,fy2021,5,１財源,財源合計,Total funding,2,1609045.71
-cash_flow,2019,current,2019,fy2021,6,業務支出（施設整備支出を除く）,人件費,Personnel,4,-53072.98
-cash_flow,2019,current,2019,fy2021,7,業務支出（施設整備支出を除く）,恩給給付費,Old-age pensions for former public servants (恩給),4,-1910.06
-cash_flow,2019,current,2019,fy2021,8,業務支出（施設整備支出を除く）,基礎年金給付費,Basic pension benefits,4,-233352.32
-cash_flow,2019,current,2019,fy2021,9,業務支出（施設整備支出を除く）,国民年金給付費,National pension benefits,4,-4082.15
-cash_flow,2019,current,2019,fy2021,10,業務支出（施設整備支出を除く）,厚生年金給付費,Employees' pension benefits,4,-235716.64
-cash_flow,2019,current,2019,fy2021,11,業務支出（施設整備支出を除く）,国家公務員共済組合連合会等交付金,Public-servant mutual aid grants,4,-46008.38
-cash_flow,2019,current,2019,fy2021,12,業務支出（施設整備支出を除く）,保険料等交付金,Health insurance grants,4,-105236.91
-cash_flow,2019,current,2019,fy2021,13,業務支出（施設整備支出を除く）,失業等給付費,Unemployment benefits,4,-16626.09
-cash_flow,2019,current,2019,fy2021,14,業務支出（施設整備支出を除く）,その他の社会保障費,Other social security,4,-10792.4
-cash_flow,2019,current,2019,fy2021,15,業務支出（施設整備支出を除く）,（再）保険費等,(Re)insurance claims,4,-312.72
-cash_flow,2019,current,2019,fy2021,16,業務支出（施設整備支出を除く）,公共用施設整備費等,Public facility maintenance,4,-1086.56
-cash_flow,2019,current,2019,fy2021,17,業務支出（施設整備支出を除く）,補助金等,Subsidies,4,-328765.79
-cash_flow,2019,current,2019,fy2021,18,業務支出（施設整備支出を除く）,委託費等,Outsourcing,4,-24427.82
-cash_flow,2019,current,2019,fy2021,19,業務支出（施設整備支出を除く）,地方交付税交付金等,Transfers to local governments (地方交付税),4,-198213.58
-cash_flow,2019,current,2019,fy2021,20,業務支出（施設整備支出を除く）,運営費交付金,Grants to independent agencies,4,-33611.95
-cash_flow,2019,current,2019,fy2021,21,業務支出（施設整備支出を除く）,貸付けによる支出,Lending,4,-1226.64
-cash_flow,2019,current,2019,fy2021,22,業務支出（施設整備支出を除く）,出資による支出,Capital investment,4,-6947.44
-cash_flow,2019,current,2019,fy2021,23,業務支出（施設整備支出を除く）,庁費等の支出,Office expenses,4,-44098.92
-cash_flow,2019,current,2019,fy2021,24,業務支出（施設整備支出を除く）,その他の支出,Other payments,4,-12913.22
-cash_flow,2019,current,2019,fy2021,25,業務支出（施設整備支出を除く）,資金への繰入（予算上措置されたもの）,Transfers to funds (budgeted),4,-125499.99
-cash_flow,2019,current,2019,fy2021,26,業務支出（施設整備支出を除く）,業務支出（施設整備支出を除く）合計,Operating payments excl. facilities,3,-1483902.68
-cash_flow,2019,current,2019,fy2021,27,施設整備支出,公共用財産用地に係る支出,Public-use land,4,-1770.49
-cash_flow,2019,current,2019,fy2021,28,施設整備支出,公共用財産施設に係る支出,Public-use facilities,4,-28856.48
-cash_flow,2019,current,2019,fy2021,29,施設整備支出,その他の施設整備支出,Other facility payments,4,-17846.27
-cash_flow,2019,current,2019,fy2021,30,施設整備支出,施設整備支出合計,Total facility payments,3,-48473.25
-cash_flow,2019,current,2019,fy2021,31,施設整備支出,業務支出合計,Total operating payments,2,-1532375.94
-cash_flow,2019,current,2019,fy2021,32,施設整備支出,業務収支,Operating cash flow,1,76669.76
-cash_flow,2019,current,2019,fy2021,33,財務収支,公債の発行による収入,Bond issuance,2,1541801.11
-cash_flow,2019,current,2019,fy2021,34,財務収支,公債の償還による支出,Bond redemption,2,-1324068.24
-cash_flow,2019,current,2019,fy2021,35,財務収支,政府短期証券の発行による収入,Financing bill issuance,2,12717.0
-cash_flow,2019,current,2019,fy2021,36,財務収支,政府短期証券の償還による支出,Financing bill redemption,2,-12757.0
-cash_flow,2019,current,2019,fy2021,37,財務収支,借入による収入,Borrowing,2,314509.72
-cash_flow,2019,current,2019,fy2021,38,財務収支,借入金の返済による支出,Loan repayment,2,-310115.73
-cash_flow,2019,current,2019,fy2021,39,財務収支,リース・ＰＦＩ債務の返済による支出,Lease/PFI repayments,2,-581.56
-cash_flow,2019,current,2019,fy2021,40,財務収支,預託金利息,Interest on FILP deposits,2,-485.45
-cash_flow,2019,current,2019,fy2021,41,財務収支,利息の支払額（預託金利息を除く）,Interest paid,2,-84493.08
-cash_flow,2019,current,2019,fy2021,42,財務収支,公債事務取扱に係る支出,Bond administration,2,-325.88
-cash_flow,2019,current,2019,fy2021,43,財務収支,その他収入,Other receipts,2,0.0
-cash_flow,2019,current,2019,fy2021,44,財務収支,資金からの受入,Transfers from funds,2,95777.75
-cash_flow,2019,current,2019,fy2021,45,財務収支,資金への繰入,Transfers to funds,2,-106866.21
-cash_flow,2019,current,2019,fy2021,46,財務収支,財務収支,Financing cash flow,1,125112.39
-cash_flow,2019,current,2019,fy2021,47,財務収支,本年度収支,Net cash flow for the year,1,201782.16
-cash_flow,2019,current,2019,fy2021,48,財務収支,資金からの受入（決算処理によるもの）,Transfers from funds (settlement),2,430.82
-cash_flow,2019,current,2019,fy2021,49,財務収支,資金への繰入（決算処理によるもの）,Transfers to funds (settlement),2,-30221.23
-cash_flow,2019,current,2019,fy2021,50,財務収支,国立研究開発法人森林総合研究所に承継する額,Transferred to Forest Research institute,2,0.0
-cash_flow,2019,current,2019,fy2021,51,財務収支,旧臨時軍事費特別会計に係る控除額,Deduction for former wartime special account,2,0.0
-cash_flow,2019,current,2019,fy2021,52,財務収支,「高度専門医療に関する研究等を行う独立行政法人に関する法律」第2条各号に規定する独立行政法人に承継する支出,Transferred to national advanced-medicine research agencies,2,0.0
-cash_flow,2019,current,2019,fy2021,53,財務収支,収支に関する換算差額,Translation difference,2,0.0
-cash_flow,2019,current,2019,fy2021,54,財務収支,翌年度歳入繰入,Carried to next year's revenue,1,171991.74
-cash_flow,2019,current,2019,fy2021,55,財務収支,特別会計に関する法律第47条第1項の規定による借換国債収入額,Advance refunding bond receipts (Special Accounts Act art. 47),2,450827.16
-cash_flow,2019,current,2019,fy2021,56,財務収支,翌年度歳入繰入の預託金への運用,Carry-over placed in FILP deposits,2,-7459.04
-cash_flow,2019,current,2019,fy2021,57,財務収支,翌年度歳入繰入の預託金以外への運用,Carry-over placed elsewhere,2,-6284.71
-cash_flow,2019,current,2019,fy2021,58,財務収支,収支に関する換算差額 (2),Translation difference,2,-313.89
-cash_flow,2019,current,2019,fy2021,59,財務収支,資金本年度末残高,Fund balances at year end,2,235938.95
-cash_flow,2019,current,2019,fy2021,60,財務収支,その他歳計外現金･預金本年度末残高,Other off-budget cash at year end,2,12390.64
-cash_flow,2019,current,2019,fy2021,61,財務収支,国庫余裕金の繰替使用,Temporary use of treasury surplus,2,-396000.0
-cash_flow,2019,current,2019,fy2021,62,財務収支,本年度末現金･預金残高,Cash and deposits at year end,1,461090.86
+cash_flow,2019,previous,2020,fy2020,1,１財源,租税等収入,Tax and similar receipts,3,621751.34
+cash_flow,2019,previous,2020,fy2020,2,１財源,その他の収入,Other receipts,3,676312.73
+cash_flow,2019,previous,2020,fy2020,3,１財源,前年度剰余金受入,Surplus carried from previous year,3,157024.05
+cash_flow,2019,previous,2020,fy2020,4,１財源,資金からの受入（予算上措置されたもの）,Transfers from funds (budgeted),3,153957.56
+cash_flow,2019,previous,2020,fy2020,5,１財源,財源合計,Total funding,2,1609045.71
+cash_flow,2019,previous,2020,fy2020,6,業務支出（施設整備支出を除く）,人件費,Personnel,4,-53072.98
+cash_flow,2019,previous,2020,fy2020,7,業務支出（施設整備支出を除く）,恩給給付費,Old-age pensions for former public servants (恩給),4,-1910.06
+cash_flow,2019,previous,2020,fy2020,8,業務支出（施設整備支出を除く）,基礎年金給付費,Basic pension benefits,4,-233352.32
+cash_flow,2019,previous,2020,fy2020,9,業務支出（施設整備支出を除く）,国民年金給付費,National pension benefits,4,-4082.15
+cash_flow,2019,previous,2020,fy2020,10,業務支出（施設整備支出を除く）,厚生年金給付費,Employees' pension benefits,4,-235716.64
+cash_flow,2019,previous,2020,fy2020,11,業務支出（施設整備支出を除く）,国家公務員共済組合連合会等交付金,Public-servant mutual aid grants,4,-46008.38
+cash_flow,2019,previous,2020,fy2020,12,業務支出（施設整備支出を除く）,保険料等交付金,Health insurance grants,4,-105236.91
+cash_flow,2019,previous,2020,fy2020,13,業務支出（施設整備支出を除く）,失業等給付費,Unemployment benefits,4,-10916.75
+cash_flow,2019,previous,2020,fy2020,14,業務支出（施設整備支出を除く）,育児休業給付費,Childcare leave benefits,4,-5709.34
+cash_flow,2019,previous,2020,fy2020,15,業務支出（施設整備支出を除く）,雇用安定等給付費,Employment stabilisation benefits,4,-1836.8
+cash_flow,2019,previous,2020,fy2020,16,業務支出（施設整備支出を除く）,その他の社会保障費,Other social security,4,-11467.95
+cash_flow,2019,previous,2020,fy2020,17,業務支出（施設整備支出を除く）,（再）保険費等,(Re)insurance claims,4,-312.72
+cash_flow,2019,previous,2020,fy2020,18,業務支出（施設整備支出を除く）,公共用施設整備費等,Public facility maintenance,4,-1086.56
+cash_flow,2019,previous,2020,fy2020,19,業務支出（施設整備支出を除く）,持続化給付金等,Business continuity payments (COVID-19),4,0.0
+cash_flow,2019,previous,2020,fy2020,20,業務支出（施設整備支出を除く）,補助金等,Subsidies,4,-328765.79
+cash_flow,2019,previous,2020,fy2020,21,業務支出（施設整備支出を除く）,委託費等,Outsourcing,4,-24427.82
+cash_flow,2019,previous,2020,fy2020,22,業務支出（施設整備支出を除く）,地方交付税交付金等,Transfers to local governments (地方交付税),4,-198213.58
+cash_flow,2019,previous,2020,fy2020,23,業務支出（施設整備支出を除く）,運営費交付金,Grants to independent agencies,4,-33611.95
+cash_flow,2019,previous,2020,fy2020,24,業務支出（施設整備支出を除く）,貸付けによる支出,Lending,4,-1226.64
+cash_flow,2019,previous,2020,fy2020,25,業務支出（施設整備支出を除く）,出資による支出,Capital investment,4,-6947.44
+cash_flow,2019,previous,2020,fy2020,26,業務支出（施設整備支出を除く）,庁費等の支出,Office expenses,4,-44100.58
+cash_flow,2019,previous,2020,fy2020,27,業務支出（施設整備支出を除く）,その他の支出,Other payments,4,-10400.87
+cash_flow,2019,previous,2020,fy2020,28,業務支出（施設整備支出を除く）,資金への繰入（予算上措置されたもの）,Transfers to funds (budgeted),4,-125499.99
+cash_flow,2019,previous,2020,fy2020,29,業務支出（施設整備支出を除く）,業務支出（施設整備支出を除く）合計,Operating payments excl. facilities,3,-1483904.33
+cash_flow,2019,previous,2020,fy2020,30,施設整備支出,公共用財産用地に係る支出,Public-use land,4,-1770.49
+cash_flow,2019,previous,2020,fy2020,31,施設整備支出,公共用財産施設に係る支出,Public-use facilities,4,-28856.48
+cash_flow,2019,previous,2020,fy2020,32,施設整備支出,その他の施設整備支出,Other facility payments,4,-17846.27
+cash_flow,2019,previous,2020,fy2020,33,施設整備支出,施設整備支出合計,Total facility payments,3,-48473.25
+cash_flow,2019,previous,2020,fy2020,34,施設整備支出,業務支出合計,Total operating payments,2,-1532377.59
+cash_flow,2019,previous,2020,fy2020,35,施設整備支出,業務収支,Operating cash flow,1,76668.11
+cash_flow,2019,previous,2020,fy2020,36,財務収支,公債の発行による収入,Bond issuance,2,1541801.11
+cash_flow,2019,previous,2020,fy2020,37,財務収支,公債の償還による支出,Bond redemption,2,-1324068.24
+cash_flow,2019,previous,2020,fy2020,38,財務収支,政府短期証券の発行による収入,Financing bill issuance,2,12717.0
+cash_flow,2019,previous,2020,fy2020,39,財務収支,政府短期証券の償還による支出,Financing bill redemption,2,-12757.0
+cash_flow,2019,previous,2020,fy2020,40,財務収支,借入による収入,Borrowing,2,314509.72
+cash_flow,2019,previous,2020,fy2020,41,財務収支,借入金の返済による支出,Loan repayment,2,-310115.73
+cash_flow,2019,previous,2020,fy2020,42,財務収支,リース・ＰＦＩ債務の返済による支出,Lease/PFI repayments,2,-579.87
+cash_flow,2019,previous,2020,fy2020,43,財務収支,預託金利息,Interest on FILP deposits,2,-485.45
+cash_flow,2019,previous,2020,fy2020,44,財務収支,利息の支払額（預託金利息を除く）,Interest paid,2,-84493.12
+cash_flow,2019,previous,2020,fy2020,45,財務収支,公債事務取扱に係る支出,Bond administration,2,-325.88
+cash_flow,2019,previous,2020,fy2020,46,財務収支,資金からの受入,Transfers from funds,2,95777.75
+cash_flow,2019,previous,2020,fy2020,47,財務収支,資金への繰入,Transfers to funds,2,-106866.21
+cash_flow,2019,previous,2020,fy2020,48,財務収支,財務収支,Financing cash flow,1,125114.04
+cash_flow,2019,previous,2020,fy2020,49,財務収支,本年度収支,Net cash flow for the year,1,201782.16
+cash_flow,2019,previous,2020,fy2020,50,財務収支,資金からの受入（決算処理によるもの）,Transfers from funds (settlement),2,430.82
+cash_flow,2019,previous,2020,fy2020,51,財務収支,資金への繰入（決算処理によるもの）,Transfers to funds (settlement),2,-30221.23
+cash_flow,2019,previous,2020,fy2020,52,財務収支,翌年度歳入繰入,Carried to next year's revenue,1,171991.74
+cash_flow,2019,previous,2020,fy2020,53,財務収支,特別会計に関する法律第47条第1項の規定による借換国債収入額,Advance refunding bond receipts (Special Accounts Act art. 47),2,450827.16
+cash_flow,2019,previous,2020,fy2020,54,財務収支,翌年度歳入繰入の預託金への運用,Carry-over placed in FILP deposits,2,-7459.04
+cash_flow,2019,previous,2020,fy2020,55,財務収支,翌年度歳入繰入の預託金以外への運用,Carry-over placed elsewhere,2,-6284.71
+cash_flow,2019,previous,2020,fy2020,56,財務収支,収支に関する換算差額,Translation difference,2,-313.89
+cash_flow,2019,previous,2020,fy2020,57,財務収支,資金本年度末残高,Fund balances at year end,2,235938.95
+cash_flow,2019,previous,2020,fy2020,58,財務収支,その他歳計外現金･預金本年度末残高,Other off-budget cash at year end,2,12390.64
+cash_flow,2019,previous,2020,fy2020,59,財務収支,国庫余裕金の繰替使用,Temporary use of treasury surplus,2,-396000.0
+cash_flow,2019,previous,2020,fy2020,60,財務収支,本年度末現金･預金残高,Cash and deposits at year end,1,461090.86
 cash_flow,2020,current,2020,fy2020,1,１財源,租税等収入,Tax and similar receipts,3,649330.13
 cash_flow,2020,current,2020,fy2020,2,１財源,その他の収入,Other receipts,3,661345.16
 cash_flow,2020,current,2020,fy2020,3,１財源,前年度剰余金受入,Surplus carried from previous year,3,171991.74
@@ -183,71 +119,71 @@ cash_flow,2020,current,2020,fy2020,57,財務収支,資金本年度末残高,Fund
 cash_flow,2020,current,2020,fy2020,58,財務収支,その他歳計外現金･預金本年度末残高,Other off-budget cash at year end,2,13954.4
 cash_flow,2020,current,2020,fy2020,59,財務収支,国庫余裕金の繰替使用,Temporary use of treasury surplus,2,-246000.0
 cash_flow,2020,current,2020,fy2020,60,財務収支,本年度末現金･預金残高,Cash and deposits at year end,1,694636.85
-cash_flow,2021,previous,2022,fy2022,1,１財源,租税等収入,Tax and similar receipts,3,718811.11
-cash_flow,2021,previous,2022,fy2022,2,１財源,その他の収入,Other receipts,3,691649.55
-cash_flow,2021,previous,2022,fy2022,3,１財源,前年度剰余金受入,Surplus carried from previous year,3,467306.9
-cash_flow,2021,previous,2022,fy2022,4,１財源,資金からの受入（予算上措置されたもの）,Transfers from funds (budgeted),3,274696.56
-cash_flow,2021,previous,2022,fy2022,5,１財源,財源合計,Total funding,2,2152464.13
-cash_flow,2021,previous,2022,fy2022,6,業務支出（施設整備支出を除く）,人件費,Personnel,4,-53263.76
-cash_flow,2021,previous,2022,fy2022,7,業務支出（施設整備支出を除く）,恩給給付費,Old-age pensions for former public servants (恩給),4,-1303.51
-cash_flow,2021,previous,2022,fy2022,8,業務支出（施設整備支出を除く）,基礎年金給付費,Basic pension benefits,4,-240926.2
-cash_flow,2021,previous,2022,fy2022,9,業務支出（施設整備支出を除く）,国民年金給付費,National pension benefits,4,-2964.55
-cash_flow,2021,previous,2022,fy2022,10,業務支出（施設整備支出を除く）,厚生年金給付費,Employees' pension benefits,4,-234567.68
-cash_flow,2021,previous,2022,fy2022,11,業務支出（施設整備支出を除く）,国家公務員共済組合連合会等交付金,Public-servant mutual aid grants,4,-49014.41
-cash_flow,2021,previous,2022,fy2022,12,業務支出（施設整備支出を除く）,保険料等交付金,Health insurance grants,4,-108788.96
-cash_flow,2021,previous,2022,fy2022,13,業務支出（施設整備支出を除く）,失業等給付費,Unemployment benefits,4,-13093.11
-cash_flow,2021,previous,2022,fy2022,14,業務支出（施設整備支出を除く）,育児休業給付費,Childcare leave benefits,4,-6451.72
-cash_flow,2021,previous,2022,fy2022,15,業務支出（施設整備支出を除く）,雇用安定等給付費,Employment stabilisation benefits,4,-24179.31
-cash_flow,2021,previous,2022,fy2022,16,業務支出（施設整備支出を除く）,その他の社会保障費,Other social security,4,-17234.41
-cash_flow,2021,previous,2022,fy2022,17,業務支出（施設整備支出を除く）,（再）保険費等,(Re)insurance claims,4,-1448.36
-cash_flow,2021,previous,2022,fy2022,18,業務支出（施設整備支出を除く）,公共用施設整備費等,Public facility maintenance,4,-710.71
-cash_flow,2021,previous,2022,fy2022,19,業務支出（施設整備支出を除く）,持続化給付金等,Business continuity payments (COVID-19),4,-11164.37
-cash_flow,2021,previous,2022,fy2022,20,業務支出（施設整備支出を除く）,補助金等,Subsidies,4,-567724.11
-cash_flow,2021,previous,2022,fy2022,21,業務支出（施設整備支出を除く）,委託費等,Outsourcing,4,-27300.47
-cash_flow,2021,previous,2022,fy2022,22,業務支出（施設整備支出を除く）,地方交付税交付金等,Transfers to local governments (地方交付税),4,-224063.53
-cash_flow,2021,previous,2022,fy2022,23,業務支出（施設整備支出を除く）,運営費交付金,Grants to independent agencies,4,-31916.17
-cash_flow,2021,previous,2022,fy2022,24,業務支出（施設整備支出を除く）,貸付けによる支出,Lending,4,-1292.5
-cash_flow,2021,previous,2022,fy2022,25,業務支出（施設整備支出を除く）,出資による支出,Capital investment,4,-79826.1
-cash_flow,2021,previous,2022,fy2022,26,業務支出（施設整備支出を除く）,庁費等の支出,Office expenses,4,-51584.99
-cash_flow,2021,previous,2022,fy2022,27,業務支出（施設整備支出を除く）,その他の支出,Other payments,4,-10499.88
-cash_flow,2021,previous,2022,fy2022,28,業務支出（施設整備支出を除く）,資金への繰入（予算上措置されたもの）,Transfers to funds (budgeted),4,-102108.0
-cash_flow,2021,previous,2022,fy2022,29,業務支出（施設整備支出を除く）,業務支出（施設整備支出を除く）合計,Operating payments excl. facilities,3,-1861426.92
-cash_flow,2021,previous,2022,fy2022,30,施設整備支出,公共用財産用地に係る支出,Public-use land,4,-1897.82
-cash_flow,2021,previous,2022,fy2022,31,施設整備支出,公共用財産施設に係る支出,Public-use facilities,4,-32907.64
-cash_flow,2021,previous,2022,fy2022,32,施設整備支出,その他の施設整備支出,Other facility payments,4,-19397.38
-cash_flow,2021,previous,2022,fy2022,33,施設整備支出,施設整備支出合計,Total facility payments,3,-54202.84
-cash_flow,2021,previous,2022,fy2022,34,施設整備支出,業務支出合計,Total operating payments,2,-1915629.77
-cash_flow,2021,previous,2022,fy2022,35,施設整備支出,業務収支,Operating cash flow,1,236834.36
-cash_flow,2021,previous,2022,fy2022,36,財務収支,公債の発行による収入,Bond issuance,2,2106897.43
-cash_flow,2021,previous,2022,fy2022,37,財務収支,公債の償還による支出,Bond redemption,2,-1855614.72
-cash_flow,2021,previous,2022,fy2022,38,財務収支,政府短期証券の発行による収入,Financing bill issuance,2,13394.0
-cash_flow,2021,previous,2022,fy2022,39,財務収支,政府短期証券の償還による支出,Financing bill redemption,2,-12769.0
-cash_flow,2021,previous,2022,fy2022,40,財務収支,借入による収入,Borrowing,2,326140.56
-cash_flow,2021,previous,2022,fy2022,41,財務収支,借入金の返済による支出,Loan repayment,2,-319228.34
-cash_flow,2021,previous,2022,fy2022,42,財務収支,リース・ＰＦＩ債務の返済による支出,Lease/PFI repayments,2,-438.96
-cash_flow,2021,previous,2022,fy2022,43,財務収支,預託金利息,Interest on FILP deposits,2,-360.11
-cash_flow,2021,previous,2022,fy2022,44,財務収支,利息の支払額（預託金利息を除く）,Interest paid,2,-79688.94
-cash_flow,2021,previous,2022,fy2022,45,財務収支,公債事務取扱に係る支出,Bond administration,2,-225.21
-cash_flow,2021,previous,2022,fy2022,46,財務収支,その他収入,Other receipts,2,0.0
-cash_flow,2021,previous,2022,fy2022,47,財務収支,資金からの受入,Transfers from funds,2,75925.64
-cash_flow,2021,previous,2022,fy2022,48,財務収支,資金への繰入,Transfers to funds,2,-98600.42
-cash_flow,2021,previous,2022,fy2022,49,財務収支,財務収支,Financing cash flow,1,155431.91
-cash_flow,2021,previous,2022,fy2022,50,財務収支,本年度収支,Net cash flow for the year,1,392266.27
-cash_flow,2021,previous,2022,fy2022,51,財務収支,資金からの受入（決算処理によるもの）,Transfers from funds (settlement),2,8971.66
-cash_flow,2021,previous,2022,fy2022,52,財務収支,資金への繰入（決算処理によるもの）,Transfers to funds (settlement),2,-56389.13
-cash_flow,2021,previous,2022,fy2022,53,財務収支,国立研究開発法人森林総合研究所に承継する額,Transferred to Forest Research institute,2,0.0
-cash_flow,2021,previous,2022,fy2022,54,財務収支,旧臨時軍事費特別会計に係る控除額,Deduction for former wartime special account,2,0.0
-cash_flow,2021,previous,2022,fy2022,55,財務収支,「高度専門医療に関する研究等を行う独立行政法人に関する法律」第2条各号に規定する独立行政法人に承継する支出,Transferred to national advanced-medicine research agencies,2,0.0
-cash_flow,2021,previous,2022,fy2022,56,財務収支,収支に関する換算差額,Translation difference,2,0.0
-cash_flow,2021,previous,2022,fy2022,57,財務収支,翌年度歳入繰入,Carried to next year's revenue,1,344848.8
-cash_flow,2021,previous,2022,fy2022,58,財務収支,特別会計に関する法律第47条第1項の規定による借換国債収入額,Advance refunding bond receipts (Special Accounts Act art. 47),2,151357.93
-cash_flow,2021,previous,2022,fy2022,59,財務収支,翌年度歳入繰入の預託金への運用,Carry-over placed in FILP deposits,2,-6037.34
-cash_flow,2021,previous,2022,fy2022,60,財務収支,翌年度歳入繰入の預託金以外への運用,Carry-over placed elsewhere,2,-1398.9
-cash_flow,2021,previous,2022,fy2022,61,財務収支,収支に関する換算差額 (2),Translation difference,2,14656.93
-cash_flow,2021,previous,2022,fy2022,62,財務収支,資金本年度末残高,Fund balances at year end,2,263047.9
-cash_flow,2021,previous,2022,fy2022,63,財務収支,その他歳計外現金･預金本年度末残高,Other off-budget cash at year end,2,15124.95
-cash_flow,2021,previous,2022,fy2022,64,財務収支,国庫余裕金の繰替使用,Temporary use of treasury surplus,2,-299000.0
-cash_flow,2021,previous,2022,fy2022,65,財務収支,本年度末現金･預金残高,Cash and deposits at year end,1,482600.28
+cash_flow,2021,current,2021,fy2021,1,１財源,租税等収入,Tax and similar receipts,3,718811.11
+cash_flow,2021,current,2021,fy2021,2,１財源,その他の収入,Other receipts,3,691649.55
+cash_flow,2021,current,2021,fy2021,3,１財源,前年度剰余金受入,Surplus carried from previous year,3,467306.9
+cash_flow,2021,current,2021,fy2021,4,１財源,資金からの受入（予算上措置されたもの）,Transfers from funds (budgeted),3,274696.56
+cash_flow,2021,current,2021,fy2021,5,１財源,財源合計,Total funding,2,2152464.13
+cash_flow,2021,current,2021,fy2021,6,業務支出（施設整備支出を除く）,人件費,Personnel,4,-53263.76
+cash_flow,2021,current,2021,fy2021,7,業務支出（施設整備支出を除く）,恩給給付費,Old-age pensions for former public servants (恩給),4,-1303.51
+cash_flow,2021,current,2021,fy2021,8,業務支出（施設整備支出を除く）,基礎年金給付費,Basic pension benefits,4,-240926.2
+cash_flow,2021,current,2021,fy2021,9,業務支出（施設整備支出を除く）,国民年金給付費,National pension benefits,4,-2964.55
+cash_flow,2021,current,2021,fy2021,10,業務支出（施設整備支出を除く）,厚生年金給付費,Employees' pension benefits,4,-234567.68
+cash_flow,2021,current,2021,fy2021,11,業務支出（施設整備支出を除く）,国家公務員共済組合連合会等交付金,Public-servant mutual aid grants,4,-49014.41
+cash_flow,2021,current,2021,fy2021,12,業務支出（施設整備支出を除く）,保険料等交付金,Health insurance grants,4,-108788.96
+cash_flow,2021,current,2021,fy2021,13,業務支出（施設整備支出を除く）,失業等給付費,Unemployment benefits,4,-13093.11
+cash_flow,2021,current,2021,fy2021,14,業務支出（施設整備支出を除く）,育児休業給付費,Childcare leave benefits,4,-6451.72
+cash_flow,2021,current,2021,fy2021,15,業務支出（施設整備支出を除く）,雇用安定等給付費,Employment stabilisation benefits,4,-24179.31
+cash_flow,2021,current,2021,fy2021,16,業務支出（施設整備支出を除く）,その他の社会保障費,Other social security,4,-17234.41
+cash_flow,2021,current,2021,fy2021,17,業務支出（施設整備支出を除く）,（再）保険費等,(Re)insurance claims,4,-1448.36
+cash_flow,2021,current,2021,fy2021,18,業務支出（施設整備支出を除く）,公共用施設整備費等,Public facility maintenance,4,-710.71
+cash_flow,2021,current,2021,fy2021,19,業務支出（施設整備支出を除く）,持続化給付金等,Business continuity payments (COVID-19),4,-11164.37
+cash_flow,2021,current,2021,fy2021,20,業務支出（施設整備支出を除く）,補助金等,Subsidies,4,-567724.11
+cash_flow,2021,current,2021,fy2021,21,業務支出（施設整備支出を除く）,委託費等,Outsourcing,4,-27300.47
+cash_flow,2021,current,2021,fy2021,22,業務支出（施設整備支出を除く）,地方交付税交付金等,Transfers to local governments (地方交付税),4,-224063.53
+cash_flow,2021,current,2021,fy2021,23,業務支出（施設整備支出を除く）,運営費交付金,Grants to independent agencies,4,-31916.17
+cash_flow,2021,current,2021,fy2021,24,業務支出（施設整備支出を除く）,貸付けによる支出,Lending,4,-1292.5
+cash_flow,2021,current,2021,fy2021,25,業務支出（施設整備支出を除く）,出資による支出,Capital investment,4,-79826.1
+cash_flow,2021,current,2021,fy2021,26,業務支出（施設整備支出を除く）,庁費等の支出,Office expenses,4,-51584.99
+cash_flow,2021,current,2021,fy2021,27,業務支出（施設整備支出を除く）,その他の支出,Other payments,4,-10499.88
+cash_flow,2021,current,2021,fy2021,28,業務支出（施設整備支出を除く）,資金への繰入（予算上措置されたもの）,Transfers to funds (budgeted),4,-102108.0
+cash_flow,2021,current,2021,fy2021,29,業務支出（施設整備支出を除く）,業務支出（施設整備支出を除く）合計,Operating payments excl. facilities,3,-1861426.92
+cash_flow,2021,current,2021,fy2021,30,施設整備支出,公共用財産用地に係る支出,Public-use land,4,-1897.82
+cash_flow,2021,current,2021,fy2021,31,施設整備支出,公共用財産施設に係る支出,Public-use facilities,4,-32907.64
+cash_flow,2021,current,2021,fy2021,32,施設整備支出,その他の施設整備支出,Other facility payments,4,-19397.38
+cash_flow,2021,current,2021,fy2021,33,施設整備支出,施設整備支出合計,Total facility payments,3,-54202.84
+cash_flow,2021,current,2021,fy2021,34,施設整備支出,業務支出合計,Total operating payments,2,-1915629.77
+cash_flow,2021,current,2021,fy2021,35,施設整備支出,業務収支,Operating cash flow,1,236834.36
+cash_flow,2021,current,2021,fy2021,36,財務収支,公債の発行による収入,Bond issuance,2,2106897.43
+cash_flow,2021,current,2021,fy2021,37,財務収支,公債の償還による支出,Bond redemption,2,-1855614.72
+cash_flow,2021,current,2021,fy2021,38,財務収支,政府短期証券の発行による収入,Financing bill issuance,2,13394.0
+cash_flow,2021,current,2021,fy2021,39,財務収支,政府短期証券の償還による支出,Financing bill redemption,2,-12769.0
+cash_flow,2021,current,2021,fy2021,40,財務収支,借入による収入,Borrowing,2,326140.56
+cash_flow,2021,current,2021,fy2021,41,財務収支,借入金の返済による支出,Loan repayment,2,-319228.34
+cash_flow,2021,current,2021,fy2021,42,財務収支,リース・ＰＦＩ債務の返済による支出,Lease/PFI repayments,2,-438.96
+cash_flow,2021,current,2021,fy2021,43,財務収支,預託金利息,Interest on FILP deposits,2,-360.11
+cash_flow,2021,current,2021,fy2021,44,財務収支,利息の支払額（預託金利息を除く）,Interest paid,2,-79688.94
+cash_flow,2021,current,2021,fy2021,45,財務収支,公債事務取扱に係る支出,Bond administration,2,-225.21
+cash_flow,2021,current,2021,fy2021,46,財務収支,その他収入,Other receipts,2,0.0
+cash_flow,2021,current,2021,fy2021,47,財務収支,資金からの受入,Transfers from funds,2,75925.64
+cash_flow,2021,current,2021,fy2021,48,財務収支,資金への繰入,Transfers to funds,2,-98600.42
+cash_flow,2021,current,2021,fy2021,49,財務収支,財務収支,Financing cash flow,1,155431.91
+cash_flow,2021,current,2021,fy2021,50,財務収支,本年度収支,Net cash flow for the year,1,392266.27
+cash_flow,2021,current,2021,fy2021,51,財務収支,資金からの受入（決算処理によるもの）,Transfers from funds (settlement),2,8971.66
+cash_flow,2021,current,2021,fy2021,52,財務収支,資金への繰入（決算処理によるもの）,Transfers to funds (settlement),2,-56389.13
+cash_flow,2021,current,2021,fy2021,53,財務収支,国立研究開発法人森林総合研究所に承継する額,Transferred to Forest Research institute,2,0.0
+cash_flow,2021,current,2021,fy2021,54,財務収支,旧臨時軍事費特別会計に係る控除額,Deduction for former wartime special account,2,0.0
+cash_flow,2021,current,2021,fy2021,55,財務収支,「高度専門医療に関する研究等を行う独立行政法人に関する法律」第2条各号に規定する独立行政法人に承継する支出,Transferred to national advanced-medicine research agencies,2,0.0
+cash_flow,2021,current,2021,fy2021,56,財務収支,収支に関する換算差額,Translation difference,2,0.0
+cash_flow,2021,current,2021,fy2021,57,財務収支,翌年度歳入繰入,Carried to next year's revenue,1,344848.8
+cash_flow,2021,current,2021,fy2021,58,財務収支,特別会計に関する法律第47条第1項の規定による借換国債収入額,Advance refunding bond receipts (Special Accounts Act art. 47),2,151357.93
+cash_flow,2021,current,2021,fy2021,59,財務収支,翌年度歳入繰入の預託金への運用,Carry-over placed in FILP deposits,2,-6037.34
+cash_flow,2021,current,2021,fy2021,60,財務収支,翌年度歳入繰入の預託金以外への運用,Carry-over placed elsewhere,2,-1398.9
+cash_flow,2021,current,2021,fy2021,61,財務収支,収支に関する換算差額 (2),Translation difference,2,14656.93
+cash_flow,2021,current,2021,fy2021,62,財務収支,資金本年度末残高,Fund balances at year end,2,263047.9
+cash_flow,2021,current,2021,fy2021,63,財務収支,その他歳計外現金･預金本年度末残高,Other off-budget cash at year end,2,15124.95
+cash_flow,2021,current,2021,fy2021,64,財務収支,国庫余裕金の繰替使用,Temporary use of treasury surplus,2,-299000.0
+cash_flow,2021,current,2021,fy2021,65,財務収支,本年度末現金･預金残高,Cash and deposits at year end,1,482600.28
 cash_flow,2022,current,2022,fy2022,1,１財源,租税等収入,Tax and similar receipts,3,763376.99
 cash_flow,2022,current,2022,fy2022,2,１財源,その他の収入,Other receipts,3,698316.1
 cash_flow,2022,current,2022,fy2022,3,１財源,前年度剰余金受入,Surplus carried from previous year,3,344848.8
@@ -373,26 +309,16 @@ cash_flow,2023,current,2023,fy2023,57,財務収支,資金本年度末残高,Fund
 cash_flow,2023,current,2023,fy2023,58,財務収支,その他歳計外現金･預金本年度末残高,Other off-budget cash at year end,2,16588.02
 cash_flow,2023,current,2023,fy2023,59,財務収支,国庫余裕金の繰替使用,Temporary use of treasury surplus,2,-177000.0
 cash_flow,2023,current,2023,fy2023,60,財務収支,本年度末現金･預金残高,Cash and deposits at year end,1,653622.44
-net_assets_change,2018,previous,2019,fy2021,1,,前年度末資産・負債差額,Net assets at start of year,0,-5683617.88
-net_assets_change,2018,previous,2019,fy2021,2,,本年度業務費用合計(増減),Operating cost for the year,0,-1450624.89
-net_assets_change,2018,previous,2019,fy2021,3,,財源,Funding,0,1297765.6
-net_assets_change,2018,previous,2019,fy2021,4,,租税等財源,Taxes and similar,3,642241.24
-net_assets_change,2018,previous,2019,fy2021,5,,その他の財源,Other funding (incl. social insurance premiums),3,655524.36
-net_assets_change,2018,previous,2019,fy2021,6,,資産評価差額,Asset revaluation,0,30359.62
-net_assets_change,2018,previous,2019,fy2021,7,,為替換算差額,Foreign-exchange translation,0,-40612.29
-net_assets_change,2018,previous,2019,fy2021,8,,公的年金預り金の変動に伴う増減,Change in public pension reserves,0,-6483.94
-net_assets_change,2018,previous,2019,fy2021,9,,その他資産･負債差額の増減,Other changes,0,19646.6
-net_assets_change,2018,previous,2019,fy2021,10,,本年度末資産・負債差額,Net assets at end of year,0,-5833567.18
-net_assets_change,2019,current,2019,fy2021,1,,前年度末資産・負債差額,Net assets at start of year,0,-5833567.18
-net_assets_change,2019,current,2019,fy2021,2,,本年度業務費用合計(増減),Operating cost for the year,0,-1498398.71
-net_assets_change,2019,current,2019,fy2021,3,,財源,Funding,0,1295426.26
-net_assets_change,2019,current,2019,fy2021,4,,租税等財源,Taxes and similar,3,621751.34
-net_assets_change,2019,current,2019,fy2021,5,,その他の財源,Other funding (incl. social insurance premiums),3,673674.91
-net_assets_change,2019,current,2019,fy2021,6,,資産評価差額,Asset revaluation,0,84455.37
-net_assets_change,2019,current,2019,fy2021,7,,為替換算差額,Foreign-exchange translation,0,-5523.42
-net_assets_change,2019,current,2019,fy2021,8,,公的年金預り金の変動に伴う増減,Change in public pension reserves,0,-4270.25
-net_assets_change,2019,current,2019,fy2021,9,,その他資産･負債差額の増減,Other changes,0,43776.96
-net_assets_change,2019,current,2019,fy2021,10,,本年度末資産・負債差額,Net assets at end of year,0,-5918100.97
+net_assets_change,2019,previous,2020,fy2020,1,,前年度末資産・負債差額,Net assets at start of year,0,-5833567.18
+net_assets_change,2019,previous,2020,fy2020,2,,本年度業務費用合計(増減),Operating cost for the year,0,-1498398.71
+net_assets_change,2019,previous,2020,fy2020,3,,財源,Funding,0,1295426.26
+net_assets_change,2019,previous,2020,fy2020,4,,租税等財源,Taxes and similar,3,621751.34
+net_assets_change,2019,previous,2020,fy2020,5,,その他の財源,Other funding (incl. social insurance premiums),3,673674.91
+net_assets_change,2019,previous,2020,fy2020,6,,資産評価差額,Asset revaluation,0,84455.37
+net_assets_change,2019,previous,2020,fy2020,7,,為替換算差額,Foreign-exchange translation,0,-5523.42
+net_assets_change,2019,previous,2020,fy2020,8,,公的年金預り金の変動に伴う増減,Change in public pension reserves,0,-4270.25
+net_assets_change,2019,previous,2020,fy2020,9,,その他資産･負債差額の増減,Other changes,0,43776.96
+net_assets_change,2019,previous,2020,fy2020,10,,本年度末資産・負債差額,Net assets at end of year,0,-5918100.97
 net_assets_change,2020,current,2020,fy2020,1,,前年度末資産・負債差額,Net assets at start of year,0,-5918100.97
 net_assets_change,2020,current,2020,fy2020,2,,本年度業務費用合計(増減),Operating cost for the year,0,-1907323.84
 net_assets_change,2020,current,2020,fy2020,3,,財源,Funding,0,1316539.97
@@ -403,16 +329,16 @@ net_assets_change,2020,current,2020,fy2020,7,,為替換算差額,Foreign-exchang
 net_assets_change,2020,current,2020,fy2020,8,,公的年金預り金の変動に伴う増減,Change in public pension reserves,0,-6120.35
 net_assets_change,2020,current,2020,fy2020,9,,その他資産･負債差額の増減,Other changes,0,20115.64
 net_assets_change,2020,current,2020,fy2020,10,,本年度末資産・負債差額,Net assets at end of year,0,-6551634.14
-net_assets_change,2021,previous,2022,fy2022,1,,前年度末資産・負債差額,Net assets at start of year,0,-6551634.14
-net_assets_change,2021,previous,2022,fy2022,2,,本年度業務費用合計(増減),Operating cost for the year,0,-1801466.52
-net_assets_change,2021,previous,2022,fy2022,3,,財源,Funding,0,1393297.51
-net_assets_change,2021,previous,2022,fy2022,4,,租税等財源,Taxes and similar,3,718811.11
-net_assets_change,2021,previous,2022,fy2022,5,,その他の財源,Other funding (incl. social insurance premiums),3,674486.39
-net_assets_change,2021,previous,2022,fy2022,6,,資産評価差額,Asset revaluation,0,-42825.58
-net_assets_change,2021,previous,2022,fy2022,7,,為替換算差額,Foreign-exchange translation,0,124603.24
-net_assets_change,2021,previous,2022,fy2022,8,,公的年金預り金の変動に伴う増減,Change in public pension reserves,0,-4787.96
-net_assets_change,2021,previous,2022,fy2022,9,,その他資産･負債差額の増減,Other changes,0,12506.96
-net_assets_change,2021,previous,2022,fy2022,10,,本年度末資産・負債差額,Net assets at end of year,0,-6870306.5
+net_assets_change,2021,current,2021,fy2021,1,,前年度末資産・負債差額,Net assets at start of year,0,-6551634.14
+net_assets_change,2021,current,2021,fy2021,2,,本年度業務費用合計(増減),Operating cost for the year,0,-1801466.52
+net_assets_change,2021,current,2021,fy2021,3,,財源,Funding,0,1393297.51
+net_assets_change,2021,current,2021,fy2021,4,,租税等財源,Taxes and similar,3,718811.11
+net_assets_change,2021,current,2021,fy2021,5,,その他の財源,Other funding (incl. social insurance premiums),3,674486.39
+net_assets_change,2021,current,2021,fy2021,6,,資産評価差額,Asset revaluation,0,-42825.58
+net_assets_change,2021,current,2021,fy2021,7,,為替換算差額,Foreign-exchange translation,0,124603.24
+net_assets_change,2021,current,2021,fy2021,8,,公的年金預り金の変動に伴う増減,Change in public pension reserves,0,-4787.96
+net_assets_change,2021,current,2021,fy2021,9,,その他資産･負債差額の増減,Other changes,0,12506.96
+net_assets_change,2021,current,2021,fy2021,10,,本年度末資産・負債差額,Net assets at end of year,0,-6870306.5
 net_assets_change,2022,current,2022,fy2022,1,,前年度末資産・負債差額,Net assets at start of year,0,-6870306.5
 net_assets_change,2022,current,2022,fy2022,2,,本年度業務費用合計(増減),Operating cost for the year,0,-1775846.82
 net_assets_change,2022,current,2022,fy2022,3,,財源,Funding,0,1453782.07
@@ -433,64 +359,38 @@ net_assets_change,2023,current,2023,fy2023,7,,為替換算差額,Foreign-exchang
 net_assets_change,2023,current,2023,fy2023,8,,公的年金預り金の変動に伴う増減,Change in public pension reserves,0,-24754.99
 net_assets_change,2023,current,2023,fy2023,9,,その他資産･負債差額の増減,Other changes,0,19998.59
 net_assets_change,2023,current,2023,fy2023,10,,本年度末資産・負債差額,Net assets at end of year,0,-6957392.26
-operating_cost,2018,previous,2019,fy2021,1,,人件費,Personnel,1,44793.45
-operating_cost,2018,previous,2019,fy2021,2,,賞与引当金繰入額,Bonus reserve provision,1,3221.44
-operating_cost,2018,previous,2019,fy2021,3,,退職給付引当金繰入額,Retirement benefit provision,1,4231.92
-operating_cost,2018,previous,2019,fy2021,4,,基礎年金給付費,Basic pension benefits,1,229758.69
-operating_cost,2018,previous,2019,fy2021,5,,国民年金給付費,National pension benefits,1,4651.67
-operating_cost,2018,previous,2019,fy2021,6,,厚生年金給付費,Employees' pension benefits,1,236826.36
-operating_cost,2018,previous,2019,fy2021,7,,国家公務員共済組合連合会等交付金,Public-servant mutual aid grants,1,46962.81
-operating_cost,2018,previous,2019,fy2021,8,,保険料等交付金,Health insurance grants,1,100337.31
-operating_cost,2018,previous,2019,fy2021,9,,失業等給付費,Unemployment benefits,1,15750.14
-operating_cost,2018,previous,2019,fy2021,10,,その他の社会保障費,Other social security,1,10940.62
-operating_cost,2018,previous,2019,fy2021,11,,（再）保険費等,(Re)insurance claims,1,550.3
-operating_cost,2018,previous,2019,fy2021,12,,公共用施設整備費等,Public facility maintenance,1,522.44
-operating_cost,2018,previous,2019,fy2021,13,,補助金等,Subsidies,1,311996.53
-operating_cost,2018,previous,2019,fy2021,14,,委託費等,Outsourcing,1,24041.25
-operating_cost,2018,previous,2019,fy2021,15,,地方交付税交付金等,Transfers to local governments (地方交付税),1,193534.97
-operating_cost,2018,previous,2019,fy2021,16,,資金援助交付費,Deposit-insurance assistance,1,7702.0
-operating_cost,2018,previous,2019,fy2021,17,,運営費交付金,Grants to independent agencies,1,29569.06
-operating_cost,2018,previous,2019,fy2021,18,,庁費等,Office expenses,1,30849.53
-operating_cost,2018,previous,2019,fy2021,19,,公債事務取扱費,Bond administration,1,300.45
-operating_cost,2018,previous,2019,fy2021,20,,その他の経費,Other expenses,1,10313.36
-operating_cost,2018,previous,2019,fy2021,21,,減価償却費,Depreciation,1,54208.72
-operating_cost,2018,previous,2019,fy2021,22,,責任準備金繰入額,Policy reserve provision,1,2389.12
-operating_cost,2018,previous,2019,fy2021,23,,貸倒引当金繰入額,Bad-debt provision,1,6087.86
-operating_cost,2018,previous,2019,fy2021,24,,支払利息,Interest paid,1,73046.94
-operating_cost,2018,previous,2019,fy2021,25,,為替換算差損益,Foreign-exchange translation loss/gain,1,-1.04
-operating_cost,2018,previous,2019,fy2021,26,,公債償還損益,Bond redemption loss/gain,1,116.56
-operating_cost,2018,previous,2019,fy2021,27,,資産処分損益,Asset disposal loss/gain,1,4603.77
-operating_cost,2018,previous,2019,fy2021,28,,出資金等評価損,Write-down of capital investments,1,3318.54
-operating_cost,2018,previous,2019,fy2021,29,,本年度業務費用合計,Total operating cost,2,1450624.89
-operating_cost,2019,current,2019,fy2021,1,,人件費,Personnel,1,45004.47
-operating_cost,2019,current,2019,fy2021,2,,賞与引当金繰入額,Bonus reserve provision,1,3280.31
-operating_cost,2019,current,2019,fy2021,3,,退職給付引当金繰入額,Retirement benefit provision,1,3606.47
-operating_cost,2019,current,2019,fy2021,4,,基礎年金給付費,Basic pension benefits,1,234537.67
-operating_cost,2019,current,2019,fy2021,5,,国民年金給付費,National pension benefits,1,3980.7
-operating_cost,2019,current,2019,fy2021,6,,厚生年金給付費,Employees' pension benefits,1,235606.17
-operating_cost,2019,current,2019,fy2021,7,,国家公務員共済組合連合会等交付金,Public-servant mutual aid grants,1,46008.38
-operating_cost,2019,current,2019,fy2021,8,,保険料等交付金,Health insurance grants,1,105648.81
-operating_cost,2019,current,2019,fy2021,9,,失業等給付費,Unemployment benefits,1,16710.52
-operating_cost,2019,current,2019,fy2021,10,,その他の社会保障費,Other social security,1,10817.75
-operating_cost,2019,current,2019,fy2021,11,,（再）保険費等,(Re)insurance claims,1,310.08
-operating_cost,2019,current,2019,fy2021,12,,公共用施設整備費等,Public facility maintenance,1,956.91
-operating_cost,2019,current,2019,fy2021,13,,補助金等,Subsidies,1,328265.15
-operating_cost,2019,current,2019,fy2021,14,,委託費等,Outsourcing,1,24989.52
-operating_cost,2019,current,2019,fy2021,15,,地方交付税交付金等,Transfers to local governments (地方交付税),1,198213.58
-operating_cost,2019,current,2019,fy2021,16,,資金援助交付費,Deposit-insurance assistance,1,5260.0
-operating_cost,2019,current,2019,fy2021,17,,運営費交付金,Grants to independent agencies,1,33611.95
-operating_cost,2019,current,2019,fy2021,18,,庁費等,Office expenses,1,34210.29
-operating_cost,2019,current,2019,fy2021,19,,公債事務取扱費,Bond administration,1,325.46
-operating_cost,2019,current,2019,fy2021,20,,その他の経費,Other expenses,1,12874.3
-operating_cost,2019,current,2019,fy2021,21,,減価償却費,Depreciation,1,51325.49
-operating_cost,2019,current,2019,fy2021,22,,責任準備金繰入額,Policy reserve provision,1,1568.86
-operating_cost,2019,current,2019,fy2021,23,,貸倒引当金繰入額,Bad-debt provision,1,5669.13
-operating_cost,2019,current,2019,fy2021,24,,支払利息,Interest paid,1,68538.99
-operating_cost,2019,current,2019,fy2021,25,,為替換算差損益,Foreign-exchange translation loss/gain,1,24.16
-operating_cost,2019,current,2019,fy2021,26,,公債償還損益,Bond redemption loss/gain,1,7.05
-operating_cost,2019,current,2019,fy2021,27,,資産処分損益,Asset disposal loss/gain,1,2783.29
-operating_cost,2019,current,2019,fy2021,28,,出資金等評価損,Write-down of capital investments,1,24263.13
-operating_cost,2019,current,2019,fy2021,29,,本年度業務費用合計,Total operating cost,2,1498398.71
+operating_cost,2019,previous,2020,fy2020,1,,人件費,Personnel,1,45004.47
+operating_cost,2019,previous,2020,fy2020,2,,賞与引当金繰入額,Bonus reserve provision,1,3280.31
+operating_cost,2019,previous,2020,fy2020,3,,退職給付引当金繰入額,Retirement benefit provision,1,3606.47
+operating_cost,2019,previous,2020,fy2020,4,,基礎年金給付費,Basic pension benefits,1,234537.67
+operating_cost,2019,previous,2020,fy2020,5,,国民年金給付費,National pension benefits,1,3980.7
+operating_cost,2019,previous,2020,fy2020,6,,厚生年金給付費,Employees' pension benefits,1,235606.17
+operating_cost,2019,previous,2020,fy2020,7,,国家公務員共済組合連合会等交付金,Public-servant mutual aid grants,1,46008.38
+operating_cost,2019,previous,2020,fy2020,8,,保険料等交付金,Health insurance grants,1,105648.81
+operating_cost,2019,previous,2020,fy2020,9,,失業等給付費,Unemployment benefits,1,11001.17
+operating_cost,2019,previous,2020,fy2020,10,,育児休業給付費,Childcare leave benefits,1,5709.34
+operating_cost,2019,previous,2020,fy2020,11,,雇用安定等給付費,Employment stabilisation benefits,1,1836.8
+operating_cost,2019,previous,2020,fy2020,12,,その他の社会保障費,Other social security,1,11493.29
+operating_cost,2019,previous,2020,fy2020,13,,（再）保険費等,(Re)insurance claims,1,310.08
+operating_cost,2019,previous,2020,fy2020,14,,公共用施設整備費等,Public facility maintenance,1,956.91
+operating_cost,2019,previous,2020,fy2020,15,,持続化給付金等,Business continuity payments (COVID-19),1,0.0
+operating_cost,2019,previous,2020,fy2020,16,,補助金等,Subsidies,1,328265.15
+operating_cost,2019,previous,2020,fy2020,17,,委託費等,Outsourcing,1,24989.52
+operating_cost,2019,previous,2020,fy2020,18,,地方交付税交付金等,Transfers to local governments (地方交付税),1,198213.58
+operating_cost,2019,previous,2020,fy2020,19,,資金援助交付費,Deposit-insurance assistance,1,5260.0
+operating_cost,2019,previous,2020,fy2020,20,,運営費交付金,Grants to independent agencies,1,33611.95
+operating_cost,2019,previous,2020,fy2020,21,,庁費等,Office expenses,1,34210.25
+operating_cost,2019,previous,2020,fy2020,22,,公債事務取扱費,Bond administration,1,325.46
+operating_cost,2019,previous,2020,fy2020,23,,その他の経費,Other expenses,1,10361.95
+operating_cost,2019,previous,2020,fy2020,24,,減価償却費,Depreciation,1,51325.49
+operating_cost,2019,previous,2020,fy2020,25,,責任準備金繰入額,Policy reserve provision,1,1568.86
+operating_cost,2019,previous,2020,fy2020,26,,貸倒引当金繰入額,Bad-debt provision,1,5669.13
+operating_cost,2019,previous,2020,fy2020,27,,支払利息,Interest paid,1,68539.02
+operating_cost,2019,previous,2020,fy2020,28,,為替換算差損益,Foreign-exchange translation loss/gain,1,24.16
+operating_cost,2019,previous,2020,fy2020,29,,公債償還損益,Bond redemption loss/gain,1,7.05
+operating_cost,2019,previous,2020,fy2020,30,,資産処分損益,Asset disposal loss/gain,1,2783.29
+operating_cost,2019,previous,2020,fy2020,31,,出資金等評価損,Write-down of capital investments,1,24263.13
+operating_cost,2019,previous,2020,fy2020,32,,本年度業務費用合計,Total operating cost,2,1498398.71
 operating_cost,2020,current,2020,fy2020,1,,人件費,Personnel,1,44881.42
 operating_cost,2020,current,2020,fy2020,2,,賞与引当金繰入額,Bonus reserve provision,1,3247.89
 operating_cost,2020,current,2020,fy2020,3,,退職給付引当金繰入額,Retirement benefit provision,1,3355.96
@@ -523,38 +423,38 @@ operating_cost,2020,current,2020,fy2020,29,,公債償還損益,Bond redemption l
 operating_cost,2020,current,2020,fy2020,30,,資産処分損益,Asset disposal loss/gain,1,5085.33
 operating_cost,2020,current,2020,fy2020,31,,出資金等評価損,Write-down of capital investments,1,105.07
 operating_cost,2020,current,2020,fy2020,32,,本年度業務費用合計,Total operating cost,2,1907323.84
-operating_cost,2021,previous,2022,fy2022,1,,人件費,Personnel,1,45364.98
-operating_cost,2021,previous,2022,fy2022,2,,賞与引当金繰入額,Bonus reserve provision,1,3058.14
-operating_cost,2021,previous,2022,fy2022,3,,退職給付引当金繰入額,Retirement benefit provision,1,3603.58
-operating_cost,2021,previous,2022,fy2022,4,,基礎年金給付費,Basic pension benefits,1,241304.22
-operating_cost,2021,previous,2022,fy2022,5,,国民年金給付費,National pension benefits,1,2882.41
-operating_cost,2021,previous,2022,fy2022,6,,厚生年金給付費,Employees' pension benefits,1,234423.96
-operating_cost,2021,previous,2022,fy2022,7,,国家公務員共済組合連合会等交付金,Public-servant mutual aid grants,1,49014.41
-operating_cost,2021,previous,2022,fy2022,8,,保険料等交付金,Health insurance grants,1,108933.14
-operating_cost,2021,previous,2022,fy2022,9,,失業等給付費,Unemployment benefits,1,12949.96
-operating_cost,2021,previous,2022,fy2022,10,,育児休業給付費,Childcare leave benefits,1,6451.72
-operating_cost,2021,previous,2022,fy2022,11,,雇用安定等給付費,Employment stabilisation benefits,1,24179.31
-operating_cost,2021,previous,2022,fy2022,12,,その他の社会保障費,Other social security,1,17208.36
-operating_cost,2021,previous,2022,fy2022,13,,（再）保険費等,(Re)insurance claims,1,1538.06
-operating_cost,2021,previous,2022,fy2022,14,,公共用施設整備費等,Public facility maintenance,1,583.58
-operating_cost,2021,previous,2022,fy2022,15,,持続化給付金等,Business continuity payments (COVID-19),1,11164.37
-operating_cost,2021,previous,2022,fy2022,16,,補助金等,Subsidies,1,567402.7
-operating_cost,2021,previous,2022,fy2022,17,,委託費等,Outsourcing,1,28207.1
-operating_cost,2021,previous,2022,fy2022,18,,地方交付税交付金等,Transfers to local governments (地方交付税),1,224063.53
-operating_cost,2021,previous,2022,fy2022,19,,資金援助交付費,Deposit-insurance assistance,1,3960.0
-operating_cost,2021,previous,2022,fy2022,20,,運営費交付金,Grants to independent agencies,1,31916.17
-operating_cost,2021,previous,2022,fy2022,21,,庁費等,Office expenses,1,43329.18
-operating_cost,2021,previous,2022,fy2022,22,,公債事務取扱費,Bond administration,1,223.79
-operating_cost,2021,previous,2022,fy2022,23,,その他の経費,Other expenses,1,10429.53
-operating_cost,2021,previous,2022,fy2022,24,,減価償却費,Depreciation,1,54068.84
-operating_cost,2021,previous,2022,fy2022,25,,責任準備金繰入額,Policy reserve provision,1,-1773.47
-operating_cost,2021,previous,2022,fy2022,26,,貸倒引当金繰入額,Bad-debt provision,1,4573.1
-operating_cost,2021,previous,2022,fy2022,27,,支払利息,Interest paid,1,62639.02
-operating_cost,2021,previous,2022,fy2022,28,,為替換算差損益,Foreign-exchange translation loss/gain,1,-118.26
-operating_cost,2021,previous,2022,fy2022,29,,公債償還損益,Bond redemption loss/gain,1,116.61
-operating_cost,2021,previous,2022,fy2022,30,,資産処分損益,Asset disposal loss/gain,1,5300.31
-operating_cost,2021,previous,2022,fy2022,31,,出資金等評価損,Write-down of capital investments,1,4468.04
-operating_cost,2021,previous,2022,fy2022,32,,本年度業務費用合計,Total operating cost,2,1801466.52
+operating_cost,2021,current,2021,fy2021,1,,人件費,Personnel,1,45364.98
+operating_cost,2021,current,2021,fy2021,2,,賞与引当金繰入額,Bonus reserve provision,1,3058.14
+operating_cost,2021,current,2021,fy2021,3,,退職給付引当金繰入額,Retirement benefit provision,1,3603.58
+operating_cost,2021,current,2021,fy2021,4,,基礎年金給付費,Basic pension benefits,1,241304.22
+operating_cost,2021,current,2021,fy2021,5,,国民年金給付費,National pension benefits,1,2882.41
+operating_cost,2021,current,2021,fy2021,6,,厚生年金給付費,Employees' pension benefits,1,234423.96
+operating_cost,2021,current,2021,fy2021,7,,国家公務員共済組合連合会等交付金,Public-servant mutual aid grants,1,49014.41
+operating_cost,2021,current,2021,fy2021,8,,保険料等交付金,Health insurance grants,1,108933.14
+operating_cost,2021,current,2021,fy2021,9,,失業等給付費,Unemployment benefits,1,12949.96
+operating_cost,2021,current,2021,fy2021,10,,育児休業給付費,Childcare leave benefits,1,6451.72
+operating_cost,2021,current,2021,fy2021,11,,雇用安定等給付費,Employment stabilisation benefits,1,24179.31
+operating_cost,2021,current,2021,fy2021,12,,その他の社会保障費,Other social security,1,17208.36
+operating_cost,2021,current,2021,fy2021,13,,（再）保険費等,(Re)insurance claims,1,1538.06
+operating_cost,2021,current,2021,fy2021,14,,公共用施設整備費等,Public facility maintenance,1,583.58
+operating_cost,2021,current,2021,fy2021,15,,持続化給付金等,Business continuity payments (COVID-19),1,11164.37
+operating_cost,2021,current,2021,fy2021,16,,補助金等,Subsidies,1,567402.7
+operating_cost,2021,current,2021,fy2021,17,,委託費等,Outsourcing,1,28207.1
+operating_cost,2021,current,2021,fy2021,18,,地方交付税交付金等,Transfers to local governments (地方交付税),1,224063.53
+operating_cost,2021,current,2021,fy2021,19,,資金援助交付費,Deposit-insurance assistance,1,3960.0
+operating_cost,2021,current,2021,fy2021,20,,運営費交付金,Grants to independent agencies,1,31916.17
+operating_cost,2021,current,2021,fy2021,21,,庁費等,Office expenses,1,43329.18
+operating_cost,2021,current,2021,fy2021,22,,公債事務取扱費,Bond administration,1,223.79
+operating_cost,2021,current,2021,fy2021,23,,その他の経費,Other expenses,1,10429.53
+operating_cost,2021,current,2021,fy2021,24,,減価償却費,Depreciation,1,54068.84
+operating_cost,2021,current,2021,fy2021,25,,責任準備金繰入額,Policy reserve provision,1,-1773.47
+operating_cost,2021,current,2021,fy2021,26,,貸倒引当金繰入額,Bad-debt provision,1,4573.1
+operating_cost,2021,current,2021,fy2021,27,,支払利息,Interest paid,1,62639.02
+operating_cost,2021,current,2021,fy2021,28,,為替換算差損益,Foreign-exchange translation loss/gain,1,-118.26
+operating_cost,2021,current,2021,fy2021,29,,公債償還損益,Bond redemption loss/gain,1,116.61
+operating_cost,2021,current,2021,fy2021,30,,資産処分損益,Asset disposal loss/gain,1,5300.31
+operating_cost,2021,current,2021,fy2021,31,,出資金等評価損,Write-down of capital investments,1,4468.04
+operating_cost,2021,current,2021,fy2021,32,,本年度業務費用合計,Total operating cost,2,1801466.52
 operating_cost,2022,current,2022,fy2022,1,,人件費,Personnel,1,44852.96
 operating_cost,2022,current,2022,fy2022,2,,賞与引当金繰入額,Bonus reserve provision,1,3239.93
 operating_cost,2022,current,2022,fy2022,3,,退職給付引当金繰入額,Retirement benefit provision,1,3688.27
