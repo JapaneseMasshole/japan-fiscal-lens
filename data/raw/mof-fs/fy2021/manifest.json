@@ -1,0 +1,27 @@
+{
+  "source_id": "mof-fs",
+  "listing_page": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2021/kuninozaimugassan2021.html",
+  "files": [
+    {
+      "file": "gassan.xlsx",
+      "source_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2019/national/fy2019gassan.xlsx",
+      "sha256": "9bcff59f72af773c4766e321d55bac11a6bfb7affc0ef57712f6babf57bad53d",
+      "bytes": 100123,
+      "fetched_at": "2026-09-26T09:30:36+00:00"
+    },
+    {
+      "file": "ippan.xlsx",
+      "source_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2021/national/fy2021ippan.xlsx",
+      "sha256": "2260ce32c5011d549f325928b8d708d18f34b25315e12d454f733c7598c61d11",
+      "bytes": 73587,
+      "fetched_at": "2026-09-26T09:30:37+00:00"
+    },
+    {
+      "file": "renketsu.xlsx",
+      "source_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2021/national/fy2021renketsu.xlsx",
+      "sha256": "ce877f529671e11c6fe18eda1100a02b4cfb5815559c7b5a3acea1d04dd9d3c4",
+      "bytes": 111598,
+      "fetched_at": "2026-09-26T09:30:39+00:00"
+    }
+  ]
+}
