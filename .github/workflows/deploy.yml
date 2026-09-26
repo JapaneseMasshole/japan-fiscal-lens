@@ -1,6 +1,7 @@
 name: Deploy site
 
 # Requires: Settings → Pages → Build and deployment → Source: "GitHub Actions".
+# A run that happens before that setting is enabled fails; re-run it from the Actions tab.
 
 on:
   push:
