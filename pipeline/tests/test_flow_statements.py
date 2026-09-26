@@ -21,9 +21,8 @@ def test_era_year_ignores_month_and_day():
 
 @pytest.fixture(scope="module")
 def tables():
-    with pytest.warns(UserWarning):
-        flow = F.canonical(F.parse_all(RAW)[0])
-        bs = B.canonical(B.parse_all(RAW)[0])
+    flow = F.canonical(F.parse_all(RAW)[0])
+    bs = B.canonical(B.parse_all(RAW)[0])
     return flow, bs
 
 
@@ -32,7 +31,7 @@ def test_one_workbook_per_statement_year(tables):
     flow, _ = tables
     per = flow.groupby(["statement", "fiscal_year"])["source_file_year"].nunique()
     assert (per == 1).all()
-    assert sorted(flow["fiscal_year"].unique()) == [2018, 2019, 2020, 2021, 2022, 2023]
+    assert sorted(flow["fiscal_year"].unique()) == [2019, 2020, 2021, 2022, 2023]
 
 
 @needs_raw

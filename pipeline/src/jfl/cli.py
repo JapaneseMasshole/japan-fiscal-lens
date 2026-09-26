@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import argparse
 
-from jfl.export import national_balance_sheet, national_flows
+from jfl.export import local_indicators, national_balance_sheet, national_flows
 from jfl.fetch import mic, mof_financial_statements
 from jfl.sources import load_sources
 
@@ -41,6 +41,7 @@ def cmd_fetch(args: argparse.Namespace) -> None:
 BUILDERS = {
     "national-balance-sheet": national_balance_sheet.build,
     "national-flows": national_flows.build,
+    "local-indicators": local_indicators.build,
 }
 
 

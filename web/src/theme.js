@@ -17,6 +17,8 @@ export function tokens() {
     text: v('--text'),
     muted: v('--muted'),
     series: [v('--viz-series-1'), v('--viz-series-2'), v('--viz-series-3')],
+    context: v('--viz-context'),
+    reference: v('--viz-reference'),
     font: getComputedStyle(document.body).fontFamily,
   }
 }

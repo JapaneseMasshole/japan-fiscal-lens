@@ -40,8 +40,19 @@ def test_drm_file_is_reported_not_parsed(tmp_path: Path):
 
 @pytest.fixture(scope="module")
 def parsed():
-    with pytest.warns(UserWarning, match="sheet is dated FY2019"):
-        return parse_all(RAW)
+    return parse_all(RAW)
+
+
+@needs_raw
+def test_misfiled_workbook_is_detected_by_its_own_dates(tmp_path):
+    # Reproduce MOF's FY2021 link mistake: a FY2020 workbook stored under fy2021/.
+    import shutil
+
+    (tmp_path / "fy2021").mkdir()
+    shutil.copy(RAW / "fy2020" / "gassan.xlsx", tmp_path / "fy2021" / "gassan.xlsx")
+    with pytest.warns(UserWarning, match="sheet is dated FY2020"):
+        df, _ = parse_all(tmp_path)
+    assert set(df["fiscal_year"]) == {2019, 2020}
 
 
 @needs_raw
@@ -54,10 +65,12 @@ def test_fy2024_drm_file_is_skipped(parsed):
 def test_years_come_from_sheet_dates_not_folders(parsed):
     df, _ = parsed
     c = canonical(df)
-    assert sorted(c["fiscal_year"].unique()) == [2018, 2019, 2020, 2021, 2022, 2023]
-    # FY2021's own link was wrong, so FY2021 must come from the FY2022 workbook's previous column.
+    assert sorted(c["fiscal_year"].unique()) == [2019, 2020, 2021, 2022, 2023]
+    # Each year comes from its own workbook where one exists.
     fy21 = c[c["fiscal_year"] == 2021].iloc[0]
-    assert (fy21["column"], fy21["source_file_year"]) == ("previous", 2022)
+    assert (fy21["column"], fy21["source_file_year"]) == ("current", 2021)
+    fy19 = c[c["fiscal_year"] == 2019].iloc[0]
+    assert (fy19["column"], fy19["source_file_year"]) == ("previous", 2020)
 
 
 @needs_raw

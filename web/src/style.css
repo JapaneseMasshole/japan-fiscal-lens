@@ -13,6 +13,8 @@
   --viz-series-1: #2a78d6; /* assets */
   --viz-series-2: #eb6834; /* liabilities */
   --viz-series-3: #1baf7a; /* net assets (low contrast on light: always direct-labelled) */
+  --viz-context: #cfcec7;   /* de-emphasis gray: "the rest" behind a highlighted item */
+  --viz-reference: #898781; /* reference lines: averages, legal thresholds */
   font-family: 'Hiragino Sans', 'Noto Sans JP', 'Yu Gothic UI', system-ui, sans-serif;
   color: var(--text);
   background: var(--bg);
@@ -33,6 +35,8 @@
     --viz-series-1: #3987e5;
     --viz-series-2: #d95926;
     --viz-series-3: #199e70;
+    --viz-context: #45453f;
+    --viz-reference: #898781;
   }
 }
 
