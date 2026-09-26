@@ -42,15 +42,21 @@ sources:
   - id: mof-settlement
     level: national
     publisher: 財務省 (Ministry of Finance)
-    title_ja: 決算（一般会計歳入歳出決算）
-    title_en: General account settlement (cash basis, budget vs. actual)
+    title_ja: 財政統計（予算決算等データ）
+    title_en: Fiscal statistics — general account budget and settlement time series (cash basis)
     statements: [revenue, expenditure]
     frequency: annual
-    format: pdf, xlsx
-    listing_url: https://www.mof.go.jp/policy/budget/budger_workflow/account/fy2024/index.html
+    format: xlsx
+    listing_url: https://www.mof.go.jp/policy/budget/reference/statistics/data.htm
+    files:
+      # Fixed file names that are overwritten with each update.
+      table01: https://www.mof.go.jp/policy/budget/reference/statistics/01.xlsx  # 明治初年度以降 一般会計歳入歳出予算決算
+      table04: https://www.mof.go.jp/policy/budget/reference/statistics/04.xlsx  # 昭和57年度以降 歳入主要科目別決算
+      table06: https://www.mof.go.jp/policy/budget/reference/statistics/06.xlsx  # 明治初年度以降 歳出所管別決算
+      table20: https://www.mof.go.jp/policy/budget/reference/statistics/20.xlsx  # 昭和42年度以降 主要経費別 歳出決算
     notes: >
-      The MOF URL really does say "budger_workflow" (sic). Cash-basis figures,
-      the numbers most news coverage uses.
+      Cash-basis figures, the numbers most news coverage uses. Replaces the
+      per-year 決算 pages, which only offer PDF.
     verified: 2026-09-26
 
   - id: boj-flow-of-funds
@@ -73,8 +79,22 @@ sources:
     statements: [debt_holders]
     frequency: quarterly
     format: pdf
-    listing_url: https://www.mof.go.jp/jgbs/reference/appendix/breakdown.pdf
-    notes: Cross-check for boj-flow-of-funds.
+    listing_url: https://www.mof.go.jp/jgbs/reference/appendix/index.htm
+    notes: >
+      PDF only, and the file name changes between releases (breakdown.pdf was
+      replaced by holdings01.pdf), so always go through the listing page.
+      Cross-check only; boj-flow-of-funds is the machine-readable source.
+    verified: 2026-09-26
+
+  - id: mof-debt-outstanding
+    level: national
+    publisher: 財務省 (Ministry of Finance)
+    title_ja: 国債及び借入金並びに政府保証債務現在高
+    title_en: Outstanding government bonds, borrowings and guaranteed debt
+    statements: [debt]
+    frequency: quarterly
+    format: xlsx
+    listing_url: https://www.mof.go.jp/jgbs/reference/gbb/data.htm
     verified: 2026-09-26
 
   # ------------------------------------------------------------------- local
@@ -89,13 +109,18 @@ sources:
     listing_url: https://www.soumu.go.jp/iken/kokaikei/index.html
     year_pages:
       # Pattern: R{reiwa-year, 2 digits}_chihou_zaimusyorui.html
+      # Older years are linked from kakomo_chihou_zaimusyorui.html.
+      2023: https://www.soumu.go.jp/iken/kokaikei/R05_chihou_zaimusyorui.html
       2022: https://www.soumu.go.jp/iken/kokaikei/R04_chihou_zaimusyorui.html
       2019: https://www.soumu.go.jp/iken/kokaikei/R01_chihou_zaimusyorui.html
+    past_years_page: https://www.soumu.go.jp/iken/kokaikei/kakomo_chihou_zaimusyorui.html
     notes: >
       Covers every prefecture and municipality in a common format, so local
       governments can be compared like-for-like. Also includes indicator
-      lists (xlsx) for prefectures and municipalities. Add FY2020, FY2021 and
-      FY2023+ year pages after confirming they exist.
+      lists (xlsx) for prefectures and municipalities. Each year page has one
+      nationwide workbook plus one workbook per prefecture (incl. its
+      municipalities); the fetcher downloads all of them. Add FY2020 and
+      FY2021 pages from past_years_page.
     verified: 2026-09-26
 
   - id: mic-kessan-card-pref
@@ -107,6 +132,7 @@ sources:
     frequency: annual
     format: xlsx (FY2015+), pdf
     listing_url: https://www.soumu.go.jp/iken/zaisei/card.html
+    notes: Excel from FY2015 (平成27年度) onward; earlier years are PDF only.
     verified: 2026-09-26
 
   - id: mic-kessan-card-muni
@@ -123,13 +149,37 @@ sources:
       e.g. FY2024 (R6) -> card-25.html, FY2023 (R5) -> card-24.html.
     verified: 2026-09-26
 
+  - id: mic-fiscal-indicators
+    level: local
+    publisher: 総務省 (Ministry of Internal Affairs and Communications)
+    title_ja: 地方公共団体の主要財政指標一覧
+    title_en: Key fiscal indicators for every local government
+    statements: [fiscal_indicators]
+    frequency: annual
+    format: xlsx (one file for all prefectures, one for all municipalities)
+    listing_url: https://www.soumu.go.jp/iken/shihyo_ichiran.html
+    year_pages:
+      2022: https://www.soumu.go.jp/iken/zaisei/R04_chiho.html
+    notes: >
+      財政力指数, 経常収支比率, 実質公債費比率, 将来負担比率 and more, FY2003
+      onward. Year page URLs are irregular (FY2024 lives under
+      menu_seisaku/toukei/), so discover them from the listing page.
+      The easiest first local dataset: two files cover the whole country.
+    verified: 2026-09-26
+
   - id: mic-chihou-zaisei-chousa
     level: local
     publisher: 総務省 (Ministry of Internal Affairs and Communications)
     title_ja: 地方財政状況調査関係資料
-    title_en: Local public finance survey (detailed tables)
+    title_en: Local public finance survey (index page for the datasets above and more)
     statements: [revenue, expenditure, debt, fiscal_indicators]
     frequency: annual
-    format: xlsx, csv
+    format: index page only
     listing_url: https://www.soumu.go.jp/iken/jokyo_chousa_shiryo.html
+    notes: >
+      No files on this page itself. Useful children: 決算カード (mic-kessan-card-*),
+      主要財政指標一覧 (mic-fiscal-indicators), 財政状況資料集
+      (iken/zaisei/jyoukyou_shiryou/index.html, detailed per-entity sheets),
+      地方財政統計年報 (iken/zaisei/toukei.html, nationwide aggregates),
+      基金残高等一覧 (iken/kikinzandaka.html, reserve funds).
     verified: 2026-09-26
