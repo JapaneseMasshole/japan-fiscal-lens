@@ -12,8 +12,8 @@ on:
   workflow_dispatch:
     inputs:
       source:
-        description: "Source id (see data/sources.yaml)"
-        default: mof-fs
+        description: "Source id (see data/sources.yaml), or 'all'"
+        default: all
       year:
         description: "Fiscal year, or 'all'"
         default: all
@@ -33,16 +33,16 @@ jobs:
       - run: pip install -e "pipeline"
       - name: Fetch
         env: # passed via env, not inlined, to avoid shell injection from inputs
-          SOURCE: ${{ inputs.source || 'mof-fs' }}
+          SOURCE: ${{ inputs.source || 'all' }}
           YEAR: ${{ inputs.year || 'all' }}
         run: jfl fetch "$SOURCE" --year "$YEAR"
       - name: Rebuild datasets (parse, validate, export)
         run: jfl build all
       - uses: peter-evans/create-pull-request@v7
         with:
-          branch: data/update-${{ inputs.source || 'mof-fs' }}
-          commit-message: "data: update ${{ inputs.source || 'mof-fs' }} raw files"
-          title: "Data update: ${{ inputs.source || 'mof-fs' }}"
+          branch: data/update-${{ inputs.source || 'all' }}
+          commit-message: "data: update ${{ inputs.source || 'all' }} raw files"
+          title: "Data update: ${{ inputs.source || 'all' }}"
           body: |
             Automated re-download of official files, followed by `jfl build all`
             (the build fails if any balance sheet does not reconcile). Check
