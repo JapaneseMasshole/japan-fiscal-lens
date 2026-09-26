@@ -119,3 +119,9 @@ def run(source: Source, year: int, dry_run: bool = False, out_root: Path = RAW_D
     manifest = write_manifest(files[0].dest.parent, SOURCE_ID, page_url, entries)
     print(f"Wrote {manifest}")
     return [f.dest for f in files]
+
+
+def run_all(source: Source, year: int | None, dry_run: bool = False, out_root: Path = RAW_DIR):
+    """Every configured year when `year` is None."""
+    for y in sorted(source.year_pages) if year is None else [year]:
+        run(source, y, dry_run=dry_run, out_root=out_root)

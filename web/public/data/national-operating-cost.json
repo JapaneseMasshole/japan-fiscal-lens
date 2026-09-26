@@ -1,0 +1,539 @@
+{
+ "id": "national-operating-cost",
+ "title_ja": "国の業務費用と財源（一般会計・特別会計 合算）",
+ "title_en": "National government operating cost and funding (general + special accounts)",
+ "source": {
+  "id": "mof-fs",
+  "publisher": "財務省",
+  "publisher_en": "Ministry of Finance",
+  "title": "国の財務書類（一般会計・特別会計／連結）",
+  "url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/index.html",
+  "provenance": [
+   {
+    "fiscal_year": 2018,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2019/national/fy2019gassan.xlsx",
+    "column": "前会計年度"
+   },
+   {
+    "fiscal_year": 2019,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2019/national/fy2019gassan.xlsx",
+    "column": "本会計年度"
+   },
+   {
+    "fiscal_year": 2020,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2020/national/fy2020gassan.xlsx",
+    "column": "本会計年度"
+   },
+   {
+    "fiscal_year": 2021,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2022/national/fy2022gassan.xlsx",
+    "column": "前会計年度"
+   },
+   {
+    "fiscal_year": 2022,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2022/national/fy2022gassan.xlsx",
+    "column": "本会計年度"
+   },
+   {
+    "fiscal_year": 2023,
+    "file_url": "https://www.mof.go.jp/policy/budget/report/public_finance_fact_sheet/fy2023/national/fy2023gassan.xlsx",
+    "column": "本会計年度"
+   }
+  ]
+ },
+ "unit": "億円",
+ "basis": "accrual",
+ "scope": "gassan",
+ "years": [
+  2018,
+  2019,
+  2020,
+  2021,
+  2022,
+  2023
+ ],
+ "missing_years": [
+  {
+   "fiscal_year": 2024,
+   "reason_ja": "財務省が公開したExcelファイルが暗号化（権限管理）されており開けません。",
+   "reason_en": "The Excel file published by the Ministry of Finance is rights-protected (encrypted) and cannot be opened."
+  }
+ ],
+ "totals": {
+  "cost": [
+   1450624.89,
+   1498398.71,
+   1907323.84,
+   1801466.52,
+   1775846.82,
+   1703834.57
+  ],
+  "funding": [
+   1297765.6,
+   1295426.26,
+   1316539.97,
+   1393297.51,
+   1453782.07,
+   1513438.75
+  ],
+  "funding_tax": [
+   642241.24,
+   621751.34,
+   649330.13,
+   718811.11,
+   763376.99,
+   773872.02
+  ],
+  "funding_other": [
+   655524.36,
+   673674.91,
+   667209.84,
+   674486.39,
+   690405.07,
+   739566.72
+  ]
+ },
+ "lines": [
+  {
+   "item_ja": "人件費",
+   "item_en": "Personnel",
+   "heading": "",
+   "level": 1,
+   "values": [
+    44793.45,
+    45004.47,
+    44881.42,
+    45364.98,
+    44852.96,
+    45741.38
+   ]
+  },
+  {
+   "item_ja": "賞与引当金繰入額",
+   "item_en": "Bonus reserve provision",
+   "heading": "",
+   "level": 1,
+   "values": [
+    3221.44,
+    3280.31,
+    3247.89,
+    3058.14,
+    3239.93,
+    3344.13
+   ]
+  },
+  {
+   "item_ja": "退職給付引当金繰入額",
+   "item_en": "Retirement benefit provision",
+   "heading": "",
+   "level": 1,
+   "values": [
+    4231.92,
+    3606.47,
+    3355.96,
+    3603.58,
+    3688.27,
+    2676.27
+   ]
+  },
+  {
+   "item_ja": "基礎年金給付費",
+   "item_en": "Basic pension benefits",
+   "heading": "",
+   "level": 1,
+   "values": [
+    229758.69,
+    234537.67,
+    238723.51,
+    241304.22,
+    241999.0,
+    247969.3
+   ]
+  },
+  {
+   "item_ja": "国民年金給付費",
+   "item_en": "National pension benefits",
+   "heading": "",
+   "level": 1,
+   "values": [
+    4651.67,
+    3980.7,
+    3399.96,
+    2882.41,
+    2398.41,
+    2018.2
+   ]
+  },
+  {
+   "item_ja": "厚生年金給付費",
+   "item_en": "Employees' pension benefits",
+   "heading": "",
+   "level": 1,
+   "values": [
+    236826.36,
+    235606.17,
+    234745.73,
+    234423.96,
+    234233.69,
+    236940.6
+   ]
+  },
+  {
+   "item_ja": "国家公務員共済組合連合会等交付金",
+   "item_en": "Public-servant mutual aid grants",
+   "heading": "",
+   "level": 1,
+   "values": [
+    46962.81,
+    46008.38,
+    46031.06,
+    49014.41,
+    47646.83,
+    47559.18
+   ]
+  },
+  {
+   "item_ja": "保険料等交付金",
+   "item_en": "Health insurance grants",
+   "heading": "",
+   "level": 1,
+   "values": [
+    100337.31,
+    105648.81,
+    104486.64,
+    108933.14,
+    109284.52,
+    110498.6
+   ]
+  },
+  {
+   "item_ja": "失業等給付費",
+   "item_en": "Unemployment benefits",
+   "heading": "",
+   "level": 1,
+   "values": [
+    15750.14,
+    16710.52,
+    14119.35,
+    12949.96,
+    11473.93,
+    11948.45
+   ]
+  },
+  {
+   "item_ja": "育児休業給付費",
+   "item_en": "Childcare leave benefits",
+   "heading": "",
+   "level": 1,
+   "values": [
+    null,
+    null,
+    6436.69,
+    6451.72,
+    6948.3,
+    7493.73
+   ]
+  },
+  {
+   "item_ja": "雇用安定等給付費",
+   "item_en": "Employment stabilisation benefits",
+   "heading": "",
+   "level": 1,
+   "values": [
+    null,
+    null,
+    32062.15,
+    24179.31,
+    10184.37,
+    2114.31
+   ]
+  },
+  {
+   "item_ja": "その他の社会保障費",
+   "item_en": "Other social security",
+   "heading": "",
+   "level": 1,
+   "values": [
+    10940.62,
+    10817.75,
+    16609.38,
+    17208.36,
+    14879.68,
+    13935.21
+   ]
+  },
+  {
+   "item_ja": "（再）保険費等",
+   "item_en": "(Re)insurance claims",
+   "heading": "",
+   "level": 1,
+   "values": [
+    550.3,
+    310.08,
+    280.55,
+    1538.06,
+    1044.01,
+    283.32
+   ]
+  },
+  {
+   "item_ja": "公共用施設整備費等",
+   "item_en": "Public facility maintenance",
+   "heading": "",
+   "level": 1,
+   "values": [
+    522.44,
+    956.91,
+    865.78,
+    583.58,
+    636.24,
+    609.68
+   ]
+  },
+  {
+   "item_ja": "持続化給付金等",
+   "item_en": "Business continuity payments (COVID-19)",
+   "heading": "",
+   "level": 1,
+   "values": [
+    null,
+    null,
+    71691.92,
+    11164.37,
+    11892.88,
+    0.0
+   ]
+  },
+  {
+   "item_ja": "補助金等",
+   "item_en": "Subsidies",
+   "heading": "",
+   "level": 1,
+   "values": [
+    311996.53,
+    328265.15,
+    636278.15,
+    567402.7,
+    560489.43,
+    496333.69
+   ]
+  },
+  {
+   "item_ja": "委託費等",
+   "item_en": "Outsourcing",
+   "heading": "",
+   "level": 1,
+   "values": [
+    24041.25,
+    24989.52,
+    31798.33,
+    28207.1,
+    31409.53,
+    28090.38
+   ]
+  },
+  {
+   "item_ja": "地方交付税交付金等",
+   "item_en": "Transfers to local governments (地方交付税)",
+   "heading": "",
+   "level": 1,
+   "values": [
+    193534.97,
+    198213.58,
+    194468.95,
+    224063.53,
+    216157.86,
+    219990.11
+   ]
+  },
+  {
+   "item_ja": "資金援助交付費",
+   "item_en": "Deposit-insurance assistance",
+   "heading": "",
+   "level": 1,
+   "values": [
+    7702.0,
+    5260.0,
+    5165.0,
+    3960.0,
+    4923.0,
+    3772.0
+   ]
+  },
+  {
+   "item_ja": "運営費交付金",
+   "item_en": "Grants to independent agencies",
+   "heading": "",
+   "level": 1,
+   "values": [
+    29569.06,
+    33611.95,
+    34620.23,
+    31916.17,
+    32586.12,
+    31404.49
+   ]
+  },
+  {
+   "item_ja": "庁費等",
+   "item_en": "Office expenses",
+   "heading": "",
+   "level": 1,
+   "values": [
+    30849.53,
+    34210.29,
+    46733.04,
+    43329.18,
+    43044.74,
+    44125.99
+   ]
+  },
+  {
+   "item_ja": "公債事務取扱費",
+   "item_en": "Bond administration",
+   "heading": "",
+   "level": 1,
+   "values": [
+    300.45,
+    325.46,
+    180.07,
+    223.79,
+    173.16,
+    171.77
+   ]
+  },
+  {
+   "item_ja": "その他の経費",
+   "item_en": "Other expenses",
+   "heading": "",
+   "level": 1,
+   "values": [
+    10313.36,
+    12874.3,
+    9717.76,
+    10429.53,
+    12967.78,
+    12585.72
+   ]
+  },
+  {
+   "item_ja": "減価償却費",
+   "item_en": "Depreciation",
+   "heading": "",
+   "level": 1,
+   "values": [
+    54208.72,
+    51325.49,
+    50792.83,
+    54068.84,
+    55396.66,
+    55869.03
+   ]
+  },
+  {
+   "item_ja": "責任準備金繰入額",
+   "item_en": "Policy reserve provision",
+   "heading": "",
+   "level": 1,
+   "values": [
+    2389.12,
+    1568.86,
+    -356.97,
+    -1773.47,
+    4314.19,
+    630.4
+   ]
+  },
+  {
+   "item_ja": "貸倒引当金繰入額",
+   "item_en": "Bad-debt provision",
+   "heading": "",
+   "level": 1,
+   "values": [
+    6087.86,
+    5669.13,
+    7964.77,
+    4573.1,
+    4440.7,
+    3160.15
+   ]
+  },
+  {
+   "item_ja": "支払利息",
+   "item_en": "Interest paid",
+   "heading": "",
+   "level": 1,
+   "values": [
+    73046.94,
+    68538.99,
+    64205.26,
+    62639.02,
+    62687.24,
+    66508.44
+   ]
+  },
+  {
+   "item_ja": "為替換算差損益",
+   "item_en": "Foreign-exchange translation loss/gain",
+   "heading": "",
+   "level": 1,
+   "values": [
+    -1.04,
+    24.16,
+    -209.18,
+    -118.26,
+    -157.12,
+    -218.34
+   ]
+  },
+  {
+   "item_ja": "公債償還損益",
+   "item_en": "Bond redemption loss/gain",
+   "heading": "",
+   "level": 1,
+   "values": [
+    116.56,
+    7.05,
+    -162.92,
+    116.61,
+    157.31,
+    1575.19
+   ]
+  },
+  {
+   "item_ja": "資産処分損益",
+   "item_en": "Asset disposal loss/gain",
+   "heading": "",
+   "level": 1,
+   "values": [
+    4603.77,
+    2783.29,
+    5085.33,
+    5300.31,
+    1185.2,
+    4193.85
+   ]
+  },
+  {
+   "item_ja": "出資金等評価損",
+   "item_en": "Write-down of capital investments",
+   "heading": "",
+   "level": 1,
+   "values": [
+    3318.54,
+    24263.13,
+    105.07,
+    4468.04,
+    1667.84,
+    2509.22
+   ]
+  }
+ ],
+ "notes": [
+  {
+   "ja": "業務費用は発生主義による1年間のコストで、公債の元本償還は含みません。財源は資産・負債差額増減計算書の「財源」（租税等とその他。その他には社会保険料などを含みます）です。国の財務書類では税収を企業の売上のようには扱わないため、「利益」の行はありません。",
+   "en": "Operating cost is the accrual-basis cost of the year and excludes repayment of bond principal. Funding is the 財源 line of the statement of changes in net assets (taxes and other sources, including social insurance premiums). Government statements do not treat taxes as sales, so there is no 'profit' line."
+  }
+ ],
+ "generated_at": "2026-09-26T09:52:53+00:00"
+}

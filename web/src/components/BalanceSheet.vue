@@ -1,6 +1,6 @@
 <script setup>
 // National balance sheet: trend of totals, breakdown for a chosen year, full table.
-import { computed, onBeforeUnmount, onMounted, ref } from 'vue'
+import { computed, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import ChartCard from './ChartCard.vue'
 import { loadDataset } from '../data.js'
 import { cho, fy, pct, yen } from '../format.js'
@@ -9,9 +9,18 @@ import { isDark, tokens } from '../theme.js'
 
 const OTHER_THRESHOLD = 0.02 // items under 2% of a side's total are grouped as "Other"
 
+const props = defineProps({ year: { type: Number, default: null } })
 const data = ref(null)
 const error = ref('')
 const year = ref(null)
+// The page-level year selector drives this; fall back to the latest year.
+watch(
+  () => [props.year, data.value],
+  () => {
+    const ys = data.value?.years ?? []
+    year.value = ys.includes(props.year) ? props.year : (ys.at(-1) ?? null)
+  },
+)
 const narrow = ref(window.innerWidth < 640)
 const onResize = () => (narrow.value = window.innerWidth < 640)
 
@@ -19,7 +28,6 @@ onMounted(async () => {
   window.addEventListener('resize', onResize)
   try {
     data.value = await loadDataset('national-balance-sheet')
-    if (data.value) year.value = data.value.years.at(-1)
   } catch (e) {
     error.value = String(e)
   }
@@ -265,15 +273,6 @@ const note = computed(() => data.value?.notes?.[0]?.[locale.value] ?? '')
   </ChartCard>
 
   <template v-if="data">
-    <div class="controls">
-      <label>
-        {{ t('national.year') }}
-        <select v-model.number="year">
-          <option v-for="y in [...data.years].reverse()" :key="y" :value="y">{{ fy(y) }}</option>
-        </select>
-      </label>
-    </div>
-
     <div class="grid two">
       <ChartCard
         :title="`${t('national.assetsComp')}（${fy(year)}）`"
@@ -314,8 +313,6 @@ const note = computed(() => data.value?.notes?.[0]?.[locale.value] ?? '')
 <style scoped>
 .notice { font-size: 0.85rem; margin: 8px 0 0; padding: 8px 12px; border-radius: 6px; background: var(--bg); border: 1px solid var(--border); }
 .note { font-size: 0.85rem; margin: 8px 0 0; color: var(--muted); }
-.controls { display: flex; gap: 12px; margin: 24px 0 0; }
-.controls select { margin-left: 8px; font: inherit; padding: 4px 8px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface); color: var(--text); }
 .grid.two { margin: 12px 0 16px; }
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; }
 .table-card { margin-bottom: 3rem; }

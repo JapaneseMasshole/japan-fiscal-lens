@@ -4,14 +4,16 @@ from __future__ import annotations
 
 import argparse
 
-from jfl.export import national_balance_sheet
-from jfl.fetch import mof_financial_statements
+from jfl.export import national_balance_sheet, national_flows
+from jfl.fetch import mic, mof_financial_statements
 from jfl.sources import load_sources
 
+# Each fetcher takes (source, year or None for its default years, dry_run=...).
 FETCHERS = {
-    "mof-fs": mof_financial_statements.run,
-    # Planned: "mof-settlement", "boj-flow-of-funds", "mic-unified-fs",
-    #          "mic-kessan-card-pref", "mic-kessan-card-muni"
+    "mof-fs": mof_financial_statements.run_all,
+    "mic-fiscal-indicators": mic.run_indicators,  # default: FY2015 onward
+    "mic-unified-fs": mic.run_unified,  # default: latest year only (files are large)
+    # Planned: "mof-settlement", "boj-flow-of-funds", "mic-kessan-card-pref", …
 }
 
 
@@ -25,18 +27,20 @@ def cmd_sources(_: argparse.Namespace) -> None:
 
 def cmd_fetch(args: argparse.Namespace) -> None:
     sources = load_sources()
-    if args.source not in sources:
-        raise SystemExit(f"Unknown source {args.source!r}. Run `jfl sources` to list them.")
-    fetcher = FETCHERS.get(args.source)
-    if fetcher is None:
-        raise SystemExit(f"No fetcher implemented yet for {args.source!r}.")
-    years = sorted(sources[args.source].year_pages) if args.year == "all" else [int(args.year)]
-    for year in years:
-        fetcher(sources[args.source], year, dry_run=args.dry_run)
+    ids = sorted(FETCHERS) if args.source == "all" else [args.source]
+    year = None if args.year == "all" else int(args.year)
+    for sid in ids:
+        if sid not in sources:
+            raise SystemExit(f"Unknown source {sid!r}. Run `jfl sources` to list them.")
+        if sid not in FETCHERS:
+            raise SystemExit(f"No fetcher implemented yet for {sid!r}.")
+        print(f"== {sid}")
+        FETCHERS[sid](sources[sid], year, dry_run=args.dry_run)
 
 
 BUILDERS = {
     "national-balance-sheet": national_balance_sheet.build,
+    "national-flows": national_flows.build,
 }
 
 
@@ -45,10 +49,11 @@ def cmd_build(args: argparse.Namespace) -> None:
     for name in names:
         if name not in BUILDERS:
             raise SystemExit(f"Unknown dataset {name!r}. Known: {', '.join(sorted(BUILDERS))}")
-        csv_path, json_path, skipped = BUILDERS[name]()
+        csv_path, json_paths, skipped = BUILDERS[name]()
         for msg in skipped:
             print(f"skipped: {msg}")
-        print(f"{name}: wrote {csv_path} and {json_path}")
+        outputs = json_paths if isinstance(json_paths, list) else [json_paths]
+        print(f"{name}: wrote {csv_path}, " + ", ".join(p.name for p in outputs))
 
 
 def main(argv: list[str] | None = None) -> None:
@@ -59,8 +64,8 @@ def main(argv: list[str] | None = None) -> None:
     p.set_defaults(func=cmd_sources)
 
     p = sub.add_parser("fetch", help="download original files for a source")
-    p.add_argument("source", help="source id, e.g. mof-fs")
-    p.add_argument("--year", default="all", help="fiscal year (e.g. 2024) or 'all'")
+    p.add_argument("source", help="source id (e.g. mof-fs) or 'all'")
+    p.add_argument("--year", default="all", help="fiscal year (e.g. 2024), or 'all' = defaults")
     p.add_argument("--dry-run", action="store_true", help="show what would be downloaded")
     p.set_defaults(func=cmd_fetch)
 
