@@ -17,6 +17,7 @@ dependencies = [
   "openpyxl>=3.1",
   "olefile>=0.47",
   "xlrd>=2.0",  # legacy .xls (MIC FY2015 files)
+  "pdfplumber>=0.11",  # MOF budget documents are PDF only
 ]
 
 [project.optional-dependencies]
@@ -42,3 +43,5 @@ select = ["E", "F", "I", "B", "UP"]
 # Official Japanese line names are kept verbatim, however long.
 "src/jfl/transform/mof_flow_statements.py" = ["E501"]
 "src/jfl/export/local_indicators.py" = ["E501"]
+"src/jfl/export/national_budget.py" = ["E501"]
+"src/jfl/export/social_security.py" = ["E501"]

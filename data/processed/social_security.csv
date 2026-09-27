@@ -1,0 +1,1234 @@
+table,fiscal_year,item_ja,item_en,value_oku_yen,order
+benefit_by_category,1950,合計,Total,1261.0,0
+benefit_by_category,1950,医療,Medical care,646.0,1
+benefit_by_category,1950,年金,Pension,615.0,2
+benefit_by_category,1951,合計,Total,1571.0,0
+benefit_by_category,1951,医療,Medical care,804.0,1
+benefit_by_category,1951,年金,Pension,768.0,2
+benefit_by_category,1952,合計,Total,2194.0,0
+benefit_by_category,1952,医療,Medical care,1149.0,1
+benefit_by_category,1952,年金,Pension,1046.0,2
+benefit_by_category,1953,合計,Total,2577.0,0
+benefit_by_category,1953,医療,Medical care,1480.0,1
+benefit_by_category,1953,年金,Pension,1096.0,2
+benefit_by_category,1954,合計,Total,3841.0,0
+benefit_by_category,1954,医療,Medical care,1712.0,1
+benefit_by_category,1954,年金,Pension,2129.0,2
+benefit_by_category,1955,合計,Total,3893.0,0
+benefit_by_category,1955,医療,Medical care,1919.0,1
+benefit_by_category,1955,年金,Pension,1974.0,2
+benefit_by_category,1956,合計,Total,3986.0,0
+benefit_by_category,1956,医療,Medical care,2018.0,1
+benefit_by_category,1956,年金,Pension,1969.0,2
+benefit_by_category,1957,合計,Total,4357.0,0
+benefit_by_category,1957,医療,Medical care,2224.0,1
+benefit_by_category,1957,年金,Pension,2133.0,2
+benefit_by_category,1958,合計,Total,5080.0,0
+benefit_by_category,1958,医療,Medical care,2099.0,1
+benefit_by_category,1958,年金,Pension,2981.0,2
+benefit_by_category,1959,合計,Total,5778.0,0
+benefit_by_category,1959,医療,Medical care,2523.0,1
+benefit_by_category,1959,年金,Pension,3255.0,2
+benefit_by_category,1960,合計,Total,6553.0,0
+benefit_by_category,1960,医療,Medical care,2942.0,1
+benefit_by_category,1960,年金,Pension,3611.0,2
+benefit_by_category,1961,合計,Total,7900.0,0
+benefit_by_category,1961,医療,Medical care,3850.0,1
+benefit_by_category,1961,年金,Pension,4050.0,2
+benefit_by_category,1962,合計,Total,9219.0,0
+benefit_by_category,1962,医療,Medical care,4699.0,1
+benefit_by_category,1962,年金,Pension,4520.0,2
+benefit_by_category,1963,合計,Total,11214.0,0
+benefit_by_category,1963,医療,Medical care,5885.0,1
+benefit_by_category,1963,年金,Pension,5329.0,2
+benefit_by_category,1964,合計,Total,13475.0,0
+benefit_by_category,1964,医療,Medical care,7328.0,1
+benefit_by_category,1964,年金,Pension,3056.0,2
+benefit_by_category,1964,福祉その他,Welfare and others,3091.0,3
+benefit_by_category,1965,合計,Total,16037.0,0
+benefit_by_category,1965,医療,Medical care,9137.0,1
+benefit_by_category,1965,年金,Pension,3508.0,2
+benefit_by_category,1965,福祉その他,Welfare and others,3392.0,3
+benefit_by_category,1966,合計,Total,18670.0,0
+benefit_by_category,1966,医療,Medical care,10766.0,1
+benefit_by_category,1966,年金,Pension,4199.0,2
+benefit_by_category,1966,福祉その他,Welfare and others,3705.0,3
+benefit_by_category,1967,合計,Total,21644.0,0
+benefit_by_category,1967,医療,Medical care,12583.0,1
+benefit_by_category,1967,年金,Pension,4947.0,2
+benefit_by_category,1967,福祉その他,Welfare and others,4114.0,3
+benefit_by_category,1968,合計,Total,25096.0,0
+benefit_by_category,1968,医療,Medical care,14679.0,1
+benefit_by_category,1968,年金,Pension,5835.0,2
+benefit_by_category,1968,福祉その他,Welfare and others,4582.0,3
+benefit_by_category,1969,合計,Total,28775.0,0
+benefit_by_category,1969,医療,Medical care,17025.0,1
+benefit_by_category,1969,年金,Pension,6688.0,2
+benefit_by_category,1969,福祉その他,Welfare and others,5061.0,3
+benefit_by_category,1970,合計,Total,35239.0,0
+benefit_by_category,1970,医療,Medical care,20758.0,1
+benefit_by_category,1970,年金,Pension,8562.0,2
+benefit_by_category,1970,福祉その他,Welfare and others,5920.0,3
+benefit_by_category,1971,合計,Total,40296.0,0
+benefit_by_category,1971,医療,Medical care,22575.0,1
+benefit_by_category,1971,年金,Pension,9732.0,2
+benefit_by_category,1971,福祉その他,Welfare and others,7990.0,3
+benefit_by_category,1972,合計,Total,49889.0,0
+benefit_by_category,1972,医療,Medical care,28195.0,1
+benefit_by_category,1972,年金,Pension,11703.0,2
+benefit_by_category,1972,福祉その他,Welfare and others,9990.0,3
+benefit_by_category,1973,合計,Total,62640.0,0
+benefit_by_category,1973,医療,Medical care,34390.0,1
+benefit_by_category,1973,年金,Pension,16218.0,2
+benefit_by_category,1973,福祉その他,Welfare and others,12033.0,3
+benefit_by_category,1974,合計,Total,90437.0,0
+benefit_by_category,1974,医療,Medical care,47375.0,1
+benefit_by_category,1974,年金,Pension,26139.0,2
+benefit_by_category,1974,福祉その他,Welfare and others,16923.0,3
+benefit_by_category,1975,合計,Total,118192.0,0
+benefit_by_category,1975,医療,Medical care,57321.0,1
+benefit_by_category,1975,年金,Pension,38047.0,2
+benefit_by_category,1975,福祉その他,Welfare and others,22825.0,3
+benefit_by_category,1976,合計,Total,145796.0,0
+benefit_by_category,1976,医療,Medical care,68320.0,1
+benefit_by_category,1976,年金,Pension,52548.0,2
+benefit_by_category,1976,福祉その他,Welfare and others,24928.0,3
+benefit_by_category,1977,合計,Total,169883.0,0
+benefit_by_category,1977,医療,Medical care,76497.0,1
+benefit_by_category,1977,年金,Pension,64903.0,2
+benefit_by_category,1977,福祉その他,Welfare and others,28483.0,3
+benefit_by_category,1978,合計,Total,198965.0,0
+benefit_by_category,1978,医療,Medical care,89420.0,1
+benefit_by_category,1978,年金,Pension,77336.0,2
+benefit_by_category,1978,福祉その他,Welfare and others,32209.0,3
+benefit_by_category,1979,合計,Total,221040.0,0
+benefit_by_category,1979,医療,Medical care,98007.0,1
+benefit_by_category,1979,年金,Pension,88710.0,2
+benefit_by_category,1979,福祉その他,Welfare and others,34323.0,3
+benefit_by_category,1980,合計,Total,249290.0,0
+benefit_by_category,1980,医療,Medical care,107598.0,1
+benefit_by_category,1980,年金,Pension,103330.0,2
+benefit_by_category,1980,福祉その他,Welfare and others,38362.0,3
+benefit_by_category,1981,合計,Total,277358.0,0
+benefit_by_category,1981,医療,Medical care,115536.0,1
+benefit_by_category,1981,年金,Pension,119122.0,2
+benefit_by_category,1981,福祉その他,Welfare and others,42699.0,3
+benefit_by_category,1982,合計,Total,301180.0,0
+benefit_by_category,1982,医療,Medical care,124447.0,1
+benefit_by_category,1982,年金,Pension,131992.0,2
+benefit_by_category,1982,福祉その他,Welfare and others,44741.0,3
+benefit_by_category,1983,合計,Total,319936.0,0
+benefit_by_category,1983,医療,Medical care,131319.0,1
+benefit_by_category,1983,年金,Pension,142563.0,2
+benefit_by_category,1983,福祉その他,Welfare and others,46054.0,3
+benefit_by_category,1984,合計,Total,336582.0,0
+benefit_by_category,1984,医療,Medical care,136379.0,1
+benefit_by_category,1984,年金,Pension,152877.0,2
+benefit_by_category,1984,福祉その他,Welfare and others,47327.0,3
+benefit_by_category,1985,合計,Total,356894.0,0
+benefit_by_category,1985,医療,Medical care,143595.0,1
+benefit_by_category,1985,年金,Pension,167193.0,2
+benefit_by_category,1985,福祉その他,Welfare and others,46106.0,3
+benefit_by_category,1986,合計,Total,386002.0,0
+benefit_by_category,1986,医療,Medical care,152299.0,1
+benefit_by_category,1986,年金,Pension,185664.0,2
+benefit_by_category,1986,福祉その他,Welfare and others,48039.0,3
+benefit_by_category,1987,合計,Total,407475.0,0
+benefit_by_category,1987,医療,Medical care,160801.0,1
+benefit_by_category,1987,年金,Pension,197965.0,2
+benefit_by_category,1987,福祉その他,Welfare and others,48709.0,3
+benefit_by_category,1988,合計,Total,424733.0,0
+benefit_by_category,1988,医療,Medical care,167507.0,1
+benefit_by_category,1988,年金,Pension,208437.0,2
+benefit_by_category,1988,福祉その他,Welfare and others,48789.0,3
+benefit_by_category,1989,合計,Total,450653.0,0
+benefit_by_category,1989,医療,Medical care,177547.0,1
+benefit_by_category,1989,年金,Pension,223192.0,2
+benefit_by_category,1989,福祉その他,Welfare and others,49914.0,3
+benefit_by_category,1990,合計,Total,474238.0,0
+benefit_by_category,1990,医療,Medical care,186254.0,1
+benefit_by_category,1990,年金,Pension,237772.0,2
+benefit_by_category,1990,福祉その他,Welfare and others,50212.0,3
+benefit_by_category,1991,合計,Total,503774.0,0
+benefit_by_category,1991,医療,Medical care,197824.0,1
+benefit_by_category,1991,年金,Pension,253073.0,2
+benefit_by_category,1991,福祉その他,Welfare and others,52878.0,3
+benefit_by_category,1992,合計,Total,540788.0,0
+benefit_by_category,1992,医療,Medical care,212539.0,1
+benefit_by_category,1992,年金,Pension,270717.0,2
+benefit_by_category,1992,福祉その他,Welfare and others,57533.0,3
+benefit_by_category,1993,合計,Total,570636.0,0
+benefit_by_category,1993,医療,Medical care,221326.0,1
+benefit_by_category,1993,年金,Pension,286817.0,2
+benefit_by_category,1993,福祉その他,Welfare and others,62493.0,3
+benefit_by_category,1994,合計,Total,607314.0,0
+benefit_by_category,1994,医療,Medical care,233126.0,1
+benefit_by_category,1994,年金,Pension,306268.0,2
+benefit_by_category,1994,福祉その他,Welfare and others,67921.0,3
+benefit_by_category,1995,合計,Total,649918.0,0
+benefit_by_category,1995,医療,Medical care,246608.0,1
+benefit_by_category,1995,年金,Pension,330614.0,2
+benefit_by_category,1995,福祉その他,Welfare and others,72695.0,3
+benefit_by_category,1996,合計,Total,678327.0,0
+benefit_by_category,1996,医療,Medical care,257816.0,1
+benefit_by_category,1996,年金,Pension,344994.0,2
+benefit_by_category,1996,福祉その他,Welfare and others,75517.0,3
+benefit_by_category,1997,合計,Total,697226.0,0
+benefit_by_category,1997,医療,Medical care,259227.0,1
+benefit_by_category,1997,年金,Pension,358882.0,2
+benefit_by_category,1997,福祉その他,Welfare and others,79117.0,3
+benefit_by_category,1998,合計,Total,724300.0,0
+benefit_by_category,1998,医療,Medical care,260269.0,1
+benefit_by_category,1998,年金,Pension,378092.0,2
+benefit_by_category,1998,福祉その他,Welfare and others,85939.0,3
+benefit_by_category,1999,合計,Total,753206.0,0
+benefit_by_category,1999,医療,Medical care,270144.0,1
+benefit_by_category,1999,年金,Pension,392359.0,2
+benefit_by_category,1999,福祉その他,Welfare and others,90703.0,3
+benefit_by_category,2000,合計,Total,784075.0,0
+benefit_by_category,2000,医療,Medical care,266062.0,1
+benefit_by_category,2000,年金,Pension,405367.0,2
+benefit_by_category,2000,福祉その他,Welfare and others,112646.0,3
+benefit_by_category,2000,介護対策,of which long-term care,32806.0,4
+benefit_by_category,2001,合計,Total,816806.0,0
+benefit_by_category,2001,医療,Medical care,272333.0,1
+benefit_by_category,2001,年金,Pension,419419.0,2
+benefit_by_category,2001,福祉その他,Welfare and others,125053.0,3
+benefit_by_category,2001,介護対策,of which long-term care,41563.0,4
+benefit_by_category,2002,合計,Total,838503.0,0
+benefit_by_category,2002,医療,Medical care,268779.0,1
+benefit_by_category,2002,年金,Pension,433107.0,2
+benefit_by_category,2002,福祉その他,Welfare and others,136616.0,3
+benefit_by_category,2002,介護対策,of which long-term care,47053.0,4
+benefit_by_category,2003,合計,Total,845415.0,0
+benefit_by_category,2003,医療,Medical care,272032.0,1
+benefit_by_category,2003,年金,Pension,441989.0,2
+benefit_by_category,2003,福祉その他,Welfare and others,131394.0,3
+benefit_by_category,2003,介護対策,of which long-term care,51559.0,4
+benefit_by_category,2004,合計,Total,860915.0,0
+benefit_by_category,2004,医療,Medical care,277185.0,1
+benefit_by_category,2004,年金,Pension,450514.0,2
+benefit_by_category,2004,福祉その他,Welfare and others,133216.0,3
+benefit_by_category,2004,介護対策,of which long-term care,56167.0,4
+benefit_by_category,2005,合計,Total,888540.0,0
+benefit_by_category,2005,医療,Medical care,287456.0,1
+benefit_by_category,2005,年金,Pension,461194.0,2
+benefit_by_category,2005,福祉その他,Welfare and others,139891.0,3
+benefit_by_category,2005,介護対策,of which long-term care,58701.0,4
+benefit_by_category,2006,合計,Total,906741.0,0
+benefit_by_category,2006,医療,Medical care,293185.0,1
+benefit_by_category,2006,年金,Pension,471517.0,2
+benefit_by_category,2006,福祉その他,Welfare and others,142040.0,3
+benefit_by_category,2006,介護対策,of which long-term care,60492.0,4
+benefit_by_category,2007,合計,Total,930804.0,0
+benefit_by_category,2007,医療,Medical care,302301.0,1
+benefit_by_category,2007,年金,Pension,481153.0,2
+benefit_by_category,2007,福祉その他,Welfare and others,147350.0,3
+benefit_by_category,2007,介護対策,of which long-term care,63584.0,4
+benefit_by_category,2008,合計,Total,958453.0,0
+benefit_by_category,2008,医療,Medical care,308666.0,1
+benefit_by_category,2008,年金,Pension,493777.0,2
+benefit_by_category,2008,福祉その他,Welfare and others,156009.0,3
+benefit_by_category,2008,介護対策,of which long-term care,66513.0,4
+benefit_by_category,2009,合計,Total,1016727.0,0
+benefit_by_category,2009,医療,Medical care,321050.0,1
+benefit_by_category,2009,年金,Pension,515524.0,2
+benefit_by_category,2009,福祉その他,Welfare and others,180153.0,3
+benefit_by_category,2009,介護対策,of which long-term care,71192.0,4
+benefit_by_category,2010,合計,Total,1053660.0,0
+benefit_by_category,2010,医療,Medical care,336453.0,1
+benefit_by_category,2010,年金,Pension,522286.0,2
+benefit_by_category,2010,福祉その他,Welfare and others,194921.0,3
+benefit_by_category,2010,介護対策,of which long-term care,75082.0,4
+benefit_by_category,2011,合計,Total,1082824.0,0
+benefit_by_category,2011,医療,Medical care,347884.0,1
+benefit_by_category,2011,年金,Pension,523253.0,2
+benefit_by_category,2011,福祉その他,Welfare and others,211687.0,3
+benefit_by_category,2011,介護対策,of which long-term care,78891.0,4
+benefit_by_category,2012,合計,Total,1090844.0,0
+benefit_by_category,2012,医療,Medical care,353442.0,1
+benefit_by_category,2012,年金,Pension,532329.0,2
+benefit_by_category,2012,福祉その他,Welfare and others,205073.0,3
+benefit_by_category,2012,介護対策,of which long-term care,83978.0,4
+benefit_by_category,2013,合計,Total,1107853.0,0
+benefit_by_category,2013,医療,Medical care,360761.0,1
+benefit_by_category,2013,年金,Pension,538799.0,2
+benefit_by_category,2013,福祉その他,Welfare and others,208293.0,3
+benefit_by_category,2013,介護対策,of which long-term care,87888.0,4
+benefit_by_category,2014,合計,Total,1121676.0,0
+benefit_by_category,2014,医療,Medical care,367817.0,1
+benefit_by_category,2014,年金,Pension,535104.0,2
+benefit_by_category,2014,福祉その他,Welfare and others,218755.0,3
+benefit_by_category,2014,介護対策,of which long-term care,91908.0,4
+benefit_by_category,2015,合計,Total,1168141.0,0
+benefit_by_category,2015,医療,Medical care,385651.0,1
+benefit_by_category,2015,年金,Pension,540929.0,2
+benefit_by_category,2015,福祉その他,Welfare and others,241561.0,3
+benefit_by_category,2015,介護対策,of which long-term care,95106.0,4
+benefit_by_category,2016,合計,Total,1183122.0,0
+benefit_by_category,2016,医療,Medical care,388174.0,1
+benefit_by_category,2016,年金,Pension,543800.0,2
+benefit_by_category,2016,福祉その他,Welfare and others,251149.0,3
+benefit_by_category,2016,介護対策,of which long-term care,97175.0,4
+benefit_by_category,2017,合計,Total,1200686.0,0
+benefit_by_category,2017,医療,Medical care,394243.0,1
+benefit_by_category,2017,年金,Pension,548349.0,2
+benefit_by_category,2017,福祉その他,Welfare and others,258093.0,3
+benefit_by_category,2017,介護対策,of which long-term care,101030.0,4
+benefit_by_category,2018,合計,Total,1213999.0,0
+benefit_by_category,2018,医療,Medical care,397494.0,1
+benefit_by_category,2018,年金,Pension,552581.0,2
+benefit_by_category,2018,福祉その他,Welfare and others,263924.0,3
+benefit_by_category,2018,介護対策,of which long-term care,103885.0,4
+benefit_by_category,2019,合計,Total,1239270.0,0
+benefit_by_category,2019,医療,Medical care,407269.0,1
+benefit_by_category,2019,年金,Pension,554520.0,2
+benefit_by_category,2019,福祉その他,Welfare and others,277481.0,3
+benefit_by_category,2019,介護対策,of which long-term care,107347.0,4
+benefit_by_category,2020,合計,Total,1322206.0,0
+benefit_by_category,2020,医療,Medical care,427193.0,1
+benefit_by_category,2020,年金,Pension,556336.0,2
+benefit_by_category,2020,福祉その他,Welfare and others,338678.0,3
+benefit_by_category,2020,介護対策,of which long-term care,114163.0,4
+benefit_by_category,2021,合計,Total,1387544.0,0
+benefit_by_category,2021,医療,Medical care,474205.0,1
+benefit_by_category,2021,年金,Pension,558151.0,2
+benefit_by_category,2021,福祉その他,Welfare and others,355187.0,3
+benefit_by_category,2021,介護対策,of which long-term care,112117.0,4
+benefit_by_category,2022,合計,Total,1381754.0,0
+benefit_by_category,2022,医療,Medical care,487689.0,1
+benefit_by_category,2022,年金,Pension,557908.0,2
+benefit_by_category,2022,福祉その他,Welfare and others,336157.0,3
+benefit_by_category,2022,介護対策,of which long-term care,112912.0,4
+benefit_by_category,2023,合計,Total,1356317.0,0
+benefit_by_category,2023,医療,Medical care,456781.0,1
+benefit_by_category,2023,年金,Pension,563936.0,2
+benefit_by_category,2023,福祉その他,Welfare and others,335600.0,3
+benefit_by_category,2023,介護対策,of which long-term care,116301.0,4
+benefit_by_category,2024,合計,Total,1383019.0,0
+benefit_by_category,2024,医療,Medical care,448055.0,1
+benefit_by_category,2024,年金,Pension,578528.0,2
+benefit_by_category,2024,福祉その他,Welfare and others,356436.0,3
+benefit_by_category,2024,介護対策,of which long-term care,120063.0,4
+benefit_by_function,1994,合計,Total,607314.0,0
+benefit_by_function,1994,高齢,Old age,250536.0,1
+benefit_by_function,1994,遺族,Survivors,50952.0,2
+benefit_by_function,1994,障害,Invalidity,17347.0,3
+benefit_by_function,1994,労働災害,Employment injury,10491.0,4
+benefit_by_function,1994,保健医療,Sickness and health,225487.0,5
+benefit_by_function,1994,家族,Family,17769.0,6
+benefit_by_function,1994,失業,Unemployment,19188.0,7
+benefit_by_function,1994,住宅,Housing,1207.0,8
+benefit_by_function,1994,生活保護その他,Public assistance and others,14337.0,9
+benefit_by_function,1995,合計,Total,649918.0,0
+benefit_by_function,1995,高齢,Old age,273941.0,1
+benefit_by_function,1995,遺族,Survivors,53489.0,2
+benefit_by_function,1995,障害,Invalidity,18228.0,3
+benefit_by_function,1995,労働災害,Employment injury,10698.0,4
+benefit_by_function,1995,保健医療,Sickness and health,238151.0,5
+benefit_by_function,1995,家族,Family,17340.0,6
+benefit_by_function,1995,失業,Unemployment,22126.0,7
+benefit_by_function,1995,住宅,Housing,1275.0,8
+benefit_by_function,1995,生活保護その他,Public assistance and others,14667.0,9
+benefit_by_function,1996,合計,Total,678327.0,0
+benefit_by_function,1996,高齢,Old age,287510.0,1
+benefit_by_function,1996,遺族,Survivors,54785.0,2
+benefit_by_function,1996,障害,Invalidity,18459.0,3
+benefit_by_function,1996,労働災害,Employment injury,10895.0,4
+benefit_by_function,1996,保健医療,Sickness and health,249355.0,5
+benefit_by_function,1996,家族,Family,19797.0,6
+benefit_by_function,1996,失業,Unemployment,22176.0,7
+benefit_by_function,1996,住宅,Housing,1376.0,8
+benefit_by_function,1996,生活保護その他,Public assistance and others,13976.0,9
+benefit_by_function,1997,合計,Total,697226.0,0
+benefit_by_function,1997,高齢,Old age,303333.0,1
+benefit_by_function,1997,遺族,Survivors,54763.0,2
+benefit_by_function,1997,障害,Invalidity,18727.0,3
+benefit_by_function,1997,労働災害,Employment injury,10989.0,4
+benefit_by_function,1997,保健医療,Sickness and health,250337.0,5
+benefit_by_function,1997,家族,Family,19457.0,6
+benefit_by_function,1997,失業,Unemployment,23392.0,7
+benefit_by_function,1997,住宅,Housing,1496.0,8
+benefit_by_function,1997,生活保護その他,Public assistance and others,14731.0,9
+benefit_by_function,1998,合計,Total,724300.0,0
+benefit_by_function,1998,高齢,Old age,317442.0,1
+benefit_by_function,1998,遺族,Survivors,56494.0,2
+benefit_by_function,1998,障害,Invalidity,24177.0,3
+benefit_by_function,1998,労働災害,Employment injury,10881.0,4
+benefit_by_function,1998,保健医療,Sickness and health,251027.0,5
+benefit_by_function,1998,家族,Family,20137.0,6
+benefit_by_function,1998,失業,Unemployment,26940.0,7
+benefit_by_function,1998,住宅,Housing,1615.0,8
+benefit_by_function,1998,生活保護その他,Public assistance and others,15587.0,9
+benefit_by_function,1999,合計,Total,753206.0,0
+benefit_by_function,1999,高齢,Old age,335233.0,1
+benefit_by_function,1999,遺族,Survivors,58195.0,2
+benefit_by_function,1999,障害,Invalidity,21008.0,3
+benefit_by_function,1999,労働災害,Employment injury,10675.0,4
+benefit_by_function,1999,保健医療,Sickness and health,260173.0,5
+benefit_by_function,1999,家族,Family,21180.0,6
+benefit_by_function,1999,失業,Unemployment,28201.0,7
+benefit_by_function,1999,住宅,Housing,1802.0,8
+benefit_by_function,1999,生活保護その他,Public assistance and others,16738.0,9
+benefit_by_function,2000,合計,Total,784075.0,0
+benefit_by_function,2000,高齢,Old age,366882.0,1
+benefit_by_function,2000,遺族,Survivors,59583.0,2
+benefit_by_function,2000,障害,Invalidity,21510.0,3
+benefit_by_function,2000,労働災害,Employment injury,10584.0,4
+benefit_by_function,2000,保健医療,Sickness and health,255776.0,5
+benefit_by_function,2000,家族,Family,23650.0,6
+benefit_by_function,2000,失業,Unemployment,26469.0,7
+benefit_by_function,2000,住宅,Housing,2007.0,8
+benefit_by_function,2000,生活保護その他,Public assistance and others,17613.0,9
+benefit_by_function,2001,合計,Total,816806.0,0
+benefit_by_function,2001,高齢,Old age,387752.0,1
+benefit_by_function,2001,遺族,Survivors,60881.0,2
+benefit_by_function,2001,障害,Invalidity,22172.0,3
+benefit_by_function,2001,労働災害,Employment injury,10542.0,4
+benefit_by_function,2001,保健医療,Sickness and health,261431.0,5
+benefit_by_function,2001,家族,Family,26396.0,6
+benefit_by_function,2001,失業,Unemployment,26683.0,7
+benefit_by_function,2001,住宅,Housing,2240.0,8
+benefit_by_function,2001,生活保護その他,Public assistance and others,18709.0,9
+benefit_by_function,2002,合計,Total,838503.0,0
+benefit_by_function,2002,高齢,Old age,410233.0,1
+benefit_by_function,2002,遺族,Survivors,61705.0,2
+benefit_by_function,2002,障害,Invalidity,22882.0,3
+benefit_by_function,2002,労働災害,Employment injury,10190.0,4
+benefit_by_function,2002,保健医療,Sickness and health,257676.0,5
+benefit_by_function,2002,家族,Family,27846.0,6
+benefit_by_function,2002,失業,Unemployment,25596.0,7
+benefit_by_function,2002,住宅,Housing,2521.0,8
+benefit_by_function,2002,生活保護その他,Public assistance and others,19853.0,9
+benefit_by_function,2003,合計,Total,845415.0,0
+benefit_by_function,2003,高齢,Old age,417859.0,1
+benefit_by_function,2003,遺族,Survivors,62513.0,2
+benefit_by_function,2003,障害,Invalidity,23030.0,3
+benefit_by_function,2003,労働災害,Employment injury,10061.0,4
+benefit_by_function,2003,保健医療,Sickness and health,260215.0,5
+benefit_by_function,2003,家族,Family,28048.0,6
+benefit_by_function,2003,失業,Unemployment,19602.0,7
+benefit_by_function,2003,住宅,Housing,2823.0,8
+benefit_by_function,2003,生活保護その他,Public assistance and others,21264.0,9
+benefit_by_function,2004,合計,Total,860915.0,0
+benefit_by_function,2004,高齢,Old age,428172.0,1
+benefit_by_function,2004,遺族,Survivors,63336.0,2
+benefit_by_function,2004,障害,Invalidity,23629.0,3
+benefit_by_function,2004,労働災害,Employment injury,9905.0,4
+benefit_by_function,2004,保健医療,Sickness and health,264840.0,5
+benefit_by_function,2004,家族,Family,30680.0,6
+benefit_by_function,2004,失業,Unemployment,14761.0,7
+benefit_by_function,2004,住宅,Housing,3073.0,8
+benefit_by_function,2004,生活保護その他,Public assistance and others,22519.0,9
+benefit_by_function,2005,合計,Total,888540.0,0
+benefit_by_function,2005,高齢,Old age,441023.0,1
+benefit_by_function,2005,遺族,Survivors,64588.0,2
+benefit_by_function,2005,障害,Invalidity,23971.0,3
+benefit_by_function,2005,労働災害,Employment injury,9842.0,4
+benefit_by_function,2005,保健医療,Sickness and health,274908.0,5
+benefit_by_function,2005,家族,Family,32323.0,6
+benefit_by_function,2005,失業,Unemployment,14525.0,7
+benefit_by_function,2005,住宅,Housing,4290.0,8
+benefit_by_function,2005,生活保護その他,Public assistance and others,23070.0,9
+benefit_by_function,2006,合計,Total,906741.0,0
+benefit_by_function,2006,高齢,Old age,451990.0,1
+benefit_by_function,2006,遺族,Survivors,65293.0,2
+benefit_by_function,2006,障害,Invalidity,27059.0,3
+benefit_by_function,2006,労働災害,Employment injury,9957.0,4
+benefit_by_function,2006,保健医療,Sickness and health,280329.0,5
+benefit_by_function,2006,家族,Family,31777.0,6
+benefit_by_function,2006,失業,Unemployment,13473.0,7
+benefit_by_function,2006,住宅,Housing,3621.0,8
+benefit_by_function,2006,生活保護その他,Public assistance and others,23242.0,9
+benefit_by_function,2007,合計,Total,930804.0,0
+benefit_by_function,2007,高齢,Old age,463609.0,1
+benefit_by_function,2007,遺族,Survivors,66139.0,2
+benefit_by_function,2007,障害,Invalidity,29453.0,3
+benefit_by_function,2007,労働災害,Employment injury,9843.0,4
+benefit_by_function,2007,保健医療,Sickness and health,290300.0,5
+benefit_by_function,2007,家族,Family,31668.0,6
+benefit_by_function,2007,失業,Unemployment,12772.0,7
+benefit_by_function,2007,住宅,Housing,3762.0,8
+benefit_by_function,2007,生活保護その他,Public assistance and others,23259.0,9
+benefit_by_function,2008,合計,Total,958453.0,0
+benefit_by_function,2008,高齢,Old age,478694.0,1
+benefit_by_function,2008,遺族,Survivors,66736.0,2
+benefit_by_function,2008,障害,Invalidity,31570.0,3
+benefit_by_function,2008,労働災害,Employment injury,9894.0,4
+benefit_by_function,2008,保健医療,Sickness and health,296494.0,5
+benefit_by_function,2008,家族,Family,32965.0,6
+benefit_by_function,2008,失業,Unemployment,14174.0,7
+benefit_by_function,2008,住宅,Housing,3980.0,8
+benefit_by_function,2008,生活保護その他,Public assistance and others,23946.0,9
+benefit_by_function,2009,合計,Total,1016727.0,0
+benefit_by_function,2009,高齢,Old age,503820.0,1
+benefit_by_function,2009,遺族,Survivors,67453.0,2
+benefit_by_function,2009,障害,Invalidity,34022.0,3
+benefit_by_function,2009,労働災害,Employment injury,9649.0,4
+benefit_by_function,2009,保健医療,Sickness and health,308031.0,5
+benefit_by_function,2009,家族,Family,34115.0,6
+benefit_by_function,2009,失業,Unemployment,27930.0,7
+benefit_by_function,2009,住宅,Housing,4570.0,8
+benefit_by_function,2009,生活保護その他,Public assistance and others,27136.0,9
+benefit_by_function,2010,合計,Total,1053660.0,0
+benefit_by_function,2010,高齢,Old age,513347.0,1
+benefit_by_function,2010,遺族,Survivors,67947.0,2
+benefit_by_function,2010,障害,Invalidity,33984.0,3
+benefit_by_function,2010,労働災害,Employment injury,9428.0,4
+benefit_by_function,2010,保健医療,Sickness and health,322138.0,5
+benefit_by_function,2010,家族,Family,50085.0,6
+benefit_by_function,2010,失業,Unemployment,22501.0,7
+benefit_by_function,2010,住宅,Housing,5129.0,8
+benefit_by_function,2010,生活保護その他,Public assistance and others,29100.0,9
+benefit_by_function,2011,合計,Total,1082824.0,0
+benefit_by_function,2011,高齢,Old age,517815.0,1
+benefit_by_function,2011,遺族,Survivors,68025.0,2
+benefit_by_function,2011,障害,Invalidity,35350.0,3
+benefit_by_function,2011,労働災害,Employment injury,9675.0,4
+benefit_by_function,2011,保健医療,Sickness and health,331835.0,5
+benefit_by_function,2011,家族,Family,52572.0,6
+benefit_by_function,2011,失業,Unemployment,22557.0,7
+benefit_by_function,2011,住宅,Housing,5470.0,8
+benefit_by_function,2011,生活保護その他,Public assistance and others,39526.0,9
+benefit_by_function,2012,合計,Total,1090844.0,0
+benefit_by_function,2012,高齢,Old age,532089.0,1
+benefit_by_function,2012,遺族,Survivors,67826.0,2
+benefit_by_function,2012,障害,Invalidity,37650.0,3
+benefit_by_function,2012,労働災害,Employment injury,9567.0,4
+benefit_by_function,2012,保健医療,Sickness and health,337725.0,5
+benefit_by_function,2012,家族,Family,50451.0,6
+benefit_by_function,2012,失業,Unemployment,18307.0,7
+benefit_by_function,2012,住宅,Housing,5735.0,8
+benefit_by_function,2012,生活保護その他,Public assistance and others,31493.0,9
+benefit_by_function,2013,合計,Total,1107853.0,0
+benefit_by_function,2013,高齢,Old age,542584.0,1
+benefit_by_function,2013,遺族,Survivors,67435.0,2
+benefit_by_function,2013,障害,Invalidity,39252.0,3
+benefit_by_function,2013,労働災害,Employment injury,9382.0,4
+benefit_by_function,2013,保健医療,Sickness and health,344735.0,5
+benefit_by_function,2013,家族,Family,50603.0,6
+benefit_by_function,2013,失業,Unemployment,16207.0,7
+benefit_by_function,2013,住宅,Housing,5876.0,8
+benefit_by_function,2013,生活保護その他,Public assistance and others,31780.0,9
+benefit_by_function,2014,合計,Total,1121676.0,0
+benefit_by_function,2014,高齢,Old age,544335.0,1
+benefit_by_function,2014,遺族,Survivors,66685.0,2
+benefit_by_function,2014,障害,Invalidity,40118.0,3
+benefit_by_function,2014,労働災害,Employment injury,9411.0,4
+benefit_by_function,2014,保健医療,Sickness and health,351293.0,5
+benefit_by_function,2014,家族,Family,54479.0,6
+benefit_by_function,2014,失業,Unemployment,14726.0,7
+benefit_by_function,2014,住宅,Housing,5929.0,8
+benefit_by_function,2014,生活保護その他,Public assistance and others,34701.0,9
+benefit_by_function,2015,合計,Total,1168141.0,0
+benefit_by_function,2015,高齢,Old age,553394.0,1
+benefit_by_function,2015,遺族,Survivors,66701.0,2
+benefit_by_function,2015,障害,Invalidity,42833.0,3
+benefit_by_function,2015,労働災害,Employment injury,9190.0,4
+benefit_by_function,2015,保健医療,Sickness and health,368911.0,5
+benefit_by_function,2015,家族,Family,71416.0,6
+benefit_by_function,2015,失業,Unemployment,14420.0,7
+benefit_by_function,2015,住宅,Housing,6172.0,8
+benefit_by_function,2015,生活保護その他,Public assistance and others,35103.0,9
+benefit_by_function,2016,合計,Total,1183122.0,0
+benefit_by_function,2016,高齢,Old age,556934.0,1
+benefit_by_function,2016,遺族,Survivors,65703.0,2
+benefit_by_function,2016,障害,Invalidity,44106.0,3
+benefit_by_function,2016,労働災害,Employment injury,9107.0,4
+benefit_by_function,2016,保健医療,Sickness and health,371261.0,5
+benefit_by_function,2016,家族,Family,75151.0,6
+benefit_by_function,2016,失業,Unemployment,14175.0,7
+benefit_by_function,2016,住宅,Housing,6037.0,8
+benefit_by_function,2016,生活保護その他,Public assistance and others,40649.0,9
+benefit_by_function,2017,合計,Total,1200686.0,0
+benefit_by_function,2017,高齢,Old age,565211.0,1
+benefit_by_function,2017,遺族,Survivors,65514.0,2
+benefit_by_function,2017,障害,Invalidity,45622.0,3
+benefit_by_function,2017,労働災害,Employment injury,9110.0,4
+benefit_by_function,2017,保健医療,Sickness and health,377450.0,5
+benefit_by_function,2017,家族,Family,80799.0,6
+benefit_by_function,2017,失業,Unemployment,14006.0,7
+benefit_by_function,2017,住宅,Housing,6082.0,8
+benefit_by_function,2017,生活保護その他,Public assistance and others,36891.0,9
+benefit_by_function,2018,合計,Total,1213999.0,0
+benefit_by_function,2018,高齢,Old age,572765.0,1
+benefit_by_function,2018,遺族,Survivors,64976.0,2
+benefit_by_function,2018,障害,Invalidity,47506.0,3
+benefit_by_function,2018,労働災害,Employment injury,9182.0,4
+benefit_by_function,2018,保健医療,Sickness and health,380843.0,5
+benefit_by_function,2018,家族,Family,84894.0,6
+benefit_by_function,2018,失業,Unemployment,14297.0,7
+benefit_by_function,2018,住宅,Housing,6032.0,8
+benefit_by_function,2018,生活保護その他,Public assistance and others,33503.0,9
+benefit_by_function,2019,合計,Total,1239270.0,0
+benefit_by_function,2019,高齢,Old age,578333.0,1
+benefit_by_function,2019,遺族,Survivors,64499.0,2
+benefit_by_function,2019,障害,Invalidity,49001.0,3
+benefit_by_function,2019,労働災害,Employment injury,9305.0,4
+benefit_by_function,2019,保健医療,Sickness and health,390858.0,5
+benefit_by_function,2019,家族,Family,91908.0,6
+benefit_by_function,2019,失業,Unemployment,14634.0,7
+benefit_by_function,2019,住宅,Housing,6028.0,8
+benefit_by_function,2019,生活保護その他,Public assistance and others,34704.0,9
+benefit_by_function,2020,合計,Total,1322206.0,0
+benefit_by_function,2020,高齢,Old age,589152.0,1
+benefit_by_function,2020,遺族,Survivors,64097.0,2
+benefit_by_function,2020,障害,Invalidity,52252.0,3
+benefit_by_function,2020,労働災害,Employment injury,9046.0,4
+benefit_by_function,2020,保健医療,Sickness and health,411436.0,5
+benefit_by_function,2020,家族,Family,102675.0,6
+benefit_by_function,2020,失業,Unemployment,50250.0,7
+benefit_by_function,2020,住宅,Housing,6526.0,8
+benefit_by_function,2020,生活保護その他,Public assistance and others,36773.0,9
+benefit_by_function,2021,合計,Total,1387544.0,0
+benefit_by_function,2021,高齢,Old age,587203.0,1
+benefit_by_function,2021,遺族,Survivors,63239.0,2
+benefit_by_function,2021,障害,Invalidity,52828.0,3
+benefit_by_function,2021,労働災害,Employment injury,8902.0,4
+benefit_by_function,2021,保健医療,Sickness and health,458954.0,5
+benefit_by_function,2021,家族,Family,118888.0,6
+benefit_by_function,2021,失業,Unemployment,42617.0,7
+benefit_by_function,2021,住宅,Housing,6658.0,8
+benefit_by_function,2021,生活保護その他,Public assistance and others,48255.0,9
+benefit_by_function,2022,合計,Total,1381754.0,0
+benefit_by_function,2022,高齢,Old age,588730.0,1
+benefit_by_function,2022,遺族,Survivors,62442.0,2
+benefit_by_function,2022,障害,Invalidity,54804.0,3
+benefit_by_function,2022,労働災害,Employment injury,8771.0,4
+benefit_by_function,2022,保健医療,Sickness and health,473643.0,5
+benefit_by_function,2022,家族,Family,107154.0,6
+benefit_by_function,2022,失業,Unemployment,24479.0,7
+benefit_by_function,2022,住宅,Housing,6542.0,8
+benefit_by_function,2022,生活保護その他,Public assistance and others,55188.0,9
+benefit_by_function,2023,合計,Total,1356317.0,0
+benefit_by_function,2023,高齢,Old age,597613.0,1
+benefit_by_function,2023,遺族,Survivors,62627.0,2
+benefit_by_function,2023,障害,Invalidity,58170.0,3
+benefit_by_function,2023,労働災害,Employment injury,8811.0,4
+benefit_by_function,2023,保健医療,Sickness and health,441961.0,5
+benefit_by_function,2023,家族,Family,109487.0,6
+benefit_by_function,2023,失業,Unemployment,15964.0,7
+benefit_by_function,2023,住宅,Housing,6515.0,8
+benefit_by_function,2023,生活保護その他,Public assistance and others,55169.0,9
+benefit_by_function,2024,合計,Total,1383019.0,0
+benefit_by_function,2024,高齢,Old age,614746.0,1
+benefit_by_function,2024,遺族,Survivors,63223.0,2
+benefit_by_function,2024,障害,Invalidity,61604.0,3
+benefit_by_function,2024,労働災害,Employment injury,8763.0,4
+benefit_by_function,2024,保健医療,Sickness and health,433362.0,5
+benefit_by_function,2024,家族,Family,116577.0,6
+benefit_by_function,2024,失業,Unemployment,15944.0,7
+benefit_by_function,2024,住宅,Housing,6501.0,8
+benefit_by_function,2024,生活保護その他,Public assistance and others,62301.0,9
+revenue,1951,合計,Total,2023.0,0
+revenue,1951,社会保険料,Social insurance contributions,1146.0,1
+revenue,1951,被保険者拠出,Contributions from insured persons,568.0,2
+revenue,1951,事業主拠出,Contributions from employers,578.0,3
+revenue,1951,公費負担,Tax,738.0,4
+revenue,1951,国庫負担,National government,478.0,5
+revenue,1951,他の公費負担,Local governments and other public,260.0,6
+revenue,1951,資産収入,Income from capital,22.0,7
+revenue,1951,その他,Others,117.0,8
+revenue,1954,合計,Total,4417.0,0
+revenue,1954,社会保険料,Social insurance contributions,1959.0,1
+revenue,1954,被保険者拠出,Contributions from insured persons,1047.0,2
+revenue,1954,事業主拠出,Contributions from employers,912.0,3
+revenue,1954,公費負担,Tax,2238.0,4
+revenue,1954,国庫負担,National government,1768.0,5
+revenue,1954,他の公費負担,Local governments and other public,470.0,6
+revenue,1954,資産収入,Income from capital,96.0,7
+revenue,1954,その他,Others,124.0,8
+revenue,1957,合計,Total,5839.0,0
+revenue,1957,社会保険料,Social insurance contributions,4032.0,1
+revenue,1957,被保険者拠出,Contributions from insured persons,1383.0,2
+revenue,1957,事業主拠出,Contributions from employers,2649.0,3
+revenue,1957,公費負担,Tax,1415.0,4
+revenue,1957,国庫負担,National government,1068.0,5
+revenue,1957,他の公費負担,Local governments and other public,346.0,6
+revenue,1957,資産収入,Income from capital,148.0,7
+revenue,1957,その他,Others,245.0,8
+revenue,1960,合計,Total,9260.0,0
+revenue,1960,社会保険料,Social insurance contributions,6290.0,1
+revenue,1960,被保険者拠出,Contributions from insured persons,2430.0,2
+revenue,1960,事業主拠出,Contributions from employers,3860.0,3
+revenue,1960,公費負担,Tax,2288.0,4
+revenue,1960,国庫負担,National government,1897.0,5
+revenue,1960,他の公費負担,Local governments and other public,391.0,6
+revenue,1960,資産収入,Income from capital,458.0,7
+revenue,1960,その他,Others,224.0,8
+revenue,1961,合計,Total,11545.0,0
+revenue,1961,社会保険料,Social insurance contributions,6552.0,1
+revenue,1961,被保険者拠出,Contributions from insured persons,3038.0,2
+revenue,1961,事業主拠出,Contributions from employers,3514.0,3
+revenue,1961,公費負担,Tax,4053.0,4
+revenue,1961,国庫負担,National government,3629.0,5
+revenue,1961,他の公費負担,Local governments and other public,423.0,6
+revenue,1961,資産収入,Income from capital,621.0,7
+revenue,1961,その他,Others,319.0,8
+revenue,1962,合計,Total,13616.0,0
+revenue,1962,社会保険料,Social insurance contributions,7860.0,1
+revenue,1962,被保険者拠出,Contributions from insured persons,3633.0,2
+revenue,1962,事業主拠出,Contributions from employers,4227.0,3
+revenue,1962,公費負担,Tax,4521.0,4
+revenue,1962,国庫負担,National government,4019.0,5
+revenue,1962,他の公費負担,Local governments and other public,502.0,6
+revenue,1962,資産収入,Income from capital,787.0,7
+revenue,1962,その他,Others,448.0,8
+revenue,1963,合計,Total,16353.0,0
+revenue,1963,社会保険料,Social insurance contributions,9400.0,1
+revenue,1963,被保険者拠出,Contributions from insured persons,4282.0,2
+revenue,1963,事業主拠出,Contributions from employers,5119.0,3
+revenue,1963,公費負担,Tax,5439.0,4
+revenue,1963,国庫負担,National government,4815.0,5
+revenue,1963,他の公費負担,Local governments and other public,624.0,6
+revenue,1963,資産収入,Income from capital,965.0,7
+revenue,1963,その他,Others,549.0,8
+revenue,1964,合計,Total,19137.0,0
+revenue,1964,社会保険料,Social insurance contributions,10951.0,1
+revenue,1964,被保険者拠出,Contributions from insured persons,5031.0,2
+revenue,1964,事業主拠出,Contributions from employers,5921.0,3
+revenue,1964,公費負担,Tax,6415.0,4
+revenue,1964,国庫負担,National government,5570.0,5
+revenue,1964,他の公費負担,Local governments and other public,845.0,6
+revenue,1964,資産収入,Income from capital,1203.0,7
+revenue,1964,その他,Others,567.0,8
+revenue,1965,合計,Total,23996.0,0
+revenue,1965,社会保険料,Social insurance contributions,13768.0,1
+revenue,1965,被保険者拠出,Contributions from insured persons,6475.0,2
+revenue,1965,事業主拠出,Contributions from employers,7293.0,3
+revenue,1965,公費負担,Tax,7792.0,4
+revenue,1965,国庫負担,National government,6798.0,5
+revenue,1965,他の公費負担,Local governments and other public,994.0,6
+revenue,1965,資産収入,Income from capital,1516.0,7
+revenue,1965,その他,Others,921.0,8
+revenue,1966,合計,Total,28850.0,0
+revenue,1966,社会保険料,Social insurance contributions,16430.0,1
+revenue,1966,被保険者拠出,Contributions from insured persons,7750.0,2
+revenue,1966,事業主拠出,Contributions from employers,8680.0,3
+revenue,1966,公費負担,Tax,8946.0,4
+revenue,1966,国庫負担,National government,7801.0,5
+revenue,1966,他の公費負担,Local governments and other public,1145.0,6
+revenue,1966,資産収入,Income from capital,1938.0,7
+revenue,1966,その他,Others,1536.0,8
+revenue,1967,合計,Total,33820.0,0
+revenue,1967,社会保険料,Social insurance contributions,19027.0,1
+revenue,1967,被保険者拠出,Contributions from insured persons,8814.0,2
+revenue,1967,事業主拠出,Contributions from employers,10213.0,3
+revenue,1967,公費負担,Tax,10303.0,4
+revenue,1967,国庫負担,National government,9023.0,5
+revenue,1967,他の公費負担,Local governments and other public,1280.0,6
+revenue,1967,資産収入,Income from capital,2459.0,7
+revenue,1967,その他,Others,2030.0,8
+revenue,1968,合計,Total,39933.0,0
+revenue,1968,社会保険料,Social insurance contributions,22434.0,1
+revenue,1968,被保険者拠出,Contributions from insured persons,10580.0,2
+revenue,1968,事業主拠出,Contributions from employers,11854.0,3
+revenue,1968,公費負担,Tax,12065.0,4
+revenue,1968,国庫負担,National government,10607.0,5
+revenue,1968,他の公費負担,Local governments and other public,1457.0,6
+revenue,1968,資産収入,Income from capital,3087.0,7
+revenue,1968,その他,Others,2349.0,8
+revenue,1969,合計,Total,45247.0,0
+revenue,1969,社会保険料,Social insurance contributions,27197.0,1
+revenue,1969,被保険者拠出,Contributions from insured persons,13205.0,2
+revenue,1969,事業主拠出,Contributions from employers,13992.0,3
+revenue,1969,公費負担,Tax,13588.0,4
+revenue,1969,国庫負担,National government,11964.0,5
+revenue,1969,他の公費負担,Local governments and other public,1624.0,6
+revenue,1969,資産収入,Income from capital,3925.0,7
+revenue,1969,その他,Others,536.0,8
+revenue,1970,合計,Total,54681.0,0
+revenue,1970,社会保険料,Social insurance contributions,32601.0,1
+revenue,1970,被保険者拠出,Contributions from insured persons,15558.0,2
+revenue,1970,事業主拠出,Contributions from employers,17043.0,3
+revenue,1970,公費負担,Tax,16420.0,4
+revenue,1970,国庫負担,National government,14425.0,5
+revenue,1970,他の公費負担,Local governments and other public,1995.0,6
+revenue,1970,資産収入,Income from capital,4796.0,7
+revenue,1970,その他,Others,864.0,8
+revenue,1971,合計,Total,64978.0,0
+revenue,1971,社会保険料,Social insurance contributions,39382.0,1
+revenue,1971,被保険者拠出,Contributions from insured persons,18638.0,2
+revenue,1971,事業主拠出,Contributions from employers,20743.0,3
+revenue,1971,公費負担,Tax,18481.0,4
+revenue,1971,国庫負担,National government,16285.0,5
+revenue,1971,他の公費負担,Local governments and other public,2196.0,6
+revenue,1971,資産収入,Income from capital,6158.0,7
+revenue,1971,その他,Others,957.0,8
+revenue,1972,合計,Total,77877.0,0
+revenue,1972,社会保険料,Social insurance contributions,46020.0,1
+revenue,1972,被保険者拠出,Contributions from insured persons,21779.0,2
+revenue,1972,事業主拠出,Contributions from employers,24242.0,3
+revenue,1972,公費負担,Tax,23097.0,4
+revenue,1972,国庫負担,National government,20041.0,5
+revenue,1972,他の公費負担,Local governments and other public,3055.0,6
+revenue,1972,資産収入,Income from capital,7535.0,7
+revenue,1972,その他,Others,1226.0,8
+revenue,1973,合計,Total,98202.0,0
+revenue,1973,社会保険料,Social insurance contributions,57037.0,1
+revenue,1973,被保険者拠出,Contributions from insured persons,26906.0,2
+revenue,1973,事業主拠出,Contributions from employers,30131.0,3
+revenue,1973,公費負担,Tax,30933.0,4
+revenue,1973,国庫負担,National government,26701.0,5
+revenue,1973,他の公費負担,Local governments and other public,4232.0,6
+revenue,1973,資産収入,Income from capital,9137.0,7
+revenue,1973,その他,Others,1095.0,8
+revenue,1974,合計,Total,134988.0,0
+revenue,1974,社会保険料,Social insurance contributions,78634.0,1
+revenue,1974,被保険者拠出,Contributions from insured persons,37219.0,2
+revenue,1974,事業主拠出,Contributions from employers,41415.0,3
+revenue,1974,公費負担,Tax,42939.0,4
+revenue,1974,国庫負担,National government,37238.0,5
+revenue,1974,他の公費負担,Local governments and other public,5701.0,6
+revenue,1974,資産収入,Income from capital,11737.0,7
+revenue,1974,その他,Others,1678.0,8
+revenue,1975,合計,Total,167375.0,0
+revenue,1975,社会保険料,Social insurance contributions,95064.0,1
+revenue,1975,被保険者拠出,Contributions from insured persons,44238.0,2
+revenue,1975,事業主拠出,Contributions from employers,50826.0,3
+revenue,1975,公費負担,Tax,55421.0,4
+revenue,1975,国庫負担,National government,48519.0,5
+revenue,1975,他の公費負担,Local governments and other public,6903.0,6
+revenue,1975,資産収入,Income from capital,14641.0,7
+revenue,1975,その他,Others,2249.0,8
+revenue,1976,合計,Total,200483.0,0
+revenue,1976,社会保険料,Social insurance contributions,112692.0,1
+revenue,1976,被保険者拠出,Contributions from insured persons,52368.0,2
+revenue,1976,事業主拠出,Contributions from employers,60324.0,3
+revenue,1976,公費負担,Tax,66306.0,4
+revenue,1976,国庫負担,National government,58334.0,5
+revenue,1976,他の公費負担,Local governments and other public,7972.0,6
+revenue,1976,資産収入,Income from capital,17391.0,7
+revenue,1976,その他,Others,4094.0,8
+revenue,1977,合計,Total,234987.0,0
+revenue,1977,社会保険料,Social insurance contributions,133488.0,1
+revenue,1977,被保険者拠出,Contributions from insured persons,62801.0,2
+revenue,1977,事業主拠出,Contributions from employers,70687.0,3
+revenue,1977,公費負担,Tax,77090.0,4
+revenue,1977,国庫負担,National government,68003.0,5
+revenue,1977,他の公費負担,Local governments and other public,9086.0,6
+revenue,1977,資産収入,Income from capital,20894.0,7
+revenue,1977,その他,Others,3515.0,8
+revenue,1978,合計,Total,269571.0,0
+revenue,1978,社会保険料,Social insurance contributions,150258.0,1
+revenue,1978,被保険者拠出,Contributions from insured persons,71177.0,2
+revenue,1978,事業主拠出,Contributions from employers,79081.0,3
+revenue,1978,公費負担,Tax,90384.0,4
+revenue,1978,国庫負担,National government,80040.0,5
+revenue,1978,他の公費負担,Local governments and other public,10344.0,6
+revenue,1978,資産収入,Income from capital,23815.0,7
+revenue,1978,その他,Others,5114.0,8
+revenue,1979,合計,Total,298251.0,0
+revenue,1979,社会保険料,Social insurance contributions,164839.0,1
+revenue,1979,被保険者拠出,Contributions from insured persons,78591.0,2
+revenue,1979,事業主拠出,Contributions from employers,86247.0,3
+revenue,1979,公費負担,Tax,100626.0,4
+revenue,1979,国庫負担,National government,89031.0,5
+revenue,1979,他の公費負担,Local governments and other public,11595.0,6
+revenue,1979,資産収入,Income from capital,27284.0,7
+revenue,1979,その他,Others,5502.0,8
+revenue,1980,合計,Total,335554.0,0
+revenue,1980,社会保険料,Social insurance contributions,186238.0,1
+revenue,1980,被保険者拠出,Contributions from insured persons,88844.0,2
+revenue,1980,事業主拠出,Contributions from employers,97394.0,3
+revenue,1980,公費負担,Tax,110705.0,4
+revenue,1980,国庫負担,National government,98232.0,5
+revenue,1980,他の公費負担,Local governments and other public,12473.0,6
+revenue,1980,資産収入,Income from capital,32682.0,7
+revenue,1980,その他,Others,5929.0,8
+revenue,1981,合計,Total,374430.0,0
+revenue,1981,社会保険料,Social insurance contributions,210151.0,1
+revenue,1981,被保険者拠出,Contributions from insured persons,100214.0,2
+revenue,1981,事業主拠出,Contributions from employers,109937.0,3
+revenue,1981,公費負担,Tax,119351.0,4
+revenue,1981,国庫負担,National government,106100.0,5
+revenue,1981,他の公費負担,Local governments and other public,13250.0,6
+revenue,1981,資産収入,Income from capital,38830.0,7
+revenue,1981,その他,Others,6098.0,8
+revenue,1982,合計,Total,401032.0,0
+revenue,1982,社会保険料,Social insurance contributions,225112.0,1
+revenue,1982,被保険者拠出,Contributions from insured persons,107434.0,2
+revenue,1982,事業主拠出,Contributions from employers,117678.0,3
+revenue,1982,公費負担,Tax,125713.0,4
+revenue,1982,国庫負担,National government,112078.0,5
+revenue,1982,他の公費負担,Local governments and other public,13635.0,6
+revenue,1982,資産収入,Income from capital,44366.0,7
+revenue,1982,その他,Others,5841.0,8
+revenue,1983,合計,Total,419879.0,0
+revenue,1983,社会保険料,Social insurance contributions,237401.0,1
+revenue,1983,被保険者拠出,Contributions from insured persons,112755.0,2
+revenue,1983,事業主拠出,Contributions from employers,124646.0,3
+revenue,1983,公費負担,Tax,125880.0,4
+revenue,1983,国庫負担,National government,111294.0,5
+revenue,1983,他の公費負担,Local governments and other public,14585.0,6
+revenue,1983,資産収入,Income from capital,49943.0,7
+revenue,1983,その他,Others,6655.0,8
+revenue,1984,合計,Total,445608.0,0
+revenue,1984,社会保険料,Social insurance contributions,251126.0,1
+revenue,1984,被保険者拠出,Contributions from insured persons,118918.0,2
+revenue,1984,事業主拠出,Contributions from employers,132208.0,3
+revenue,1984,公費負担,Tax,131222.0,4
+revenue,1984,国庫負担,National government,115642.0,5
+revenue,1984,他の公費負担,Local governments and other public,15581.0,6
+revenue,1984,資産収入,Income from capital,55581.0,7
+revenue,1984,その他,Others,7679.0,8
+revenue,1985,合計,Total,485974.0,0
+revenue,1985,社会保険料,Social insurance contributions,275946.0,1
+revenue,1985,被保険者拠出,Contributions from insured persons,131583.0,2
+revenue,1985,事業主拠出,Contributions from employers,144363.0,3
+revenue,1985,公費負担,Tax,138038.0,4
+revenue,1985,国庫負担,National government,118081.0,5
+revenue,1985,他の公費負担,Local governments and other public,19957.0,6
+revenue,1985,資産収入,Income from capital,62020.0,7
+revenue,1985,その他,Others,9970.0,8
+revenue,1986,合計,Total,512664.0,0
+revenue,1986,社会保険料,Social insurance contributions,291793.0,1
+revenue,1986,被保険者拠出,Contributions from insured persons,136729.0,2
+revenue,1986,事業主拠出,Contributions from employers,155063.0,3
+revenue,1986,公費負担,Tax,142953.0,4
+revenue,1986,国庫負担,National government,120142.0,5
+revenue,1986,他の公費負担,Local governments and other public,22812.0,6
+revenue,1986,資産収入,Income from capital,68872.0,7
+revenue,1986,その他,Others,9046.0,8
+revenue,1987,合計,Total,533951.0,0
+revenue,1987,社会保険料,Social insurance contributions,304621.0,1
+revenue,1987,被保険者拠出,Contributions from insured persons,143348.0,2
+revenue,1987,事業主拠出,Contributions from employers,161273.0,3
+revenue,1987,公費負担,Tax,145369.0,4
+revenue,1987,国庫負担,National government,121745.0,5
+revenue,1987,他の公費負担,Local governments and other public,23623.0,6
+revenue,1987,資産収入,Income from capital,71981.0,7
+revenue,1987,その他,Others,11981.0,8
+revenue,1988,合計,Total,573394.0,0
+revenue,1988,社会保険料,Social insurance contributions,322829.0,1
+revenue,1988,被保険者拠出,Contributions from insured persons,151122.0,2
+revenue,1988,事業主拠出,Contributions from employers,171707.0,3
+revenue,1988,公費負担,Tax,162814.0,4
+revenue,1988,国庫負担,National government,137698.0,5
+revenue,1988,他の公費負担,Local governments and other public,25117.0,6
+revenue,1988,資産収入,Income from capital,74309.0,7
+revenue,1988,その他,Others,13443.0,8
+revenue,1989,合計,Total,594386.0,0
+revenue,1989,社会保険料,Social insurance contributions,351134.0,1
+revenue,1989,被保険者拠出,Contributions from insured persons,163018.0,2
+revenue,1989,事業主拠出,Contributions from employers,188116.0,3
+revenue,1989,公費負担,Tax,153078.0,4
+revenue,1989,国庫負担,National government,127723.0,5
+revenue,1989,他の公費負担,Local governments and other public,25356.0,6
+revenue,1989,資産収入,Income from capital,77015.0,7
+revenue,1989,その他,Others,13159.0,8
+revenue,1990,合計,Total,653086.0,0
+revenue,1990,社会保険料,Social insurance contributions,395154.0,1
+revenue,1990,被保険者拠出,Contributions from insured persons,184966.0,2
+revenue,1990,事業主拠出,Contributions from employers,210188.0,3
+revenue,1990,公費負担,Tax,161908.0,4
+revenue,1990,国庫負担,National government,134936.0,5
+revenue,1990,他の公費負担,Local governments and other public,26972.0,6
+revenue,1990,資産収入,Income from capital,83580.0,7
+revenue,1990,その他,Others,12443.0,8
+revenue,1991,合計,Total,697381.0,0
+revenue,1991,社会保険料,Social insurance contributions,424642.0,1
+revenue,1991,被保険者拠出,Contributions from insured persons,200322.0,2
+revenue,1991,事業主拠出,Contributions from employers,224320.0,3
+revenue,1991,公費負担,Tax,170228.0,4
+revenue,1991,国庫負担,National government,141520.0,5
+revenue,1991,他の公費負担,Local governments and other public,28708.0,6
+revenue,1991,資産収入,Income from capital,89374.0,7
+revenue,1991,その他,Others,13137.0,8
+revenue,1992,合計,Total,728250.0,0
+revenue,1992,社会保険料,Social insurance contributions,443214.0,1
+revenue,1992,被保険者拠出,Contributions from insured persons,208449.0,2
+revenue,1992,事業主拠出,Contributions from employers,234765.0,3
+revenue,1992,公費負担,Tax,180604.0,4
+revenue,1992,国庫負担,National government,147780.0,5
+revenue,1992,他の公費負担,Local governments and other public,32824.0,6
+revenue,1992,資産収入,Income from capital,90810.0,7
+revenue,1992,その他,Others,13622.0,8
+revenue,1993,合計,Total,756473.0,0
+revenue,1993,社会保険料,Social insurance contributions,459438.0,1
+revenue,1993,被保険者拠出,Contributions from insured persons,216865.0,2
+revenue,1993,事業主拠出,Contributions from employers,242573.0,3
+revenue,1993,公費負担,Tax,188089.0,4
+revenue,1993,国庫負担,National government,153820.0,5
+revenue,1993,他の公費負担,Local governments and other public,34270.0,6
+revenue,1993,資産収入,Income from capital,95171.0,7
+revenue,1993,その他,Others,13776.0,8
+revenue,1994,合計,Total,782625.0,0
+revenue,1994,社会保険料,Social insurance contributions,474869.0,1
+revenue,1994,被保険者拠出,Contributions from insured persons,225441.0,2
+revenue,1994,事業主拠出,Contributions from employers,249427.0,3
+revenue,1994,公費負担,Tax,194488.0,4
+revenue,1994,国庫負担,National government,157358.0,5
+revenue,1994,他の公費負担,Local governments and other public,37130.0,6
+revenue,1994,資産収入,Income from capital,93630.0,7
+revenue,1994,その他,Others,19638.0,8
+revenue,1995,合計,Total,837287.0,0
+revenue,1995,社会保険料,Social insurance contributions,512165.0,1
+revenue,1995,被保険者拠出,Contributions from insured persons,244118.0,2
+revenue,1995,事業主拠出,Contributions from employers,268047.0,3
+revenue,1995,公費負担,Tax,207503.0,4
+revenue,1995,国庫負担,National government,166084.0,5
+revenue,1995,他の公費負担,Local governments and other public,41419.0,6
+revenue,1995,資産収入,Income from capital,98118.0,7
+revenue,1995,その他,Others,19501.0,8
+revenue,1996,合計,Total,856371.0,0
+revenue,1996,社会保険料,Social insurance contributions,527104.0,1
+revenue,1996,被保険者拠出,Contributions from insured persons,252483.0,2
+revenue,1996,事業主拠出,Contributions from employers,274621.0,3
+revenue,1996,公費負担,Tax,212717.0,4
+revenue,1996,国庫負担,National government,168661.0,5
+revenue,1996,他の公費負担,Local governments and other public,44056.0,6
+revenue,1996,資産収入,Income from capital,96542.0,7
+revenue,1996,その他,Others,20007.0,8
+revenue,1997,合計,Total,887131.0,0
+revenue,1997,社会保険料,Social insurance contributions,548179.0,1
+revenue,1997,被保険者拠出,Contributions from insured persons,262366.0,2
+revenue,1997,事業主拠出,Contributions from employers,285813.0,3
+revenue,1997,公費負担,Tax,216719.0,4
+revenue,1997,国庫負担,National government,171288.0,5
+revenue,1997,他の公費負担,Local governments and other public,45431.0,6
+revenue,1997,資産収入,Income from capital,104424.0,7
+revenue,1997,その他,Others,17809.0,8
+revenue,1998,合計,Total,880758.0,0
+revenue,1998,社会保険料,Social insurance contributions,549751.0,1
+revenue,1998,被保険者拠出,Contributions from insured persons,263330.0,2
+revenue,1998,事業主拠出,Contributions from employers,286421.0,3
+revenue,1998,公費負担,Tax,219880.0,4
+revenue,1998,国庫負担,National government,172657.0,5
+revenue,1998,他の公費負担,Local governments and other public,47223.0,6
+revenue,1998,資産収入,Income from capital,89989.0,7
+revenue,1998,その他,Others,21138.0,8
+revenue,1999,合計,Total,970628.0,0
+revenue,1999,社会保険料,Social insurance contributions,545301.0,1
+revenue,1999,被保険者拠出,Contributions from insured persons,261059.0,2
+revenue,1999,事業主拠出,Contributions from employers,284242.0,3
+revenue,1999,公費負担,Tax,256907.0,4
+revenue,1999,国庫負担,National government,206353.0,5
+revenue,1999,他の公費負担,Local governments and other public,50554.0,6
+revenue,1999,資産収入,Income from capital,144381.0,7
+revenue,1999,その他,Others,24038.0,8
+revenue,2000,合計,Total,891613.0,0
+revenue,2000,社会保険料,Social insurance contributions,549637.0,1
+revenue,2000,被保険者拠出,Contributions from insured persons,266560.0,2
+revenue,2000,事業主拠出,Contributions from employers,283077.0,3
+revenue,2000,公費負担,Tax,251644.0,4
+revenue,2000,国庫負担,National government,198006.0,5
+revenue,2000,他の公費負担,Local governments and other public,53638.0,6
+revenue,2000,資産収入,Income from capital,64976.0,7
+revenue,2000,その他,Others,25357.0,8
+revenue,2001,合計,Total,895651.0,0
+revenue,2001,社会保険料,Social insurance contributions,561201.0,1
+revenue,2001,被保険者拠出,Contributions from insured persons,274693.0,2
+revenue,2001,事業主拠出,Contributions from employers,286509.0,3
+revenue,2001,公費負担,Tax,269794.0,4
+revenue,2001,国庫負担,National government,211453.0,5
+revenue,2001,他の公費負担,Local governments and other public,58341.0,6
+revenue,2001,資産収入,Income from capital,42326.0,7
+revenue,2001,その他,Others,22330.0,8
+revenue,2002,合計,Total,866099.0,0
+revenue,2002,社会保険料,Social insurance contributions,558731.0,1
+revenue,2002,被保険者拠出,Contributions from insured persons,274704.0,2
+revenue,2002,事業主拠出,Contributions from employers,284027.0,3
+revenue,2002,公費負担,Tax,267838.0,4
+revenue,2002,国庫負担,National government,207297.0,5
+revenue,2002,他の公費負担,Local governments and other public,60540.0,6
+revenue,2002,資産収入,Income from capital,15070.0,7
+revenue,2002,その他,Others,24461.0,8
+revenue,2003,合計,Total,1030269.0,0
+revenue,2003,社会保険料,Social insurance contributions,546248.0,1
+revenue,2003,被保険者拠出,Contributions from insured persons,273770.0,2
+revenue,2003,事業主拠出,Contributions from employers,272478.0,3
+revenue,2003,公費負担,Tax,276310.0,4
+revenue,2003,国庫負担,National government,211851.0,5
+revenue,2003,他の公費負担,Local governments and other public,64459.0,6
+revenue,2003,資産収入,Income from capital,152194.0,7
+revenue,2003,その他,Others,55516.0,8
+revenue,2004,合計,Total,963183.0,0
+revenue,2004,社会保険料,Social insurance contributions,537489.0,1
+revenue,2004,被保険者拠出,Contributions from insured persons,275259.0,2
+revenue,2004,事業主拠出,Contributions from employers,262230.0,3
+revenue,2004,公費負担,Tax,286282.0,4
+revenue,2004,国庫負担,National government,216385.0,5
+revenue,2004,他の公費負担,Local governments and other public,69897.0,6
+revenue,2004,資産収入,Income from capital,69975.0,7
+revenue,2004,その他,Others,69437.0,8
+revenue,2005,合計,Total,1158719.0,0
+revenue,2005,社会保険料,Social insurance contributions,553297.0,1
+revenue,2005,被保険者拠出,Contributions from insured persons,283663.0,2
+revenue,2005,事業主拠出,Contributions from employers,269633.0,3
+revenue,2005,公費負担,Tax,299896.0,4
+revenue,2005,国庫負担,National government,222137.0,5
+revenue,2005,他の公費負担,Local governments and other public,77759.0,6
+revenue,2005,資産収入,Income from capital,188454.0,7
+revenue,2005,その他,Others,117073.0,8
+revenue,2006,合計,Total,1029701.0,0
+revenue,2006,社会保険料,Social insurance contributions,567897.0,1
+revenue,2006,被保険者拠出,Contributions from insured persons,292358.0,2
+revenue,2006,事業主拠出,Contributions from employers,275540.0,3
+revenue,2006,公費負担,Tax,310734.0,4
+revenue,2006,国庫負担,National government,220139.0,5
+revenue,2006,他の公費負担,Local governments and other public,90595.0,6
+revenue,2006,資産収入,Income from capital,87233.0,7
+revenue,2006,その他,Others,63837.0,8
+revenue,2007,合計,Total,989848.0,0
+revenue,2007,社会保険料,Social insurance contributions,574473.0,1
+revenue,2007,被保険者拠出,Contributions from insured persons,296915.0,2
+revenue,2007,事業主拠出,Contributions from employers,277558.0,3
+revenue,2007,公費負担,Tax,318307.0,4
+revenue,2007,国庫負担,National government,223623.0,5
+revenue,2007,他の公費負担,Local governments and other public,94684.0,6
+revenue,2007,資産収入,Income from capital,20372.0,7
+revenue,2007,その他,Others,76696.0,8
+revenue,2008,合計,Total,996078.0,0
+revenue,2008,社会保険料,Social insurance contributions,580259.0,1
+revenue,2008,被保険者拠出,Contributions from insured persons,301410.0,2
+revenue,2008,事業主拠出,Contributions from employers,278849.0,3
+revenue,2008,公費負担,Tax,331973.0,4
+revenue,2008,国庫負担,National government,233777.0,5
+revenue,2008,他の公費負担,Local governments and other public,98196.0,6
+revenue,2008,資産収入,Income from capital,7610.0,7
+revenue,2008,その他,Others,76237.0,8
+revenue,2009,合計,Total,1197841.0,0
+revenue,2009,社会保険料,Social insurance contributions,560204.0,1
+revenue,2009,被保険者拠出,Contributions from insured persons,293167.0,2
+revenue,2009,事業主拠出,Contributions from employers,267037.0,3
+revenue,2009,公費負担,Tax,390238.0,4
+revenue,2009,国庫負担,National government,285874.0,5
+revenue,2009,他の公費負担,Local governments and other public,104364.0,6
+revenue,2009,資産収入,Income from capital,146162.0,7
+revenue,2009,その他,Others,101237.0,8
+revenue,2010,合計,Total,1096771.0,0
+revenue,2010,社会保険料,Social insurance contributions,584822.0,1
+revenue,2010,被保険者拠出,Contributions from insured persons,303291.0,2
+revenue,2010,事業主拠出,Contributions from employers,281530.0,3
+revenue,2010,公費負担,Tax,407820.0,4
+revenue,2010,国庫負担,National government,295123.0,5
+revenue,2010,他の公費負担,Local governments and other public,112697.0,6
+revenue,2010,資産収入,Income from capital,8388.0,7
+revenue,2010,その他,Others,95741.0,8
+revenue,2011,合計,Total,1156713.0,0
+revenue,2011,社会保険料,Social insurance contributions,601425.0,1
+revenue,2011,被保険者拠出,Contributions from insured persons,310700.0,2
+revenue,2011,事業主拠出,Contributions from employers,290725.0,3
+revenue,2011,公費負担,Tax,434375.0,4
+revenue,2011,国庫負担,National government,314814.0,5
+revenue,2011,他の公費負担,Local governments and other public,119561.0,6
+revenue,2011,資産収入,Income from capital,36529.0,7
+revenue,2011,その他,Others,84384.0,8
+revenue,2012,合計,Total,1271509.0,0
+revenue,2012,社会保険料,Social insurance contributions,614466.0,1
+revenue,2012,被保険者拠出,Contributions from insured persons,322238.0,2
+revenue,2012,事業主拠出,Contributions from employers,292227.0,3
+revenue,2012,公費負担,Tax,425884.0,4
+revenue,2012,国庫負担,National government,303111.0,5
+revenue,2012,他の公費負担,Local governments and other public,122773.0,6
+revenue,2012,資産収入,Income from capital,159968.0,7
+revenue,2012,その他,Others,71191.0,8
+revenue,2013,合計,Total,1274074.0,0
+revenue,2013,社会保険料,Social insurance contributions,630010.0,1
+revenue,2013,被保険者拠出,Contributions from insured persons,331665.0,2
+revenue,2013,事業主拠出,Contributions from employers,298345.0,3
+revenue,2013,公費負担,Tax,433556.0,4
+revenue,2013,国庫負担,National government,308389.0,5
+revenue,2013,他の公費負担,Local governments and other public,125167.0,6
+revenue,2013,資産収入,Income from capital,158045.0,7
+revenue,2013,その他,Others,52462.0,8
+revenue,2014,合計,Total,1372010.0,0
+revenue,2014,社会保険料,Social insurance contributions,651640.0,1
+revenue,2014,被保険者拠出,Contributions from insured persons,342827.0,2
+revenue,2014,事業主拠出,Contributions from employers,308813.0,3
+revenue,2014,公費負担,Tax,449433.0,4
+revenue,2014,国庫負担,National government,319069.0,5
+revenue,2014,他の公費負担,Local governments and other public,130364.0,6
+revenue,2014,資産収入,Income from capital,217195.0,7
+revenue,2014,その他,Others,53742.0,8
+revenue,2015,合計,Total,1253147.0,0
+revenue,2015,社会保険料,Social insurance contributions,669322.0,1
+revenue,2015,被保険者拠出,Contributions from insured persons,353727.0,2
+revenue,2015,事業主拠出,Contributions from employers,315596.0,3
+revenue,2015,公費負担,Tax,482010.0,4
+revenue,2015,国庫負担,National government,324747.0,5
+revenue,2015,他の公費負担,Local governments and other public,157263.0,6
+revenue,2015,資産収入,Income from capital,20571.0,7
+revenue,2015,その他,Others,81244.0,8
+revenue,2016,合計,Total,1364675.0,0
+revenue,2016,社会保険料,Social insurance contributions,688959.0,1
+revenue,2016,被保険者拠出,Contributions from insured persons,364949.0,2
+revenue,2016,事業主拠出,Contributions from employers,324010.0,3
+revenue,2016,公費負担,Tax,492790.0,4
+revenue,2016,国庫負担,National government,331484.0,5
+revenue,2016,他の公費負担,Local governments and other public,161306.0,6
+revenue,2016,資産収入,Income from capital,103224.0,7
+revenue,2016,その他,Others,79702.0,8
+revenue,2017,合計,Total,1411768.0,0
+revenue,2017,社会保険料,Social insurance contributions,708013.0,1
+revenue,2017,被保険者拠出,Contributions from insured persons,373647.0,2
+revenue,2017,事業主拠出,Contributions from employers,334366.0,3
+revenue,2017,公費負担,Tax,497831.0,4
+revenue,2017,国庫負担,National government,332323.0,5
+revenue,2017,他の公費負担,Local governments and other public,165508.0,6
+revenue,2017,資産収入,Income from capital,141126.0,7
+revenue,2017,その他,Others,64799.0,8
+revenue,2018,合計,Total,1324321.0,0
+revenue,2018,社会保険料,Social insurance contributions,725926.0,1
+revenue,2018,被保険者拠出,Contributions from insured persons,383382.0,2
+revenue,2018,事業主拠出,Contributions from employers,342544.0,3
+revenue,2018,公費負担,Tax,502190.0,4
+revenue,2018,国庫負担,National government,334270.0,5
+revenue,2018,他の公費負担,Local governments and other public,167921.0,6
+revenue,2018,資産収入,Income from capital,44286.0,7
+revenue,2018,その他,Others,51919.0,8
+revenue,2019,合計,Total,1321351.0,0
+revenue,2019,社会保険料,Social insurance contributions,740082.0,1
+revenue,2019,被保険者拠出,Contributions from insured persons,389665.0,2
+revenue,2019,事業主拠出,Contributions from employers,350417.0,3
+revenue,2019,公費負担,Tax,516757.0,4
+revenue,2019,国庫負担,National government,341682.0,5
+revenue,2019,他の公費負担,Local governments and other public,175075.0,6
+revenue,2019,資産収入,Income from capital,15929.0,7
+revenue,2019,その他,Others,48582.0,8
+revenue,2020,合計,Total,1845536.0,0
+revenue,2020,社会保険料,Social insurance contributions,735410.0,1
+revenue,2020,被保険者拠出,Contributions from insured persons,387032.0,2
+revenue,2020,事業主拠出,Contributions from employers,348378.0,3
+revenue,2020,公費負担,Tax,586903.0,4
+revenue,2020,国庫負担,National government,407329.0,5
+revenue,2020,他の公費負担,Local governments and other public,179574.0,6
+revenue,2020,資産収入,Income from capital,439400.0,7
+revenue,2020,その他,Others,83823.0,8
+revenue,2021,合計,Total,1630101.0,0
+revenue,2021,社会保険料,Social insurance contributions,755227.0,1
+revenue,2021,被保険者拠出,Contributions from insured persons,397852.0,2
+revenue,2021,事業主拠出,Contributions from employers,357375.0,3
+revenue,2021,公費負担,Tax,656792.0,4
+revenue,2021,国庫負担,National government,473900.0,5
+revenue,2021,他の公費負担,Local governments and other public,182893.0,6
+revenue,2021,資産収入,Income from capital,144605.0,7
+revenue,2021,その他,Others,73477.0,8
+revenue,2022,合計,Total,1530852.0,0
+revenue,2022,社会保険料,Social insurance contributions,772890.0,1
+revenue,2022,被保険者拠出,Contributions from insured persons,406619.0,2
+revenue,2022,事業主拠出,Contributions from employers,366271.0,3
+revenue,2022,公費負担,Tax,643106.0,4
+revenue,2022,国庫負担,National government,454002.0,5
+revenue,2022,他の公費負担,Local governments and other public,189104.0,6
+revenue,2022,資産収入,Income from capital,57823.0,7
+revenue,2022,その他,Others,57033.0,8
+revenue,2023,合計,Total,1980065.0,0
+revenue,2023,社会保険料,Social insurance contributions,801101.0,1
+revenue,2023,被保険者拠出,Contributions from insured persons,420225.0,2
+revenue,2023,事業主拠出,Contributions from employers,380876.0,3
+revenue,2023,公費負担,Tax,579668.0,4
+revenue,2023,国庫負担,National government,386766.0,5
+revenue,2023,他の公費負担,Local governments and other public,192902.0,6
+revenue,2023,資産収入,Income from capital,536509.0,7
+revenue,2023,その他,Others,62787.0,8
+revenue,2024,合計,Total,1556896.0,0
+revenue,2024,社会保険料,Social insurance contributions,830426.0,1
+revenue,2024,被保険者拠出,Contributions from insured persons,436765.0,2
+revenue,2024,事業主拠出,Contributions from employers,393661.0,3
+revenue,2024,公費負担,Tax,584059.0,4
+revenue,2024,国庫負担,National government,383563.0,5
+revenue,2024,他の公費負担,Local governments and other public,200496.0,6
+revenue,2024,資産収入,Income from capital,73940.0,7
+revenue,2024,その他,Others,68471.0,8

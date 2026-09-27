@@ -1,0 +1,436 @@
+{
+ "id": "national-budget",
+ "title_ja": "国の一般会計予算",
+ "title_en": "National general account budget",
+ "source": {
+  "id": "mof-budget",
+  "publisher": "財務省",
+  "publisher_en": "Ministry of Finance",
+  "title": "一般会計予算（政府案・当初予算）",
+  "url": "https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/seifuan2026/index.html",
+  "year_page": "https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/index.html",
+  "files": [
+   {
+    "key": "gaisan",
+    "label": "令和８年度一般会計歳入歳出概算（令和７年12月26日閣議決定）(PDF:71KB)",
+    "url": "https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/seifuan2026/03.pdf"
+   },
+   {
+    "key": "tax",
+    "label": "令和８年度租税及び印紙収入概算(PDF:52KB)",
+    "url": "https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/seifuan2026/24.pdf"
+   },
+   {
+    "key": "frame",
+    "label": "令和８年度予算フレーム(PDF:94KB)",
+    "url": "https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/seifuan2026/02.pdf"
+   },
+   {
+    "key": "social_security",
+    "label": "社会保障関係予算(PDF:1939KB)",
+    "url": "https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/seifuan2026/13.pdf"
+   }
+  ]
+ },
+ "unit": "億円",
+ "basis": "budget",
+ "stage": "initial",
+ "enactment": "as_proposed",
+ "supplementary_enacted": true,
+ "fiscal_year": 2026,
+ "years": [
+  2026,
+  2026
+ ],
+ "total": 1223092.0,
+ "expenditure": [
+  {
+   "item": "社会保障関係費",
+   "ja": "社会保障関係費",
+   "en": "Social security",
+   "value": 390559.0,
+   "prev": 382938.0
+  },
+  {
+   "item": "文教及び科学振興費",
+   "ja": "文教及び科学振興費",
+   "en": "Education and science",
+   "value": 60406.0,
+   "prev": 56560.0
+  },
+  {
+   "item": "国債費",
+   "ja": "国債費",
+   "en": "Debt service",
+   "value": 312758.0,
+   "prev": 282179.0
+  },
+  {
+   "item": "恩給関係費",
+   "ja": "恩給関係費",
+   "en": "Pensions for former public servants (恩給)",
+   "value": 493.0,
+   "prev": 623.0
+  },
+  {
+   "item": "地方交付税交付金等",
+   "ja": "地方交付税交付金等",
+   "en": "Transfers to local governments",
+   "value": 208778.0,
+   "prev": 188728.0
+  },
+  {
+   "item": "防衛関係費",
+   "ja": "防衛関係費",
+   "en": "Defense",
+   "value": 89843.0,
+   "prev": 86691.0
+  },
+  {
+   "item": "公共事業関係費",
+   "ja": "公共事業関係費",
+   "en": "Public works",
+   "value": 61078.0,
+   "prev": 60858.0
+  },
+  {
+   "item": "経済協力費",
+   "ja": "経済協力費",
+   "en": "Economic cooperation (ODA)",
+   "value": 5108.0,
+   "prev": 5050.0
+  },
+  {
+   "item": "中小企業対策費",
+   "ja": "中小企業対策費",
+   "en": "Small and medium enterprises",
+   "value": 1700.0,
+   "prev": 1695.0
+  },
+  {
+   "item": "エネルギー対策費",
+   "ja": "エネルギー対策費",
+   "en": "Energy",
+   "value": 8001.0,
+   "prev": 8111.0
+  },
+  {
+   "item": "食料安定供給関係費",
+   "ja": "食料安定供給関係費",
+   "en": "Food supply",
+   "value": 12729.0,
+   "prev": 12609.0
+  },
+  {
+   "item": "その他の事項経費",
+   "ja": "その他の事項経費",
+   "en": "Other expenses",
+   "value": 61640.0,
+   "prev": 58543.0
+  },
+  {
+   "item": "予備費",
+   "ja": "予備費",
+   "en": "Reserve fund",
+   "value": 10000.0,
+   "prev": 7395.0
+  }
+ ],
+ "science": {
+  "item": "うち科学技術振興費",
+  "ja": "うち科学技術振興費",
+  "en": "of which science and technology",
+  "value": 14378.0,
+  "prev": 14221.0
+ },
+ "revenue": {
+  "taxes": {
+   "item": "租税及印紙収入",
+   "ja": "租税及印紙収入",
+   "en": "Taxes and stamp revenue",
+   "value": 837350.0,
+   "prev": 778190.0
+  },
+  "other": {
+   "item": "その他収入",
+   "ja": "その他収入",
+   "en": "Other revenue",
+   "value": 89902.0,
+   "prev": 87318.0
+  },
+  "bonds": {
+   "item": "公債金",
+   "ja": "公債金（国債の発行）",
+   "en": "Government bond issuance",
+   "value": 295840.0,
+   "prev": 286471.0
+  },
+  "construction_bonds": {
+   "item": "⑴公債金",
+   "ja": "建設公債",
+   "en": "Construction bonds",
+   "value": 67160.0,
+   "prev": 67910.0
+  },
+  "deficit_bonds": {
+   "item": "⑵特例公債金",
+   "ja": "特例公債",
+   "en": "Special deficit-financing bonds",
+   "value": 228680.0,
+   "prev": 218561.0
+  }
+ },
+ "tax": [
+  {
+   "item": "所得税計",
+   "ja": "所得税",
+   "en": "Income tax",
+   "value": 253250.0,
+   "prev": 226660.0
+  },
+  {
+   "item": "防衛特別所得税（仮称）",
+   "ja": "防衛特別所得税（仮称）",
+   "en": "Special income tax for defense (provisional name)",
+   "value": 380.0,
+   "prev": null
+  },
+  {
+   "item": "法人税",
+   "ja": "法人税",
+   "en": "Corporate tax",
+   "value": 206960.0,
+   "prev": 192450.0
+  },
+  {
+   "item": "防衛特別法人税",
+   "ja": "防衛特別法人税",
+   "en": "Special corporate tax for defense",
+   "value": 5760.0,
+   "prev": null
+  },
+  {
+   "item": "相続税",
+   "ja": "相続税",
+   "en": "Inheritance tax",
+   "value": 38180.0,
+   "prev": 34610.0
+  },
+  {
+   "item": "消費税",
+   "ja": "消費税",
+   "en": "Consumption tax",
+   "value": 266880.0,
+   "prev": 249080.0
+  },
+  {
+   "item": "酒税",
+   "ja": "酒税",
+   "en": "Liquor tax",
+   "value": 11470.0,
+   "prev": 11740.0
+  },
+  {
+   "item": "たばこ税",
+   "ja": "たばこ税",
+   "en": "Tobacco tax",
+   "value": 9760.0,
+   "prev": 9530.0
+  },
+  {
+   "item": "揮発油税",
+   "ja": "揮発油税",
+   "en": "Gasoline tax",
+   "value": 9720.0,
+   "prev": 19760.0
+  },
+  {
+   "item": "石油ガス税",
+   "ja": "石油ガス税",
+   "en": "Liquefied petroleum gas tax",
+   "value": 40.0,
+   "prev": 40.0
+  },
+  {
+   "item": "航空機燃料税",
+   "ja": "航空機燃料税",
+   "en": "Aviation fuel tax",
+   "value": 400.0,
+   "prev": 400.0
+  },
+  {
+   "item": "石油石炭税",
+   "ja": "石油石炭税",
+   "en": "Petroleum and coal tax",
+   "value": 5980.0,
+   "prev": 6010.0
+  },
+  {
+   "item": "電源開発促進税",
+   "ja": "電源開発促進税",
+   "en": "Power development promotion tax",
+   "value": 3140.0,
+   "prev": 3070.0
+  },
+  {
+   "item": "自動車重量税",
+   "ja": "自動車重量税",
+   "en": "Motor vehicle tonnage tax",
+   "value": 4210.0,
+   "prev": 4070.0
+  },
+  {
+   "item": "国際観光旅客税",
+   "ja": "国際観光旅客税",
+   "en": "International tourist tax",
+   "value": 1300.0,
+   "prev": 490.0
+  },
+  {
+   "item": "関税",
+   "ja": "関税",
+   "en": "Customs duties",
+   "value": 9030.0,
+   "prev": 9890.0
+  },
+  {
+   "item": "とん税",
+   "ja": "とん税",
+   "en": "Tonnage due",
+   "value": 90.0,
+   "prev": 90.0
+  },
+  {
+   "item": "印紙収入",
+   "ja": "印紙収入",
+   "en": "Stamp revenue",
+   "value": 10800.0,
+   "prev": 10300.0
+  }
+ ],
+ "income_tax_parts": [
+  {
+   "item": "源泉所得税",
+   "ja": "源泉所得税",
+   "en": "Income tax withheld at source",
+   "value": 206040.0,
+   "prev": 182290.0
+  },
+  {
+   "item": "申告所得税",
+   "ja": "申告所得税",
+   "en": "Income tax by self-assessment",
+   "value": 47210.0,
+   "prev": 44370.0
+  }
+ ],
+ "social_security": [
+  {
+   "item": "年金給付費",
+   "ja": "年金給付費",
+   "en": "Pensions",
+   "value": 139012.0,
+   "prev": 136916.0
+  },
+  {
+   "item": "医療給付費",
+   "ja": "医療給付費",
+   "en": "Medical care",
+   "value": 126895.0,
+   "prev": 123368.0
+  },
+  {
+   "item": "介護給付費",
+   "ja": "介護給付費",
+   "en": "Long-term care",
+   "value": 37806.0,
+   "prev": 37274.0
+  },
+  {
+   "item": "少子化対策費",
+   "ja": "少子化対策費",
+   "en": "Children and families",
+   "value": 35335.0,
+   "prev": 35213.0
+  },
+  {
+   "item": "生活扶助等社会福祉費",
+   "ja": "生活扶助等社会福祉費",
+   "en": "Public assistance and welfare",
+   "value": 47277.0,
+   "prev": 45275.0
+  },
+  {
+   "item": "保健衛生対策費",
+   "ja": "保健衛生対策費",
+   "en": "Public health",
+   "value": 3778.0,
+   "prev": 4434.0
+  },
+  {
+   "item": "雇用労災対策費",
+   "ja": "雇用労災対策費",
+   "en": "Employment and work injury",
+   "value": 456.0,
+   "prev": 458.0
+  }
+ ],
+ "debt_service": {
+  "redemption": {
+   "item": "うち債務償還費（交付国債分を除く）",
+   "ja": "債務償還費",
+   "en": "Redemption of principal",
+   "value": 178898.0,
+   "prev": 173425.0
+  },
+  "interest": {
+   "item": "うち利払費",
+   "ja": "利払費",
+   "en": "Interest",
+   "value": 130371.0,
+   "prev": 105230.0
+  }
+ },
+ "population": {
+  "persons": 123802000,
+  "as_of": "2024-10-01",
+  "source": {
+   "id": "sb-population",
+   "publisher": "総務省統計局",
+   "publisher_en": "Statistics Bureau of Japan",
+   "title": "人口推計（各年10月1日現在人口）",
+   "url": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00200524&tstat=000000090001&tclass1=000001011679&tclass2val=0&year=20240&month=0&result_back=1",
+   "file_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040268912&fileKind=4"
+  },
+  "series": {
+   "2020": 126146000,
+   "2021": 125502000,
+   "2022": 124947000,
+   "2023": 124352000,
+   "2024": 123802000
+  }
+ },
+ "notes": {
+  "rounding": {
+   "ja": "財務省の注記：計数はそれぞれ四捨五入によっているので、端数において合計とは合致しないものがある。",
+   "en": "MOF note: figures are rounded, so items may not add up exactly to totals."
+  },
+  "social_security": {
+   "ja": "財務省の注記：社会保障関係費は、一般歳出の内訳として主要経費別に分類したものです。年金・医療・介護などの給付の多くは社会保険料で賄われ、一般会計にはその国庫負担分だけが計上されます。",
+   "en": "MOF note: social security spending here is the general account's share only. Most pension, medical and long-term care benefits are paid from social insurance contributions outside the general account."
+  },
+  "debt_service": {
+   "ja": "予算フレームによる内訳。債務償還費は交付国債分を除いた額で、両者の合計は国債費と一致しません。",
+   "en": "Breakdown from MOF's budget frame. Redemption excludes grant bonds (交付国債), so the two parts do not add up to total debt service."
+  },
+  "public_works": {
+   "ja": "道路・河川・港湾などの整備は、地方公共団体の予算でも多く行われています（地方交付税交付金等はその財源の一部）。ここに示すのは国の一般会計の公共事業関係費です。",
+   "en": "Much road, river and port construction is carried out in local government budgets, funded partly by the transfers to local governments. This figure is the national general account only."
+  },
+  "consumption_tax": {
+   "ja": "消費税の収入（地方交付税分を除く）は、法律により年金・医療・介護・少子化対策（社会保障4経費）に充てることとされています（消費税法第1条第2項）。",
+   "en": "By law, consumption tax revenue (excluding the local allocation share) is to be spent on pensions, medical care, long-term care and measures for children (Consumption Tax Act, Art. 1(2))."
+  }
+ },
+ "generated_at": "2026-09-27T13:10:05+00:00"
+}

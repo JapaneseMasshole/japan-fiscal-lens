@@ -15,7 +15,7 @@ These come before looks, speed or convenience. If a request conflicts with one, 
 5. **Honest scales.** Charts shown side by side for comparison share one axis range. Stat-tile sparklines are zero-anchored. Charts default to the full available history.
 6. **Publisher caveats travel with the chart.** Example: MOF's note that 資産・負債差額 is not the future burden on the public is shown under the balance sheet chart.
 7. **"Not calculated" is not zero.** In 将来負担比率, 総務省 prints "-" when available funds exceed the burden. It is stored as `"nc"` and shown as 「算定なし」, listed in text and never plotted as 0. In other columns a dash means "not published" (`null`).
-8. **Problems in source files are detected and documented, never silently patched.** Record them in `docs/methodology.md` §7.
+8. **Problems in source files are detected and documented, never silently patched.** Record them in `docs/methodology.md` §8.
 
 ## Repository layout
 
@@ -24,8 +24,10 @@ data/sources.yaml        catalog of every dataset (id, publisher, listing_url, y
 data/raw/                original downloads (committed), one folder per source id and fiscal year
 data/processed/          tidy CSVs written by the pipeline
 pipeline/src/jfl/
-  fetch/                 download originals: mof_financial_statements.py, mic.py, common.py
-  transform/             parse Excel: mof_balance_sheet.py, mof_flow_statements.py, mic_indicators.py, excel.py
+  fetch/                 download originals: mof_financial_statements.py, mof_budget.py, ipss.py,
+                         population.py, mic.py, common.py
+  transform/             parse Excel/PDF: mof_balance_sheet.py, mof_flow_statements.py, mof_budget.py (PDF),
+                         ipss_social_security.py, population.py, mic_indicators.py, excel.py
   validate/              reconciliation checks; a failed check stops the build
   export/                write web/public/data/*.json and index.json
   cli.py                 `jfl` command
@@ -86,6 +88,9 @@ npm run build                    # must pass before pushing
 |---|---|---|
 | `mof-fs` | 国の財務書類 (合算/一般会計/連結), FY2019– | FY2024 合算 and 一般会計 Excel files are **DRM-encrypted by MOF**: detected and skipped, and FY2024 is shown as missing with the reason. FY2021 page linked the FY2019 file; the fetcher now tries the correctly named file first. |
 | `mic-fiscal-indicators` | 主要財政指標一覧, FY2015– | Year-page URLs are irregular, so they're discovered by link text. FY2015 is a legacy `.xls` (needs `xlrd`). |
+| `mof-budget` | 一般会計 当初予算: 歳入, 主要経費別 歳出, 税目別, 社会保障関係費・国債費の内訳 | **PDF only**, parsed with pdfplumber; every line matched against a fixed list. Used only when the year page says 「政府案どおり成立」 (FY2025 was amended by the Diet, so it can't be used). Newest enacted year only. |
+| `ipss-ss-cost` | 社会保障費用統計 第8/13/14表, FY1950– | All social security incl. premiums (被保険者拠出 / 事業主拠出). Settled figures, ~2 years behind the budget; never added to budget figures. |
+| `sb-population` | 人口推計 (10月1日) via e-Stat | Per-person denominator. Raw folder is `y<year>` (calendar date). |
 | `mic-unified-fs` | 統一的な基準による財務書類 (詳細版) | Fetched FY2023 only (files are large). **Downloaded but not yet parsed.** Next task. |
 | others in `sources.yaml` | 財政統計, BOJ 資金循環, 決算カード, … | Catalogued, no fetcher yet. |
 

@@ -1,0 +1,41 @@
+{
+  "source_id": "mof-budget",
+  "listing_page": "https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/seifuan2026/index.html",
+  "files": [
+    {
+      "file": "status.html",
+      "source_url": "https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/index.html",
+      "sha256": "1e30b54baa088856c9b778120efedb82a1bc0867370ae18599567e96bf1cc175",
+      "bytes": 34758,
+      "fetched_at": "2026-09-27T13:05:35+00:00"
+    },
+    {
+      "file": "gaisan.pdf",
+      "source_url": "https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/seifuan2026/03.pdf",
+      "sha256": "55b21929efb840ab4461b3fc305c6d1a678660a79ae3c4df851ca36a9e866a70",
+      "bytes": 73194,
+      "fetched_at": "2026-09-27T13:05:37+00:00"
+    },
+    {
+      "file": "tax.pdf",
+      "source_url": "https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/seifuan2026/24.pdf",
+      "sha256": "6e16b6776142b4cf6f8c69c9b5a166c079ff2817d0213a44c5b1e29ad6817ab6",
+      "bytes": 53970,
+      "fetched_at": "2026-09-27T13:05:38+00:00"
+    },
+    {
+      "file": "frame.pdf",
+      "source_url": "https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/seifuan2026/02.pdf",
+      "sha256": "4688e2e90ff7b1f3e15bea74fdc817dc3c3f47d81239decea351119d63e35dd8",
+      "bytes": 96773,
+      "fetched_at": "2026-09-27T13:05:39+00:00"
+    },
+    {
+      "file": "social_security.pdf",
+      "source_url": "https://www.mof.go.jp/policy/budget/budger_workflow/budget/fy2026/seifuan2026/13.pdf",
+      "sha256": "03ef76a64a4de9e73ac2011487669a028c92aa87b3fb39c0fa614c6074ba0950",
+      "bytes": 1985536,
+      "fetched_at": "2026-09-27T13:05:40+00:00"
+    }
+  ]
+}
