@@ -1,6 +1,7 @@
 // Shared ECharts option builders, so every chart follows the same mark specs:
 // 2px lines, >=8px markers with a surface ring, <=18px bars with 4px rounded data-ends,
 // hairline solid grid, text in text tokens (never the series color).
+import echarts from './echarts.js'
 import { cho, fy, pct, per100, perPerson, yen } from './format.js'
 import { locale, t } from './i18n.js'
 
@@ -185,12 +186,10 @@ export function foldItems(items, total) {
   return rows
 }
 
-// Horizontal bars for one breakdown. mode 'amount' plots 兆円; mode 'per100' plots yen out of
-// every ¥100 of `total`, so two breakdowns of different totals can share one axis honestly.
-// The tooltip adds share and, with `persons`, the amount per person.
-export function breakdownBars(tk, rows, total, color, { mode = 'amount', max = null, narrow = false, persons = null } = {}) {
-  const x = (v) => (mode === 'per100' ? (v / total) * 100 : cho(v))
-  const tip = (p) => {
+// Tooltip for one breakdown item: amount, share and, with `persons`, the amount per person;
+// plus the item's note and the members folded into "Other".
+function breakdownTip(rows, total, persons) {
+  return (p) => {
     const r = rows[p.dataIndex]
     const wrap = document.createElement('div')
     const v = document.createElement('strong')
@@ -212,10 +211,16 @@ export function breakdownBars(tk, rows, total, color, { mode = 'amount', max = n
     }
     return wrap
   }
+}
+
+// Horizontal bars for one breakdown. mode 'amount' plots 兆円; mode 'per100' plots yen out of
+// every ¥100 of `total`, so two breakdowns of different totals can share one axis honestly.
+export function breakdownBars(tk, rows, total, color, { mode = 'amount', max = null, narrow = false, persons = null } = {}) {
+  const x = (v) => (mode === 'per100' ? (v / total) * 100 : cho(v))
   return {
     ...base(tk),
     grid: { left: 8, right: mode === 'per100' ? 56 : 72, top: 8, bottom: 8, containLabel: true },
-    tooltip: { ...base(tk).tooltip, trigger: 'item', formatter: tip },
+    tooltip: { ...base(tk).tooltip, trigger: 'item', formatter: breakdownTip(rows, total, persons) },
     xAxis: {
       type: 'value',
       min: 0,
@@ -247,6 +252,53 @@ export function breakdownBars(tk, rows, total, color, { mode = 'amount', max = n
           color: tk.text,
           formatter: (p) => (mode === 'per100' ? per100(rows[p.dataIndex].value, total) : yen(rows[p.dataIndex].value)),
         },
+      },
+    ],
+  }
+}
+
+// The same breakdown as a pie (share of the whole). One hue, as in the bars: slices step
+// lighter by rank and are separated by surface-colored gaps; "Other" is the context gray.
+// Labels sit at the chart edges and carry the share (or yen out of ¥100 in 'per100' mode),
+// so no value lives only in the tooltip. Only for breakdowns with no negative items.
+// Blend two CSS colors: w = 0 gives `a`, w = 1 gives `b`. Solid colors rather than
+// opacity, because ECharts fades a slice's label along with the slice.
+const mix = (a, b, w) => echarts.color.lerp(w, [a, b])
+
+export function breakdownPie(tk, rows, total, color, { mode = 'amount', narrow = false, persons = null } = {}) {
+  const ranked = rows.filter((r) => !r.members).length
+  const step = ranked > 1 ? 0.55 / (ranked - 1) : 0
+  return {
+    ...base(tk),
+    tooltip: { ...base(tk).tooltip, trigger: 'item', formatter: breakdownTip(rows, total, persons) },
+    series: [
+      {
+        type: 'pie',
+        radius: narrow ? '46%' : '62%',
+        center: ['50%', '50%'],
+        startAngle: 90,
+        clockwise: true,
+        data: rows.map((r, i) => ({
+          name: r.label,
+          value: r.value,
+          itemStyle: { color: r.members ? tk.context : mix(color, tk.surface, i * step) },
+        })),
+        itemStyle: { borderColor: tk.surface, borderWidth: 2 },
+        emphasis: { scale: false, itemStyle: { opacity: 0.85 } },
+        label: {
+          color: tk.text,
+          fontSize: narrow ? 11 : 12,
+          lineHeight: narrow ? 14 : 16,
+          width: narrow ? 100 : 170,
+          overflow: 'break',
+          alignTo: 'edge',
+          edgeDistance: 4,
+          formatter: (p) => {
+            const r = rows[p.dataIndex]
+            return `${r.label}\n${mode === 'per100' ? per100(r.value, total) : pct(r.value / total)}`
+          },
+        },
+        labelLine: { length: 8, length2: 6, lineStyle: { color: tk.axis, width: 1 } },
       },
     ],
   }

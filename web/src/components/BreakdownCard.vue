@@ -1,11 +1,13 @@
 <script setup>
-// One breakdown (e.g. 歳出 by 主要経費): sorted bars, publisher notes, source, and a table
-// of every item with amount, share and per-person figures (folded items listed in full).
+// One breakdown (e.g. 歳出 by 主要経費): sorted bars or a pie (viewer's choice, shared by
+// every breakdown), publisher notes, source, and a table of every item with amount, share
+// and per-person figures (folded items listed in full).
 import { computed } from 'vue'
 import ChartCard from './ChartCard.vue'
-import { breakdownBars, foldItems } from '../charts.js'
+import { breakdownBars, breakdownPie, foldItems } from '../charts.js'
 import { cho, pct, perPerson } from '../format.js'
 import { locale, t } from '../i18n.js'
+import { breakdownView } from '../prefs.js'
 import { isDark, tokens } from '../theme.js'
 
 const props = defineProps({
@@ -25,17 +27,22 @@ const props = defineProps({
 })
 
 const rows = computed(() => foldItems(props.items, props.total))
+// A pie shows parts of a whole, so it is offered only when no item is negative.
+const canPie = computed(() => props.items.every((it) => it.value >= 0))
+const pie = computed(() => canPie.value && breakdownView.value === 'pie')
 const option = computed(() => {
   void isDark.value
   const tk = tokens()
-  return breakdownBars(tk, rows.value, props.total, tk.series[props.colorSlot], {
-    mode: props.mode,
-    max: props.max,
-    narrow: props.narrow,
-    persons: props.persons,
-  })
+  const opts = { mode: props.mode, max: props.max, narrow: props.narrow, persons: props.persons }
+  return (pie.value ? breakdownPie : breakdownBars)(tk, rows.value, props.total, tk.series[props.colorSlot], opts)
 })
-const height = computed(() => rows.value.length * (props.narrow ? 44 : 36) + 40)
+const height = computed(() =>
+  pie.value ? (props.narrow ? 300 : 360) : rows.value.length * (props.narrow ? 44 : 36) + 40,
+)
+const views = [
+  ['bars', 'budget.viewBars'],
+  ['pie', 'budget.viewPie'],
+]
 const num = (oku) =>
   cho(oku).toLocaleString(locale.value === 'ja' ? 'ja-JP' : 'en-US', {
     minimumFractionDigits: 1,
@@ -46,6 +53,19 @@ const tableRows = computed(() => [...props.items].sort((a, b) => b.value - a.val
 
 <template>
   <ChartCard :title="title" :subtitle="subtitle" :option="option" :source="source" :height="height">
+    <template v-if="canPie" #actions>
+      <div class="views" role="group" :aria-label="t('budget.viewLabel')">
+        <button
+          v-for="[v, key] in views"
+          :key="v"
+          type="button"
+          :aria-pressed="breakdownView === v"
+          @click="breakdownView = v"
+        >
+          {{ t(key) }}
+        </button>
+      </div>
+    </template>
     <p v-for="n in notes" :key="n" class="note">{{ n }}</p>
     <p v-if="persons && personsNote" class="note">{{ personsNote }}</p>
     <details class="table">
@@ -81,6 +101,10 @@ const tableRows = computed(() => [...props.items].sort((a, b) => b.value - a.val
 </template>
 
 <style scoped>
+.views { display: inline-flex; border: 1px solid var(--border); border-radius: 6px; overflow: hidden; flex: none; }
+.views button { font: inherit; font-size: 0.8rem; padding: 2px 10px; border: 0; background: transparent; color: var(--muted); cursor: pointer; }
+.views button + button { border-left: 1px solid var(--border); }
+.views button[aria-pressed='true'] { background: var(--border); color: var(--text); font-weight: 600; }
 .note { font-size: 0.85rem; margin: 8px 0 0; color: var(--muted); }
 .table { margin-top: 12px; font-size: 0.85rem; }
 .table summary { cursor: pointer; color: var(--accent); }
