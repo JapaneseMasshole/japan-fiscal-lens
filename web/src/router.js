@@ -6,6 +6,7 @@ export default createRouter({
   routes: [
     { path: '/', component: () => import('./pages/Overview.vue') },
     { path: '/national', component: () => import('./pages/National.vue') },
+    { path: '/statements', component: () => import('./pages/Statements.vue') },
     { path: '/local', component: () => import('./pages/Local.vue') },
     { path: '/methodology', component: () => import('./pages/Methodology.vue') },
   ],
