@@ -43,6 +43,7 @@ Governments do not "earn" taxes the way a company earns sales, so there is no pr
 
 - **Shared scales.** When two charts sit side by side for comparison (e.g. assets vs. liabilities), they use the same axis range.
 - **"Other" grouping.** In breakdown charts, lines under 2% of their side's total are combined into "Other (n items)". The rule is mechanical, the grouped items are listed in the tooltip, and every line appears in the table view.
+- **Bars or pie.** Each breakdown can be shown as sorted bars (default) or as a pie of the same rows. The choice applies to every breakdown at once, so charts compared side by side always use the same form, and it is remembered in the viewer's browser. The pie uses one hue stepped lighter by rank with "Other" in gray, and labels every slice with its share (or yen out of ¥100). It is offered only when no item is negative.
 - **Publisher caveats travel with the chart.** When the source document carries a note that changes how a figure should be read (e.g. MOF's note that net assets are not the future burden on the public), it is shown under the chart.
 
 ## 6. National budget and social security (予算・社会保障)

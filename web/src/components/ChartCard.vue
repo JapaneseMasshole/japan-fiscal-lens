@@ -39,7 +39,10 @@ onBeforeUnmount(() => {
 
 <template>
   <section class="card">
-    <h2>{{ title }}</h2>
+    <div class="head">
+      <h2>{{ title }}</h2>
+      <slot name="actions" />
+    </div>
     <p v-if="subtitle" class="subtitle muted">{{ subtitle }}</p>
     <div
       v-if="option"
@@ -62,6 +65,8 @@ onBeforeUnmount(() => {
 
 <style scoped>
 .card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 16px; min-width: 0; }
+.head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: 4px 12px; }
+.head h2 { flex: 1 1 12rem; }
 .subtitle { margin: -0.5rem 0 0.5rem; font-size: 0.85rem; }
 .chart { width: 100%; }
 .empty { min-height: 120px; display: flex; align-items: center; font-size: 0.9rem; }
