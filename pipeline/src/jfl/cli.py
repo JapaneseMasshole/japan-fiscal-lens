@@ -4,8 +4,14 @@ from __future__ import annotations
 
 import argparse
 
-from jfl.export import local_indicators, national_balance_sheet, national_flows
-from jfl.fetch import mic, mof_financial_statements
+from jfl.export import (
+    local_indicators,
+    national_balance_sheet,
+    national_budget,
+    national_flows,
+    social_security,
+)
+from jfl.fetch import ipss, mic, mof_budget, mof_financial_statements, population
 from jfl.sources import load_sources
 
 # Each fetcher takes (source, year or None for its default years, dry_run=...).
@@ -13,6 +19,9 @@ FETCHERS = {
     "mof-fs": mof_financial_statements.run_all,
     "mic-fiscal-indicators": mic.run_indicators,  # default: FY2015 onward
     "mic-unified-fs": mic.run_unified,  # default: latest year only (files are large)
+    "mof-budget": mof_budget.run,  # default: latest enacted budget
+    "ipss-ss-cost": ipss.run,  # default: newest year (tables are time series)
+    "sb-population": population.run,  # default: newest year
     # Planned: "mof-settlement", "boj-flow-of-funds", "mic-kessan-card-pref", …
 }
 
@@ -42,6 +51,8 @@ BUILDERS = {
     "national-balance-sheet": national_balance_sheet.build,
     "national-flows": national_flows.build,
     "local-indicators": local_indicators.build,
+    "national-budget": national_budget.build,
+    "social-security": social_security.build,
 }
 
 

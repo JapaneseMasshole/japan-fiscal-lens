@@ -1,0 +1,13 @@
+{
+  "source_id": "sb-population",
+  "listing_page": "https://www.e-stat.go.jp/stat-search/files?page=1&layout=datalist&cycle=7&toukei=00200524&tstat=000000090001&tclass1=000001011679&tclass2val=0&year=20240&month=0&result_back=1",
+  "files": [
+    {
+      "file": "table03.xlsx",
+      "source_url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040268912&fileKind=4",
+      "sha256": "63fcb35e168e9b1453d2dc55af51cdd071c168f5b2b7b85b7c7d5d4abc458be4",
+      "bytes": 28930,
+      "fetched_at": "2026-09-27T13:05:52+00:00"
+    }
+  ]
+}

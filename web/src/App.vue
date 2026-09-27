@@ -13,6 +13,7 @@ function toggleLocale() {
       <RouterLink to="/" class="brand">{{ t('siteName') }}</RouterLink>
       <nav>
         <RouterLink to="/national">{{ t('nav.national') }}</RouterLink>
+        <RouterLink to="/statements">{{ t('nav.statements') }}</RouterLink>
         <RouterLink to="/local">{{ t('nav.local') }}</RouterLink>
         <RouterLink to="/methodology">{{ t('nav.methodology') }}</RouterLink>
         <button class="lang" @click="toggleLocale">{{ locale === 'ja' ? 'EN' : '日本語' }}</button>

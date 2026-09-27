@@ -1,7 +1,7 @@
 // Shared ECharts option builders, so every chart follows the same mark specs:
 // 2px lines, >=8px markers with a surface ring, <=18px bars with 4px rounded data-ends,
 // hairline solid grid, text in text tokens (never the series color).
-import { cho, fy, pct, yen } from './format.js'
+import { cho, fy, pct, per100, perPerson, yen } from './format.js'
 import { locale, t } from './i18n.js'
 
 export const OTHER_THRESHOLD = 0.02
@@ -167,3 +167,92 @@ export function hbars(tk, rows, total, color, { max = null, narrow = false } = {
 }
 
 export const hbarsHeight = (n) => n * 36 + 40
+
+// Single-value items [{label, value, note?}] → rows sorted by size; items under 2% of
+// `total` fold into "Other (n items)" with their names kept for the tooltip.
+export function foldItems(items, total) {
+  const big = []
+  const small = []
+  for (const it of items) (Math.abs(it.value) / total >= OTHER_THRESHOLD ? big : small).push(it)
+  const rows = [...big].sort((a, b) => b.value - a.value)
+  if (small.length > 1) {
+    rows.push({
+      label: t('national.other', { n: small.length }),
+      value: small.reduce((s, it) => s + it.value, 0),
+      members: small.map((it) => it.label),
+    })
+  } else rows.push(...small)
+  return rows
+}
+
+// Horizontal bars for one breakdown. mode 'amount' plots 兆円; mode 'per100' plots yen out of
+// every ¥100 of `total`, so two breakdowns of different totals can share one axis honestly.
+// The tooltip adds share and, with `persons`, the amount per person.
+export function breakdownBars(tk, rows, total, color, { mode = 'amount', max = null, narrow = false, persons = null } = {}) {
+  const x = (v) => (mode === 'per100' ? (v / total) * 100 : cho(v))
+  const tip = (p) => {
+    const r = rows[p.dataIndex]
+    const wrap = document.createElement('div')
+    const v = document.createElement('strong')
+    v.textContent = r.label
+    const a = document.createElement('div')
+    a.textContent = `${yen(r.value)} · ${t('national.share')} ${pct(r.value / total)}`
+    wrap.append(v, a)
+    if (persons) {
+      const pp = document.createElement('div')
+      pp.textContent = t('budget.perPersonShort', { v: perPerson(r.value, persons) })
+      wrap.append(pp)
+    }
+    for (const extra of [r.note, r.members?.join(locale.value === 'ja' ? '、' : ', ')]) {
+      if (!extra) continue
+      const m = document.createElement('div')
+      m.style.cssText = 'max-width:260px;white-space:normal;font-size:12px;opacity:.8'
+      m.textContent = extra
+      wrap.append(m)
+    }
+    return wrap
+  }
+  return {
+    ...base(tk),
+    grid: { left: 8, right: mode === 'per100' ? 56 : 72, top: 8, bottom: 8, containLabel: true },
+    tooltip: { ...base(tk).tooltip, trigger: 'item', formatter: tip },
+    xAxis: {
+      type: 'value',
+      min: 0,
+      max,
+      axisLabel: { color: tk.axis, formatter: (v) => v.toLocaleString(), hideOverlap: true },
+      splitLine: { lineStyle: { color: tk.grid } },
+      name: mode === 'per100' ? (locale.value === 'ja' ? '円' : '¥') : unitLabel(),
+      nameLocation: 'end',
+      nameTextStyle: { color: tk.axis },
+    },
+    yAxis: {
+      type: 'category',
+      inverse: true,
+      data: rows.map((r) => r.label),
+      axisLine: { lineStyle: { color: tk.grid } },
+      axisTick: { show: false },
+      axisLabel: { color: tk.text, width: narrow ? 104 : 190, overflow: 'break', lineHeight: 16 },
+    },
+    series: [
+      {
+        type: 'bar',
+        data: rows.map((r) => x(r.value)),
+        barMaxWidth: 18,
+        itemStyle: { color, borderRadius: [0, 4, 4, 0] },
+        emphasis: { itemStyle: { opacity: 0.85 } },
+        label: {
+          show: true,
+          position: 'right',
+          color: tk.text,
+          formatter: (p) => (mode === 'per100' ? per100(rows[p.dataIndex].value, total) : yen(rows[p.dataIndex].value)),
+        },
+      },
+    ],
+  }
+}
+
+// Shared axis maximum for charts compared side by side (rounded up to a clean step).
+export function sharedMax(values, step) {
+  return Math.ceil(Math.max(...values) / step) * step
+}

@@ -21,3 +21,18 @@ export function fy(year) {
 export function pct(x) {
   return `${(x * 100).toFixed(1)}%`
 }
+
+// Amount per person: 億円 total ÷ population, shown as 万円 (ja) or yen (en).
+export function perPerson(oku, persons) {
+  const yenPer = (oku * 1e8) / persons
+  if (locale.value === 'ja') {
+    return `${(yenPer / 10000).toLocaleString('ja-JP', { minimumFractionDigits: 1, maximumFractionDigits: 1 })}万円`
+  }
+  return `¥${Math.round(yenPer / 1000).toLocaleString('en-US')}k`
+}
+
+// Share of a total expressed as yen out of every ¥100 (31.9 → 「31.9円」 / "¥31.9").
+export function per100(value, total) {
+  const s = ((value / total) * 100).toFixed(1)
+  return locale.value === 'ja' ? `${s}円` : `¥${s}`
+}

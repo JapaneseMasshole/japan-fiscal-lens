@@ -59,6 +59,56 @@ sources:
       per-year 決算 pages, which only offer PDF.
     verified: 2026-09-26
 
+  - id: mof-budget
+    level: national
+    publisher: 財務省 (Ministry of Finance)
+    title_ja: 一般会計予算（政府案・当初予算）
+    title_en: General account budget as adopted by the Cabinet (initial budget)
+    statements: [expenditure, revenue, tax_revenue, social_security_budget, debt_service]
+    frequency: annual (Cabinet decision in late December, enacted around March)
+    format: pdf
+    listing_url: https://www.mof.go.jp/policy/budget/budger_workflow/budget/index.html
+    notes: >
+      PDF only; MOF publishes no Excel for the current budget. Files are found
+      by link text on fy{YEAR}/seifuan{YEAR}/index.html: 一般会計歳入歳出概算
+      (歳入, 主要経費別 歳出), 租税及び印紙収入概算 (税目別), 予算フレーム
+      (国債費 = 債務償還費 + 利払費 …) and 社会保障関係予算 (年金・医療・介護 …).
+      The fy{YEAR}/index.html page states whether the Diet enacted the budget
+      「政府案どおり」; the build refuses to use figures that were amended.
+      Supplementary budgets (補正予算) are not included.
+    verified: 2026-09-27
+
+  - id: ipss-ss-cost
+    level: national
+    publisher: 国立社会保障・人口問題研究所 (National Institute of Population and Social Security Research)
+    title_ja: 社会保障費用統計
+    title_en: Financial statistics of social security in Japan
+    statements: [social_benefit_by_category, social_benefit_by_function, social_security_revenue]
+    frequency: annual (published about 20 months after fiscal year end)
+    format: xlsx
+    listing_url: https://www.ipss.go.jp/site-ad/index_Japanese/security.html
+    notes: >
+      All social security, not only the national budget: pensions, medical care
+      and long-term care paid from social insurance funds as well as taxes.
+      Revenue (第14表, ILO standard) splits 社会保険料 into 被保険者拠出 and
+      事業主拠出. Year pages are fsss-R{NN}/fsss_R{NN}.html; tables are found
+      by link text (第８表, 第13表, 第14表).
+    verified: 2026-09-27
+
+  - id: sb-population
+    level: national
+    publisher: 総務省統計局 (Statistics Bureau of Japan)
+    title_ja: 人口推計（各年10月1日現在人口）
+    title_en: Population estimates (as of 1 October each year)
+    statements: [population]
+    frequency: annual (published in April of the following year)
+    format: xlsx (via e-Stat)
+    listing_url: https://www.e-stat.go.jp/stat-search/files?toukei=00200524&tstat=000000090001&tclass1=000001011679
+    notes: >
+      Denominator for per-person figures. The fetcher takes 第３表 (総人口,
+      各年10月1日現在, 千人) from the newest year listed on e-Stat.
+    verified: 2026-09-27
+
   - id: boj-flow-of-funds
     level: national
     publisher: 日本銀行 (Bank of Japan)

@@ -1,0 +1,27 @@
+{
+  "source_id": "ipss-ss-cost",
+  "listing_page": "https://www.ipss.go.jp/ss-cost/j/fsss-R06/fsss_R06.html",
+  "files": [
+    {
+      "file": "table08.xlsx",
+      "source_url": "https://www.ipss.go.jp/ss-cost/j/fsss-R06/3/R06-8.xlsx",
+      "sha256": "39cfe5048e73330d400f8f0794c052ea15cfb4bf2db27e8fd2fab81ccdf583a8",
+      "bytes": 23074,
+      "fetched_at": "2026-09-27T13:05:42+00:00"
+    },
+    {
+      "file": "table13.xlsx",
+      "source_url": "https://www.ipss.go.jp/ss-cost/j/fsss-R06/3/R06-13.xlsx",
+      "sha256": "c4f797096d84bb3aaa61ed35c8edc2aafbc5bfd0307512fb901d635213387951",
+      "bytes": 19013,
+      "fetched_at": "2026-09-27T13:05:43+00:00"
+    },
+    {
+      "file": "table14.xlsx",
+      "source_url": "https://www.ipss.go.jp/ss-cost/j/fsss-R06/3/R06-14.xlsx",
+      "sha256": "73c7b573848786c93049fb29581ee88a963c159f1280489405a5096a0c920160",
+      "bytes": 27961,
+      "fetched_at": "2026-09-27T13:05:44+00:00"
+    }
+  ]
+}
